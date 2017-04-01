@@ -1,0 +1,962 @@
+﻿Log file open, 04/01/17 12:02:20
+LogInit:Display: Running engine for game: PurgaStory
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-207184145) SRandInit(-207184144).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.175018
+LogPluginManager: Loaded Plugin Paper2D, From D:/Unreal/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Unreal/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Unreal/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Unreal/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogOnline:Warning: STEAM: Steamworks: SteamUtils() failed!
+LogOnline:Warning: STEAM: Steamworks: SteamUser() failed!
+LogOnline:Warning: STEAM: Steamworks: SteamFriends() failed!
+LogOnline:Warning: STEAM: Steamworks: SteamRemoteStorage() failed!
+LogOnline:Warning: STEAM: Steamworks: SteamUserStats() failed!
+LogOnline:Warning: STEAM: Steamworks: SteamMatchmakingServers() failed!
+LogOnline:Warning: STEAM: Steamworks: SteamApps() failed!
+LogOnline:Warning: STEAM: Steamworks: SteamNetworking() failed!
+LogOnline:Warning: STEAM: Steamworks: SteamMatchmaking() failed!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogOnline:Warning: STEAM: Steam API failed to initialize!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  /Temp/Autosaves/Game/Multiplayer/Maps/UEDPCPurgastory_Level -game -PIEVIACONSOLE -ResX=720 -ResY=540  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base directory: D:/Unreal/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.01-04.02.21:648][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.01-04.02.21:648][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.01-04.02.21:665][  0]LogInit: Computer: ASUS
+[2017.04.01-04.02.21:665][  0]LogInit: User: User
+[2017.04.01-04.02.21:665][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.01-04.02.21:665][  0]LogInit: High frequency timer resolution =2.533203 MHz
+[2017.04.01-04.02.21:666][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.04.01-04.02.21:666][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.01-04.02.21:666][  0]LogMemory: Process Physical Memory: 268.02 MB used, 268.02 MB peak
+[2017.04.01-04.02.21:666][  0]LogMemory: Process Virtual Memory: 263.13 MB used, 263.13 MB peak
+[2017.04.01-04.02.21:666][  0]LogMemory: Physical Memory: 5943.30 MB used,  6233.59 MB free, 12176.89 MB total
+[2017.04.01-04.02.21:666][  0]LogMemory: Virtual Memory: 680.49 MB used,  6233.59 MB free, 134217728.00 MB total
+[2017.04.01-04.02.21:735][  0]LogTextLocalizationManager: No specific translations for ('en-SG') exist, so ('en') translations will be used.
+[2017.04.01-04.02.23:405][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.01-04.02.23:486][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2017.04.01-04.02.23:486][  0]LogD3D11RHI:       4036/0/6088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.01-04.02.23:505][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.04.01-04.02.23:505][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.01-04.02.23:509][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.01-04.02.23:509][  0]LogD3D11RHI:       0/0/6088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.01-04.02.23:509][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.01-04.02.23:522][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.01-04.02.23:523][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2017.04.01-04.02.23:523][  0]LogWindows: EnumDisplayDevices:
+[2017.04.01-04.02.23:523][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.04.01-04.02.23:524][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.01-04.02.23:524][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.01-04.02.23:525][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.01-04.02.23:525][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2017.04.01-04.02.23:525][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.01-04.02.23:525][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.01-04.02.23:525][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.01-04.02.23:571][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.01-04.02.23:595][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.01-04.02.23:598][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (../../../../../PurgaStory_v3/Intermediate/Shaders/WorkingDirectory/1500/).
+[2017.04.01-04.02.23:598][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/5028D6AD4FAE9F1FB2483293FF5F7C90/'.
+[2017.04.01-04.02.23:598][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.01-04.02.27:903][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.01-04.02.28:068][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.01-04.02.28:235][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.01-04.02.28:373][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.01-04.02.28:373][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.01-04.02.29:485][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.01-04.02.29:674][  0]LogDerivedDataCache: Loaded boot cache 0.19s 50MB C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.01-04.02.29:674][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.04.01-04.02.29:675][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../PurgaStory_v3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.01-04.02.29:675][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.01-04.02.29:675][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../PurgaStory_v3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.01-04.02.29:675][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.01-04.02.29:748][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.01-04.02.29:764][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.01-04.02.30:444][  0]LogAssetRegistry: FAssetRegistry took 0.0003 seconds to start up
+[2017.04.01-04.02.30:460][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.015703 seconds
+[2017.04.01-04.02.30:521][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.01-04.02.30:526][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.04.01-04.02.31:224][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.01-04.02.31:344][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.01-04.02.31:465][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.01-04.02.31:465][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.01-04.02.31:465][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.01-04.02.33:281][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: purgastory, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4090582873
+[2017.04.01-04.02.36:216][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.01-04.02.36:217][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.01-04.02.36:218][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.01-04.02.36:574][  0]LogMoviePlayer: Initializing movie player
+[2017.04.01-04.02.36:650][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.01-04.02.36:697][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../PurgaStory_v3/Content/Movies/Default_Startup.mp4
+[2017.04.01-04.02.37:224][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.04.01-04.02.37:313][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.01-04.02.37:405][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.01-04.02.37:797][  0]SourceControl: Info Source control is disabled
+[2017.04.01-04.02.37:797][  0]SourceControl: Info Source control is disabled
+[2017.04.01-04.02.37:953][  0]SourceControl: Info Source control is disabled
+[2017.04.01-04.02.39:810][  0]LogUObjectArray: 33665 objects as part of root set at end of initial load.
+[2017.04.01-04.02.39:810][  0]LogUObjectAllocator: 7660528 out of 0 bytes used by permanent object pool.
+[2017.04.01-04.02.39:810][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.01-04.02.40:172][  0]LogEngine: Initializing Engine...
+[2017.04.01-04.02.40:173][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.01-04.02.40:595][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.01-04.02.40:643][  0]LogInit: FAudioDevice initialized.
+[2017.04.01-04.02.40:677][  0]LogInit: Texture streaming: Enabled
+[2017.04.01-04.02.40:728][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.01-04.02.45:834][  0]LogInit:Display: Game Engine Initialized.
+[2017.04.01-04.02.46:358][  0]LogInit:Display: Starting Game.
+[2017.04.01-04.02.46:359][  0]LogNet: Browse: /Temp/Autosaves/Game/Multiplayer/Maps/UEDPCPurgastory_Level?Name=Player
+[2017.04.01-04.02.46:359][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Multiplayer/Maps/UEDPCPurgastory_Level?Name=Player
+[2017.04.01-04.02.47:215][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.01-04.02.47:216][  0]LogMemory: Process Physical Memory: 958.45 MB used, 1493.63 MB peak
+[2017.04.01-04.02.47:216][  0]LogMemory: Process Virtual Memory: 1304.16 MB used, 1811.20 MB peak
+[2017.04.01-04.02.47:216][  0]LogMemory: Physical Memory: 6610.48 MB used,  5566.41 MB free, 12176.89 MB total
+[2017.04.01-04.02.47:216][  0]LogMemory: Virtual Memory: 1973.24 MB used,  5566.41 MB free, 134217728.00 MB total
+[2017.04.01-04.02.47:216][  0]LogMemory: 
+[2017.04.01-04.02.47:216][  0]Allocator Stats for TBB: (not implemented)
+[2017.04.01-04.02.48:943][  0]LogBlueprint:Warning: [BP_Seeker] 'HidingTimeLeft' variable not found. Base class was probably changed.
+[2017.04.01-04.02.51:622][  0]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N'
+[2017.04.01-04.02.51:623][  0]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N.T_DefaultNoise_N Referenced by MI_Rubber_Black_001_a
+[2017.04.01-04.02.51:623][  0]LogUObjectGlobals:Warning: Failed to load '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N': Can't find file '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N'
+[2017.04.01-04.02.51:623][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N' while loading NULL.
+[2017.04.01-04.02.51:623][  0]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N.T_DefaultNoise_N Referenced by MI_Rubber_Black_001_a
+[2017.04.01-04.02.51:623][  0]LogUObjectGlobals:Warning: Failed to load '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N': Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N' while loading NULL.
+[2017.04.01-04.02.52:080][  0]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
+[2017.04.01-04.02.52:081][  0]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/white.white Referenced by MaterialExpressionTextureObjectParameter_3
+[2017.04.01-04.02.52:081][  0]LogUObjectGlobals:Warning: Failed to load '/Game/Materials/_Base_Mat/M_Textures/white': Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
+[2017.04.01-04.02.52:081][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading NULL.
+[2017.04.01-04.02.52:081][  0]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/white.white Referenced by MaterialExpressionTextureObjectParameter_3
+[2017.04.01-04.02.52:081][  0]LogUObjectGlobals:Warning: Failed to load '/Game/Materials/_Base_Mat/M_Textures/white': Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading NULL.
+[2017.04.01-04.02.52:082][  0]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
+[2017.04.01-04.02.52:082][  0]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/white.white Referenced by MaterialExpressionTextureSampleParameter2D_6
+[2017.04.01-04.02.52:082][  0]LogUObjectGlobals:Warning: Failed to load '/Game/Materials/_Base_Mat/M_Textures/white': Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
+[2017.04.01-04.02.52:082][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading NULL.
+[2017.04.01-04.02.52:082][  0]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/white.white Referenced by MaterialExpressionTextureSampleParameter2D_6
+[2017.04.01-04.02.52:082][  0]LogUObjectGlobals:Warning: Failed to load '/Game/Materials/_Base_Mat/M_Textures/white': Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading NULL.
+[2017.04.01-04.02.52:577][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.01-04.02.52:578][  0]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2017.04.01-04.02.53:582][  0]LogMaterial: Missing cached shader map for material M_Prototyper_2, compiling. 
+[2017.04.01-04.02.53:588][  0]LogMaterial:Warning: Failed to compile Material /Game/Materials/_Base_Mat/M_Prototyper_2.M_Prototyper_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.01-04.02.53:588][  0]LogMaterial:Warning: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2017.04.01-04.02.53:594][  0]LogMaterial: Missing cached shader map for material M_Prototyper_2, compiling. 
+[2017.04.01-04.02.53:600][  0]LogMaterial:Warning: Failed to compile Material Instance /Game/Materials/Solids/Dual_Color/MI_Black_White.MI_Black_White with Base M_Prototyper_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.01-04.02.53:600][  0]LogMaterial:Warning: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2017.04.01-04.02.55:146][  0]LogAIModule: Creating AISystem for world Purgastory_Level
+[2017.04.01-04.02.55:147][  0]LogLoad: Game class is 'MP_GM_C'
+[2017.04.01-04.02.55:152][  0]LogMaterial:Warning: Material /Game/KiteDemo/Environments/Trees/ScotsPine_01/ScotsPine_01_Branches_Mat.ScotsPine_01_Branches_Mat missing bUsedWithInstancedStaticMeshes=True! Default Material will be used in game.
+[2017.04.01-04.02.55:152][  0]LogMaterial:Warning:      The material will recompile every editor launch until resaved.
+[2017.04.01-04.02.55:152][  0]LogMaterial:Warning: Material /Game/KiteDemo/Environments/Trees/ScotsPine_01/ScotsPine_01_Branches_2_Mat.ScotsPine_01_Branches_2_Mat missing bUsedWithInstancedStaticMeshes=True! Default Material will be used in game.
+[2017.04.01-04.02.55:152][  0]LogMaterial:Warning:      The material will recompile every editor launch until resaved.
+[2017.04.01-04.02.55:152][  0]LogMaterial:Warning: Material /Game/KiteDemo/Environments/Trees/ScotsPine_01/ScotsPine_01_Leaves_Mat.ScotsPine_01_Leaves_Mat missing bUsedWithInstancedStaticMeshes=True! Default Material will be used in game.
+[2017.04.01-04.02.55:153][  0]LogMaterial:Warning:      The material will recompile every editor launch until resaved.
+[2017.04.01-04.02.55:153][  0]LogMaterial:Warning: Material /Game/KiteDemo/Environments/Trees/ScotsPine_01/ScotsPine_01_Fronds_Mat.ScotsPine_01_Fronds_Mat missing bUsedWithInstancedStaticMeshes=True! Default Material will be used in game.
+[2017.04.01-04.02.55:153][  0]LogMaterial:Warning:      The material will recompile every editor launch until resaved.
+[2017.04.01-04.02.55:232][  0]LogPhysics:Error: PHYSX: (D:\Build\++UE4+Release-4.14+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysX\src\NpMaterial.cpp 143) eINVALID_PARAMETER : PxMaterial::setRestitution: Invalid value 1.150000 was clamped to [0,1]!
+[2017.04.01-04.02.55:666][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Multiplayer/Maps/UEDPCPurgastory_Level.Purgastory_Level up for play (max tick rate 0) at 2017.04.01-12.02.55
+[2017.04.01-04.02.55:675][  0]LogWorld: Bringing up level for play took: 0.523733
+[2017.04.01-04.02.55:734][  0]LogBlueprintUserMessages: [MP_GM_C_0] Respawning new player
+[2017.04.01-04.02.55:734][  0]LogScript:Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	MP_GM_C /Temp/Autosaves/Game/Multiplayer/Maps/UEDPCPurgastory_Level.Purgastory_Level:PersistentLevel.MP_GM_C_0
+	Function /Game/Multiplayer/Blueprints/MP_GM.MP_GM_C:ExecuteUbergraph_MP_GM:0F31
+[2017.04.01-04.02.55:734][  0]LogScript:Warning: Script call stack:
+	Function /Game/Multiplayer/Blueprints/MP_GM.MP_GM_C:K2_PostLogin
+	Function /Game/Multiplayer/Blueprints/MP_GM.MP_GM_C:ExecuteUbergraph_MP_GM
+	Function /Game/Multiplayer/Blueprints/MP_GM.MP_GM_C:RespawnPlayerEvent
+	Function /Game/Multiplayer/Blueprints/MP_GM.MP_GM_C:ExecuteUbergraph_MP_GM
+
+[2017.04.01-04.02.55:734][  0]LogBlueprintUserMessages: [MP_GM_C_0] 256 Actor has been destroyed
+[2017.04.01-04.02.55:745][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.01-04.02.55:745][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.01-04.02.55:745][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.01-04.02.55:748][  0]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.01-04.02.55:748][  0]LogScript:Warning: Accessed None trying to read property HiderRef
+	GS_MP_C /Temp/Autosaves/Game/Multiplayer/Maps/UEDPCPurgastory_Level.Purgastory_Level:PersistentLevel.GS_MP_C_0
+	Function /Game/Multiplayer/Blueprints/GS_MP.GS_MP_C:ExecuteUbergraph_GS_MP:08CB
+[2017.04.01-04.02.55:748][  0]LogScript:Warning: Script call stack:
+	Function /Game/Multiplayer/Blueprints/GS_MP.GS_MP_C:ReceiveBeginPlay
+	Function /Game/Multiplayer/Blueprints/GS_MP.GS_MP_C:ExecuteUbergraph_GS_MP
+
+[2017.04.01-04.02.55:749][  0]LogBlueprintUserMessages: [BP_Seeker_C_0] MAKE WAIT SCREEN
+[2017.04.01-04.02.55:757][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.01-04.02.55:757][  0]LogLoad: Took 9.398421 seconds to LoadMap(/Temp/Autosaves/Game/Multiplayer/Maps/UEDPCPurgastory_Level)
+[2017.04.01-04.02.56:362][  0]LogLoad: (Engine Initialization) Total time: 39.95 seconds
+[2017.04.01-04.02.56:363][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 2.47 seconds
+[2017.04.01-04.02.56:363][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.01-04.02.56:363][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.01-04.02.56:381][  0]LogOcInput: OculusInput pre-init called
+[2017.04.01-04.02.56:735][  0]LogRenderer: Reallocating scene render targets to support 128x128 NumSamples 1 (Frame:1).
+[2017.04.01-04.02.57:026][  1]LogRenderer: Reallocating scene render targets to support 720x540 NumSamples 1 (Frame:2).
+[2017.04.01-04.02.57:026][  1]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.57:058][  1]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.021 s
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: === Handled ensure: ===
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: 
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\Core\Private\Math\Matrix.cpp] [Line: 9]
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: Stack: 
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-Engine.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-Engine.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-RenderCore.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-RenderCore.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: KERNEL32.DLL
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: ntdll.dll
+[2017.04.01-04.02.57:058][  1]LogOutputDevice:Error: 
+[2017.04.01-04.02.57:058][  1]LogStats:                SubmitErrorReport -  0.000 s
+[2017.04.01-04.02.57:578][  2]LogStats:                    SendNewReport -  0.531 s
+[2017.04.01-04.02.57:578][  2]LogStats:             FDebug::EnsureFailed -  0.552 s
+[2017.04.01-04.02.57:764][  3]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.57:834][  3]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.57:885][  4]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.57:927][  5]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.57:961][  6]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.57:999][  7]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:031][  8]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:055][  9]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:099][ 10]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:123][ 11]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:151][ 12]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:173][ 13]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:194][ 14]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:215][ 15]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:245][ 16]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:275][ 17]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:311][ 18]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:341][ 19]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:369][ 20]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:398][ 21]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:428][ 22]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:457][ 23]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:485][ 24]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:510][ 25]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:533][ 26]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:554][ 27]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:586][ 28]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:604][ 29]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:620][ 30]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:644][ 31]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:667][ 32]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:684][ 33]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:706][ 34]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:734][ 35]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:759][ 36]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:786][ 37]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:808][ 38]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:837][ 39]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:865][ 40]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:889][ 41]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:912][ 42]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:938][ 43]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:965][ 44]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.58:984][ 45]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:012][ 46]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:030][ 47]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:053][ 48]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:070][ 49]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:095][ 50]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:112][ 51]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:134][ 52]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:151][ 53]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:169][ 54]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:184][ 55]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:207][ 56]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:230][ 57]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:250][ 58]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:276][ 59]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:295][ 60]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:314][ 61]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:334][ 62]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:349][ 63]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:369][ 64]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:395][ 65]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:422][ 66]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:439][ 67]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:452][ 68]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:470][ 69]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:488][ 70]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:510][ 71]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:533][ 72]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:549][ 73]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:566][ 74]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:588][ 75]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:605][ 76]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:629][ 77]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:649][ 78]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:668][ 79]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:688][ 80]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:702][ 81]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:721][ 82]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:734][ 83]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:751][ 84]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:768][ 85]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:785][ 86]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:786][ 87]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:815][ 88]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:834][ 89]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:835][ 90]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:864][ 91]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:880][ 92]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:896][ 93]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:911][ 94]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:929][ 95]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:948][ 96]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:963][ 97]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:977][ 98]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.02.59:996][ 99]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:012][100]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:026][101]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:043][102]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:059][103]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:081][104]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:117][105]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:128][106]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:177][107]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:198][108]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:218][109]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:245][110]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:262][111]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:295][112]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:319][113]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:337][114]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:354][115]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:374][116]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:393][117]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:412][118]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:432][119]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:450][120]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:474][121]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:494][122]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:539][123]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:560][124]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:590][125]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:623][126]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:631][127]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:671][128]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:701][129]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:703][130]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:744][131]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:762][132]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:784][133]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:802][134]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:820][135]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:840][136]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:863][137]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:882][138]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:907][139]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:915][140]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:952][141]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.00:978][142]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:001][143]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:024][144]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:026][145]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:064][146]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:093][147]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:117][148]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:138][149]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:147][150]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:182][151]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:211][152]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:228][153]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:247][154]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:266][155]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:284][156]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:301][157]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:327][158]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:328][159]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:360][160]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:378][161]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:401][162]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:422][163]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:438][164]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:467][165]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:484][166]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:520][167]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:521][168]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:575][169]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:609][170]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:639][171]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:680][172]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:733][173]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:835][174]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:837][175]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:855][176]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:930][177]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.01:968][178]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:034][179]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:068][180]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:101][181]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:135][182]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:139][183]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:173][184]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:206][185]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:229][186]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:279][187]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:325][188]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:343][189]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:373][190]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:415][191]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:416][192]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:451][193]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:484][194]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:497][195]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:506][196]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:526][197]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:553][198]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:570][199]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:608][200]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:624][201]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:668][202]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:669][203]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:700][204]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:700][205]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:724][206]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:758][207]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:759][208]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:780][209]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:796][210]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:849][211]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:853][212]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:885][213]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:886][214]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:903][215]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:924][216]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:961][217]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:962][218]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.02:985][219]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:019][220]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:019][221]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:044][222]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:063][223]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:080][224]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:107][225]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:137][225]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:174][227]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:175][228]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:191][229]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:227][230]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:242][231]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:264][232]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:294][233]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:295][234]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:329][235]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:330][236]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:347][237]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:384][238]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:417][239]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:418][240]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:435][241]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:455][242]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:474][243]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:487][244]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:510][245]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:525][246]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:546][247]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:566][248]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:603][249]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:616][250]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:636][251]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:638][252]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:659][253]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:676][254]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:697][255]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:714][256]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:732][257]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:747][258]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:770][259]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:790][260]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:829][261]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:832][262]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:860][263]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:861][264]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:877][265]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:912][266]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:913][267]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:934][268]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:964][269]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:967][270]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.03:983][271]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:002][272]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:018][273]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:034][274]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:052][275]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:067][276]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:084][277]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:100][278]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:119][279]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:134][280]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:150][281]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:167][282]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:198][283]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:199][284]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:217][285]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:235][286]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:267][287]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:282][288]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:282][289]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:299][290]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:316][291]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:333][292]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:366][293]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:367][294]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:384][295]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:401][296]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:431][297]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:431][298]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:447][299]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:466][300]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:486][301]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:501][302]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:516][303]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:534][304]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:550][305]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:564][306]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:580][307]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:596][308]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:614][309]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:629][310]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:645][311]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:664][312]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:679][313]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:694][314]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:712][315]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:748][316]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:749][317]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:767][318]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:798][319]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:799][320]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:830][321]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:831][322]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:846][323]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:864][324]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:895][325]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:910][326]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:926][327]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:941][328]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:942][329]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:957][330]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:976][331]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.04:992][332]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:011][333]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:027][334]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:056][335]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:074][336]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:075][337]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:091][338]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:121][339]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:123][340]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:137][341]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:153][342]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:170][343]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:200][344]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:201][345]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:219][346]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:237][347]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:264][348]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:265][349]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:284][350]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:302][351]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:332][352]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:348][353]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:349][354]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:379][355]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:380][356]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:394][357]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:410][358]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:429][359]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:444][360]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:464][361]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:480][362]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:507][363]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:524][364]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:540][365]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:542][366]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:561][367]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:587][368]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:588][369]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:604][370]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:620][371]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:637][372]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:656][373]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:673][374]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:689][375]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:717][376]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:718][377]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:733][378]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:749][379]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:768][380]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:781][381]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:798][382]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:815][383]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:831][384]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:847][385]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:866][386]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:882][387]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:899][388]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:912][389]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:931][390]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:947][391]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:974][392]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:975][393]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.05:990][394]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:006][395]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:024][396]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:041][397]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:055][398]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:072][399]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:091][400]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:121][401]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:122][402]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:137][403]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:155][404]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:172][405]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:200][406]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:217][407]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:218][408]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:237][409]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:267][410]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:268][411]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:284][412]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:297][413]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:313][414]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:330][415]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:346][416]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:363][417]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:378][418]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:396][419]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:411][420]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:426][421]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:442][422]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:460][423]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:475][424]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:494][425]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:523][426]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:524][427]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:541][428]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:556][429]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:572][430]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:588][431]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:607][432]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:621][433]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:651][434]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:652][435]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:668][436]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:686][437]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:700][438]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:716][439]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:747][440]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:748][441]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:765][442]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:781][443]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:800][444]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:828][445]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:829][446]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:847][447]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:863][448]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:880][449]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:895][450]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:913][451]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:927][452]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:945][453]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:960][454]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:978][455]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.06:991][456]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.07:006][457]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.07:023][458]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.07:039][459]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.07:055][460]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.07:071][461]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.07:088][462]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.07:105][463]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.07:119][464]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.07:136][465]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.07:152][466]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.01-04.03.07:191][466]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.01-04.03.07:201][466]LogEngine: All Windows Closed
+[2017.04.01-04.03.07:201][466]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.04.01-04.03.07:202][467]LogMoviePlayer: Shutting down movie player
+[2017.04.01-04.03.07:548][467]LogExit: Preparing to exit.
+[2017.04.01-04.03.08:804][467]LogExit: Game engine shut down
+[2017.04.01-04.03.09:212][467]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.01-04.03.09:212][467]LogExit: Object subsystem successfully closed.
+[2017.04.01-04.03.09:252][467]LogD3D11RHI: Shutdown
+[2017.04.01-04.03.09:252][467]LogD3D11RHI: CleanupD3DDevice
+[2017.04.01-04.03.09:522][467]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.01-04.03.09:566][467]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (128)
+[2017.04.01-04.03.09:566][467]LogModuleManager: Shutting down and abandoning module SequenceRecorder (127)
+[2017.04.01-04.03.09:566][467]LogModuleManager: Shutting down and abandoning module AutomationController (126)
+[2017.04.01-04.03.09:566][467]LogModuleManager: Shutting down and abandoning module AutomationWorker (125)
+[2017.04.01-04.03.09:566][467]LogModuleManager: Shutting down and abandoning module Voice (124)
+[2017.04.01-04.03.09:566][467]LogModuleManager: Shutting down and abandoning module GameplayDebugger (123)
+[2017.04.01-04.03.09:566][467]LogModuleManager: Shutting down and abandoning module AITestSuite (122)
+[2017.04.01-04.03.09:566][467]LogModuleManager: Shutting down and abandoning module AIModule (121)
+[2017.04.01-04.03.09:566][467]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (120)
+[2017.04.01-04.03.09:566][467]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (119)
+[2017.04.01-04.03.09:567][467]LogModuleManager: Shutting down and abandoning module Media (118)
+[2017.04.01-04.03.09:567][467]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (117)
+[2017.04.01-04.03.09:567][467]LogModuleManager: Shutting down and abandoning module CharacterAI (116)
+[2017.04.01-04.03.09:567][467]LogModuleManager: Shutting down and abandoning module SessionServices (115)
+[2017.04.01-04.03.09:567][467]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (114)
+[2017.04.01-04.03.09:567][467]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (113)
+[2017.04.01-04.03.09:567][467]LogModuleManager: Shutting down and abandoning module GeometryCache (112)
+[2017.04.01-04.03.09:567][467]LogModuleManager: Shutting down and abandoning module Niagara (111)
+[2017.04.01-04.03.09:567][467]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (110)
+[2017.04.01-04.03.09:567][467]LogModuleManager: Shutting down and abandoning module PortalServices (109)
+[2017.04.01-04.03.09:567][467]LogModuleManager: Shutting down and abandoning module PortalRpc (108)
+[2017.04.01-04.03.09:567][467]LogModuleManager: Shutting down and abandoning module MessagingRpc (107)
+[2017.04.01-04.03.09:567][467]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module SteamVRController (103)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module SteamVR (102)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (101)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module OculusLibrary (100)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module OculusInput (99)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (98)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (97)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module CableComponent (96)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (95)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module HTML5Networking (94)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module DesktopPlatform (93)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (92)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module HotReload (91)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (90)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module UObjectPlugin (89)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (88)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (86)
+[2017.04.01-04.03.09:804][467]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2017.04.01-04.03.09:905][467]LogModuleManager: Shutting down and abandoning module TcpMessaging (84)
+[2017.04.01-04.03.10:006][467]LogModuleManager: Shutting down and abandoning module SubstanceCore (83)
+[2017.04.01-04.03.10:006][467]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (82)
+[2017.04.01-04.03.10:006][467]LogModuleManager: Shutting down and abandoning module Paper2D (81)
+[2017.04.01-04.03.10:006][467]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (80)
+[2017.04.01-04.03.10:006][467]LogModuleManager: Shutting down and abandoning module WmfMedia (79)
+[2017.04.01-04.03.10:007][467]LogModuleManager: Shutting down and abandoning module MediaAssets (78)
+[2017.04.01-04.03.10:007][467]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (77)
+[2017.04.01-04.03.10:007][467]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (76)
+[2017.04.01-04.03.10:007][467]LogModuleManager: Shutting down and abandoning module VREditor (75)
+[2017.04.01-04.03.10:007][467]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (74)
+[2017.04.01-04.03.10:007][467]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2017.04.01-04.03.10:007][467]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2017.04.01-04.03.10:007][467]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2017.04.01-04.03.10:007][467]LogModuleManager: Shutting down and abandoning module Sequencer (70)
+[2017.04.01-04.03.10:008][467]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2017.04.01-04.03.10:008][467]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2017.04.01-04.03.10:008][467]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2017.04.01-04.03.10:008][467]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2017.04.01-04.03.10:008][467]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2017.04.01-04.03.10:008][467]LogModuleManager: Shutting down and abandoning module SlateReflector (64)
+[2017.04.01-04.03.10:008][467]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2017.04.01-04.03.10:008][467]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2017.04.01-04.03.10:013][467]LogModuleManager: Shutting down and abandoning module Messaging (61)
+[2017.04.01-04.03.10:013][467]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2017.04.01-04.03.10:013][467]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2017.04.01-04.03.10:013][467]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2017.04.01-04.03.10:013][467]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2017.04.01-04.03.10:013][467]LogModuleManager: Shutting down and abandoning module Core (56)
+[2017.04.01-04.03.10:013][467]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2017.04.01-04.03.10:013][467]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2017.04.01-04.03.10:014][467]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (53)
+[2017.04.01-04.03.10:014][467]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (52)
+[2017.04.01-04.03.10:014][467]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (51)
+[2017.04.01-04.03.10:014][467]LogModuleManager: Shutting down and abandoning module PropertyEditor (50)
+[2017.04.01-04.03.10:014][467]LogModuleManager: Shutting down and abandoning module MeshUtilities (49)
+[2017.04.01-04.03.10:014][467]LogModuleManager: Shutting down and abandoning module AssetRegistry (48)
+[2017.04.01-04.03.10:014][467]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2017.04.01-04.03.10:125][467]LogDerivedDataCache: Shutdown
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (46)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (45)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (44)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (43)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (42)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (41)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (40)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (39)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module ImageWrapper (38)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (37)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (32)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (31)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (30)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (29)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module TargetPlatform (28)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module InputCore (27)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module Settings (26)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module OculusRift (25)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
+[2017.04.01-04.03.10:126][467]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.04.01-04.03.10:126][467]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.04.01-04.03.10:127][467]LogOnline:Display: Unloading online subsystem: STEAM
+[2017.04.01-04.03.10:127][467]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.01-04.03.10:127][467]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.04.01-04.03.10:132][467]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.04.01-04.03.10:132][467]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.04.01-04.03.10:132][467]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.04.01-04.03.10:132][467]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.04.01-04.03.10:132][467]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.04.01-04.03.10:132][467]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.04.01-04.03.10:134][467]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.04.01-04.03.10:134][467]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.04.01-04.03.10:134][467]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.04.01-04.03.10:134][467]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.04.01-04.03.10:134][467]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.04.01-04.03.10:134][467]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.04.01-04.03.10:134][467]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.04.01-04.03.10:134][467]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.04.01-04.03.10:134][467]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.04.01-04.03.10:134][467]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.04.01-04.03.10:138][467]LogExit: Exiting.
+[2017.04.01-04.03.10:144][467]Log file closed, 04/01/17 12:03:10
