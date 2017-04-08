@@ -1,9 +1,9 @@
-﻿Log file open, 04/08/17 17:03:55
+﻿Log file open, 04/08/17 17:52:40
 LogInit:Display: Running engine for game: PurgaStory
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-776424680) SRandInit(-776424680).
+LogInit:Display: RandInit(-1956596795) SRandInit(-1956596795).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.167446
+LogStats: Stats thread started at 0.165031
 LogPluginManager: Loaded Plugin Paper2D, From D:/Unreal/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -148,496 +148,1090 @@ LogInit: Base directory: D:/Unreal/Epic Games/4.14/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.04.08-09.03.57:043][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.08-09.03.57:043][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.04.08-09.03.57:083][  0]LogInit: Computer: ASUS
-[2017.04.08-09.03.57:083][  0]LogInit: User: User
-[2017.04.08-09.03.57:083][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.04.08-09.03.57:083][  0]LogInit: High frequency timer resolution =2.533194 MHz
-[2017.04.08-09.03.57:085][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
-[2017.04.08-09.03.57:085][  0]LogMemory: Platform Memory Stats for Windows
-[2017.04.08-09.03.57:085][  0]LogMemory: Process Physical Memory: 268.31 MB used, 268.31 MB peak
-[2017.04.08-09.03.57:085][  0]LogMemory: Process Virtual Memory: 263.03 MB used, 263.03 MB peak
-[2017.04.08-09.03.57:085][  0]LogMemory: Physical Memory: 4923.01 MB used,  7253.88 MB free, 12176.89 MB total
-[2017.04.08-09.03.57:085][  0]LogMemory: Virtual Memory: 680.30 MB used,  7253.88 MB free, 134217728.00 MB total
-[2017.04.08-09.03.57:680][  0]LogTextLocalizationManager: No specific translations for ('en-SG') exist, so ('en') translations will be used.
-[2017.04.08-09.04.00:403][  0]LogD3D11RHI: D3D11 adapters:
-[2017.04.08-09.04.01:075][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
-[2017.04.08-09.04.01:075][  0]LogD3D11RHI:       4036/0/6088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.04.08-09.04.01:093][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.04.08-09.04.01:094][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.04.08-09.04.01:098][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.04.08-09.04.01:098][  0]LogD3D11RHI:       0/0/6088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.04.08-09.04.01:098][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.04.08-09.04.01:117][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.04.08-09.04.01:117][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
-[2017.04.08-09.04.01:117][  0]LogWindows: EnumDisplayDevices:
-[2017.04.08-09.04.01:117][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2017.04.08-09.04.01:119][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.04.08-09.04.01:120][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.04.08-09.04.01:121][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.04.08-09.04.01:121][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
-[2017.04.08-09.04.01:121][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.04.08-09.04.01:121][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.04.08-09.04.01:121][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.04.08-09.04.01:182][  0]LogD3D11RHI: Async texture creation enabled
-[2017.04.08-09.04.01:220][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.04.08-09.04.01:222][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (../../../../../PurgaStory_v3/Intermediate/Shaders/WorkingDirectory/9100/).
-[2017.04.08-09.04.01:223][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/BAEA2DDB45709C13F8EB29B727D86822/'.
-[2017.04.08-09.04.01:223][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.04.08-09.04.05:081][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.04.08-09.04.05:259][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.04.08-09.04.05:430][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.04.08-09.04.05:597][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.04.08-09.04.05:777][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.04.08-09.04.05:965][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.04.08-09.04.06:148][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.04.08-09.04.06:341][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.04.08-09.04.06:497][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.04.08-09.04.06:681][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.04.08-09.04.06:858][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.04.08-09.04.07:027][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.04.08-09.04.07:197][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.04.08-09.04.07:380][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.04.08-09.04.07:554][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.04.08-09.04.07:881][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.04.08-09.04.07:881][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.04.08-09.04.07:983][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.04.08-09.04.08:210][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.04.08-09.04.08:322][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.04.08-09.04.08:480][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.04.08-09.04.08:641][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.04.08-09.04.08:801][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.04.08-09.04.08:961][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.04.08-09.04.08:961][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.04.08-09.04.10:047][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.04.08-09.04.10:231][  0]LogDerivedDataCache: Loaded boot cache 0.18s 50MB C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.04.08-09.04.10:231][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.04.08-09.04.10:231][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../PurgaStory_v3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.04.08-09.04.10:231][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.04.08-09.04.10:231][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../PurgaStory_v3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.04.08-09.04.10:231][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.04.08-09.04.10:306][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.04.08-09.04.10:321][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.04.08-09.04.11:032][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.08-09.04.11:043][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.04.08-09.04.11:726][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.04.08-09.04.11:850][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.04.08-09.04.11:973][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.04.08-09.04.11:973][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.04.08-09.04.11:973][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.04.08-09.04.13:651][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: purgastory, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4090582873
-[2017.04.08-09.04.13:775][  0]LogAssetRegistry: FAssetRegistry took 0.0227 seconds to start up
-[2017.04.08-09.04.13:925][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.081689 seconds
-[2017.04.08-09.04.13:942][  0]LogUObjectArray: 31953 objects as part of root set at end of initial load.
-[2017.04.08-09.04.13:942][  0]LogUObjectAllocator: 7149664 out of 0 bytes used by permanent object pool.
-[2017.04.08-09.04.13:942][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.04.08-09.04.16:641][  0]LogSlate: Using Freetype 2.6.0
-[2017.04.08-09.04.16:642][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.08-09.04.16:643][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.08-09.04.19:840][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2017.04.08-09.04.19:914][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.04.08-09.04.19:998][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.04.08-09.04.20:748][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.04.08-09.04.21:817][  0]SourceControl: Info Source control is disabled
-[2017.04.08-09.04.21:954][  0]SourceControl: Info Source control is disabled
-[2017.04.08-09.04.22:079][  0]SourceControl: Info Source control is disabled
-[2017.04.08-09.04.22:199][  0]SourceControl: Info Source control is disabled
-[2017.04.08-09.04.26:717][  0]LogEngine: Initializing Engine...
-[2017.04.08-09.04.26:719][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.04.08-09.04.27:432][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.04.08-09.04.27:447][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.04.08-09.04.27:536][  0]LogInit: FAudioDevice initialized.
-[2017.04.08-09.04.27:593][  0]LogDerivedDataCache: Saved boot cache 0.06s 50MB C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.04.08-09.04.27:609][  0]LogInit: Texture streaming: Enabled
-[2017.04.08-09.04.28:065][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.04.08-09.04.28:174][  0]LogInit: Transaction tracking system initialized
-[2017.04.08-09.04.29:914][  0]BlueprintLog: New page: Editor Load
-[2017.04.08-09.04.32:669][  0]LocalizationService: Info Localization service is disabled
-[2017.04.08-09.04.35:288][  0]LogConsoleResponse:Display: 
-[2017.04.08-09.04.35:970][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.04.08-09.04.35:970][  0]LogCook:Display: Mobile HDR setting 1
-[2017.04.08-09.04.36:476][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/PurgaStory_v3/Content/' took 0.06s
-[2017.04.08-09.04.38:834][  0]SourceControl: Info Source control is disabled
-[2017.04.08-09.04.38:834][  0]Cmd: MAP LOAD FILE="../../../../../PurgaStory_v3/Content/Multiplayer/Maps/MP_mainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.04.08-09.04.38:835][  0]LightingResults: New page: Lighting Build
-[2017.04.08-09.04.38:922][  0]MapCheck: New page: Map Check
-[2017.04.08-09.04.38:922][  0]LightingResults: New page: Lighting Build
-[2017.04.08-09.04.44:071][  0]LogAIModule: Creating AISystem for world MP_mainMenu
-[2017.04.08-09.04.44:073][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.04.08-09.04.44:075][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.04.08-09.04.44:194][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 119.088ms to complete.
-[2017.04.08-09.04.44:194][  0]LogFileHelpers: Loading map 'MP_mainMenu' took 5.360
-[2017.04.08-09.04.44:540][  0]LogCollectionManager: Loaded 0 collections in 0.002918 seconds
-[2017.04.08-09.04.44:695][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/PurgaStory_v3/Saved/Collections/' took 0.01s
-[2017.04.08-09.04.44:695][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/PurgaStory_v3/Content/Developers/User/Collections/' took 0.01s
-[2017.04.08-09.04.44:695][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/PurgaStory_v3/Content/Collections/' took 0.01s
-[2017.04.08-09.04.44:695][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
-[2017.04.08-09.04.44:728][  0]LogContentBrowser: Native class hierarchy populated in 0.0320 seconds. Added 2206 classes and 437 folders.
-[2017.04.08-09.04.44:838][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.04.08-09.04.44:838][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.04.08-09.04.44:840][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0018 seconds. Added 13 classes and 0 folders.
-[2017.04.08-09.04.45:001][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
-[2017.04.08-09.04.45:135][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
-[2017.04.08-09.04.45:247][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
-[2017.04.08-09.04.45:498][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.04.08-09.04.45:521][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.04.08-09.04.45:681][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
-[2017.04.08-09.04.45:682][  0]LogLoad: (Engine Initialization) Total time: 53.83 seconds
-[2017.04.08-09.04.45:682][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.95 seconds
-[2017.04.08-09.04.45:682][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.04.08-09.04.45:682][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.04.08-09.04.45:694][  0]LogOcInput: OculusInput pre-init called
-[2017.04.08-09.04.45:741][  0]LogContentStreaming: Texture pool size now 800 MB
-[2017.04.08-09.04.46:201][  0]LogRenderer: Reallocating scene render targets to support 888x412 NumSamples 1 (Frame:2).
-[2017.04.08-09.04.46:493][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Unreal/PurgaStory_v3/Content/' took 0.78s
-[2017.04.08-09.04.47:091][  9]LogAssetRegistry: Asset discovery search completed in 33.3391 seconds
-[2017.04.08-09.04.47:091][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.04.08-09.04.47:091][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
-[2017.04.08-09.06.04:951][975]LogBlueprint:Warning: [BP_Seeker] 'HidingTimeLeft' variable not found. Base class was probably changed.
-[2017.04.08-09.06.07:094][975]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N'
-[2017.04.08-09.06.07:094][975]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N' while loading ../../../../../PurgaStory_v3/Content/Materials/Architecture/Rubber/MI_Rubber_Black_001_a.uasset.
-[2017.04.08-09.06.07:095][975]LoadErrors:Error: Error /Game/Materials/Architecture/Rubber/MI_Rubber_Black_001_a : Can't find file for asset. /Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N
-[2017.04.08-09.06.07:095][975]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N'
-[2017.04.08-09.06.07:095][975]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N' while loading ../../../../../PurgaStory_v3/Content/Materials/Architecture/Rubber/MI_Rubber_Black_001_a.uasset.
-[2017.04.08-09.06.07:098][975]LogLinker:Warning: Asset '../../../../../PurgaStory_v3/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2017.04.08-09.06.07:105][975]LogLinker:Warning: Asset '../../../../../PurgaStory_v3/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2017.04.08-09.06.07:114][975]LogLinker:Warning: Asset '../../../../../PurgaStory_v3/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2017.04.08-09.06.07:118][975]LogLinker:Warning: Asset '../../../../../PurgaStory_v3/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2017.04.08-09.06.07:185][975]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
-[2017.04.08-09.06.07:186][975]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading ../../../../../PurgaStory_v3/Content/Materials/_Base_Mat/M_Prototyper_2.uasset.
-[2017.04.08-09.06.07:186][975]LoadErrors:Error: Error /Game/Materials/_Base_Mat/M_Prototyper_2 : Can't find file for asset. /Game/Materials/_Base_Mat/M_Textures/white
-[2017.04.08-09.06.07:187][975]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
-[2017.04.08-09.06.07:187][975]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading ../../../../../PurgaStory_v3/Content/Materials/_Base_Mat/M_Prototyper_2.uasset.
-[2017.04.08-09.06.09:778][975]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N'
-[2017.04.08-09.06.09:779][975]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N.T_DefaultNoise_N Referenced by MI_Rubber_Black_001_a
-[2017.04.08-09.06.09:780][975]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N' while loading NULL.
-[2017.04.08-09.06.09:831][975]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
-[2017.04.08-09.06.09:831][975]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/white.white Referenced by MaterialExpressionTextureObjectParameter_3
-[2017.04.08-09.06.09:832][975]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading NULL.
-[2017.04.08-09.06.09:833][975]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
-[2017.04.08-09.06.09:833][975]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/white.white Referenced by MaterialExpressionTextureSampleParameter2D_6
-[2017.04.08-09.06.09:833][975]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading NULL.
-[2017.04.08-09.06.09:844][975]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
-[2017.04.08-09.06.09:845][975]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.04.08-09.06.12:885][975]LogMaterial: Missing cached shader map for material M_RollingFire, compiling. 
-[2017.04.08-09.06.14:871][975]LogMaterial: Missing cached shader map for material M_Prototyper_2, compiling. 
-[2017.04.08-09.06.14:880][975]LogMaterial:Warning: Failed to compile Material /Game/Materials/_Base_Mat/M_Prototyper_2.M_Prototyper_2 for platform PCD3D_SM5, Default Material will be used in game.
-[2017.04.08-09.06.14:880][975]LogMaterial:Warning: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
-[2017.04.08-09.06.14:892][975]LogMaterial: Missing cached shader map for material M_Prototyper_2, compiling. 
-[2017.04.08-09.06.14:902][975]LogMaterial:Warning: Failed to compile Material Instance /Game/Materials/Solids/Dual_Color/MI_Black_White.MI_Black_White with Base M_Prototyper_2 for platform PCD3D_SM5, Default Material will be used in game.
-[2017.04.08-09.06.14:902][975]LogMaterial:Warning: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
-[2017.04.08-09.06.15:700][975]LogAIModule: Creating AISystem for world Purgastory_Level
-[2017.04.08-09.06.16:643][975]Cmd: MAP LOAD FILE="../../../../../PurgaStory_v3/Content/Multiplayer/Maps/Purgastory_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.04.08-09.06.16:643][975]LightingResults: New page: Lighting Build
-[2017.04.08-09.06.16:645][975]LoadErrors: New page: Loading map: Purgastory_Level.umap
-[2017.04.08-09.06.16:646][975]MapCheck: New page: Map Check
-[2017.04.08-09.06.16:646][975]LightingResults: New page: Lighting Build
-[2017.04.08-09.06.17:001][975]LogPhysics:Error: PHYSX: (D:\Build\++UE4+Release-4.14+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysX\src\NpMaterial.cpp 143) eINVALID_PARAMETER : PxMaterial::setRestitution: Invalid value 1.150000 was clamped to [0,1]!
-[2017.04.08-09.06.17:811][975]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
-[2017.04.08-09.06.17:950][975]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.04.08-09.06.18:215][975]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 264.232ms to complete.
-[2017.04.08-09.06.18:216][975]LogFileHelpers: Loading map 'Purgastory_Level' took 1.575
-[2017.04.08-09.06.28:400][721]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 111 classes and 0 folders.
-[2017.04.08-09.06.32:346][834]LogShaderCompilers:Warning: Failed to compile Material /Game/Assets/Materials/M_RollingFire.M_RollingFire for platform PCD3D_SM5, Default Material will be used in game.
-[2017.04.08-09.06.32:346][834]LogShaderCompilers:Warning: 	HitProxyVertexShader.usf(27,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
-[2017.04.08-09.06.32:346][834]LogShaderCompilers:Warning: 	LightMapDensityShader.usf(23,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
-[2017.04.08-09.06.32:346][834]LogShaderCompilers:Warning: 	DepthOnlyVertexShader.usf(30,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
-[2017.04.08-09.06.32:346][834]LogShaderCompilers:Warning: 	DebugViewModeVertexShader.usf(18,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
-[2017.04.08-09.06.32:346][834]LogShaderCompilers:Warning: 	BasePassVertexCommon.usf(30,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
-[2017.04.08-09.06.32:346][834]LogShaderCompilers:Warning: 	VelocityShader.usf(49,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
-[2017.04.08-09.06.32:346][834]LogShaderCompilers:Warning: 	ShadowDepthVertexShader.usf(124,2-33):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
-[2017.04.08-09.13.45:728][540]BlueprintLog: New page: Compile GS_MP
-[2017.04.08-09.14.12:184][138]LogEditorTransaction: Undo Edit Z
-[2017.04.08-09.14.12:884][139]LogEditorTransaction: Undo Edit Y
-[2017.04.08-09.14.13:578][140]LogEditorTransaction: Undo Edit X
-[2017.04.08-09.14.13:639][140]LogEditorTransaction: Undo Edit X
-[2017.04.08-09.14.13:651][140]LogEditorTransaction: Undo Edit Z
-[2017.04.08-09.14.14:262][141]LogEditorTransaction: Undo Edit Y
-[2017.04.08-09.14.14:325][141]LogEditorTransaction: Undo Edit X
-[2017.04.08-09.14.14:338][141]LogEditorTransaction: Undo Change Number Pin Value
-[2017.04.08-09.15.07:628][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Multiplayer/Blueprints/GS_MP" FILE="../../../../../PurgaStory_v3/Content/Multiplayer/Blueprints/GS_MP.uasset" SILENT=true
-[2017.04.08-09.15.07:988][473]LogSavePackage: Save=327.72ms
-[2017.04.08-09.15.07:988][473]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/GS_MPFE5EA7E04F8888690C7484BEC89BCE76.tmp' to '../../../../../PurgaStory_v3/Content/Multiplayer/Blueprints/GS_MP.uasset'
-[2017.04.08-09.15.07:994][473]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/Multiplayer/Blueprints/GS_MP.uasset
-[2017.04.08-09.15.10:226][521]BlueprintLog: New page: Compile GS_MP
-[2017.04.08-09.15.14:438][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Multiplayer/Blueprints/GS_MP" FILE="../../../../../PurgaStory_v3/Content/Multiplayer/Blueprints/GS_MP.uasset" SILENT=true
-[2017.04.08-09.15.14:779][570]LogSavePackage: Save=334.67ms
-[2017.04.08-09.15.14:779][570]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/GS_MP38DA63F343ED82D5AE71B8823B61BF7C.tmp' to '../../../../../PurgaStory_v3/Content/Multiplayer/Blueprints/GS_MP.uasset'
-[2017.04.08-09.15.14:782][570]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/Multiplayer/Blueprints/GS_MP.uasset
-[2017.04.08-09.15.29:538][901]BlueprintLog: New page: Compile Purgastory_Level
-[2017.04.08-09.15.42:691][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Multiplayer/Maps/Purgastory_Level" FILE="../../../../../PurgaStory_v3/Content/Multiplayer/Maps/Purgastory_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.08-09.15.48:443][131]LogSavePackage: Save=5510.88ms
-[2017.04.08-09.15.48:443][131]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/Purgastory_LevelBCD0A2FD4D68AA42C9F12C9414423E6C.tmp' to '../../../../../PurgaStory_v3/Content/Multiplayer/Maps/Purgastory_Level.umap'
-[2017.04.08-09.15.48:463][131]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/Multiplayer/Maps/Purgastory_Level.umap
-[2017.04.08-09.15.48:651][131]LogFileHelpers: Saving map 'Purgastory_Level' took 6.541
-[2017.04.08-09.15.49:033][131]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.04.08-09.15.49:457][132]Cmd: QUIT_EDITOR
-[2017.04.08-09.15.49:714][132]LogExit: Preparing to exit.
-[2017.04.08-09.15.50:355][132]LogDirectoryWatcher: A directory notification for 'D:/Unreal/PurgaStory_v3/Content/' was aborted.
-[2017.04.08-09.15.50:578][132]LogExit: Editor shut down
-[2017.04.08-09.15.50:579][132]LogExit: Transaction tracking system shut down
-[2017.04.08-09.15.51:230][132]LogObj: Freed 0b from 0 cluster array pools.
-[2017.04.08-09.15.51:230][132]LogExit: Object subsystem successfully closed.
-[2017.04.08-09.15.51:276][132]LogD3D11RHI: Shutdown
-[2017.04.08-09.15.51:276][132]LogD3D11RHI: CleanupD3DDevice
-[2017.04.08-09.15.51:888][132]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.04.08-09.15.51:913][132]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.04.08-09.15.51:913][132]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB381BEBD-4711-19FD-FF59-2DA75C8E0D4F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=d1c8f82b417d2ce73f7df0820151bd26%7C54ddd81e2c83417ea6547a0ffff3e5a4%7Cfb954913-2a66-44b3-9e13-656e6d75c89e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.04.08-09.15.51:920][132]LogModuleManager: Shutting down and abandoning module BlueprintGraph (246)
-[2017.04.08-09.15.51:920][132]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (245)
-[2017.04.08-09.15.51:920][132]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (244)
-[2017.04.08-09.15.51:920][132]LogModuleManager: Shutting down and abandoning module CrashTracker (243)
-[2017.04.08-09.15.51:920][132]LogModuleManager: Shutting down and abandoning module SceneOutliner (242)
-[2017.04.08-09.15.51:920][132]LogModuleManager: Shutting down and abandoning module WidgetCarousel (241)
-[2017.04.08-09.15.51:920][132]LogModuleManager: Shutting down and abandoning module AddContentDialog (240)
-[2017.04.08-09.15.51:920][132]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Epic Games/4.14/FeaturePacks/' was aborted.
-[2017.04.08-09.15.51:923][132]LogModuleManager: Shutting down and abandoning module GameplayTags (239)
-[2017.04.08-09.15.51:923][132]LogModuleManager: Shutting down and abandoning module EditorWidgets (238)
-[2017.04.08-09.15.51:923][132]LogModuleManager: Shutting down and abandoning module CollectionManager (237)
-[2017.04.08-09.15.51:924][132]LogDirectoryWatcher: A directory notification for 'D:/Unreal/PurgaStory_v3/Content/Collections/' was aborted.
-[2017.04.08-09.15.51:924][132]LogDirectoryWatcher: A directory notification for 'D:/Unreal/PurgaStory_v3/Content/Developers/User/Collections/' was aborted.
-[2017.04.08-09.15.51:924][132]LogDirectoryWatcher: A directory notification for 'D:/Unreal/PurgaStory_v3/Saved/Collections/' was aborted.
-[2017.04.08-09.15.51:924][132]LogModuleManager: Shutting down and abandoning module StatsViewer (236)
-[2017.04.08-09.15.51:924][132]LogModuleManager: Shutting down and abandoning module FoliageEdit (235)
-[2017.04.08-09.15.51:924][132]LogModuleManager: Shutting down and abandoning module LandscapeEditor (234)
-[2017.04.08-09.15.51:924][132]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (233)
-[2017.04.08-09.15.51:924][132]LogModuleManager: Shutting down and abandoning module ActorPickerMode (232)
-[2017.04.08-09.15.51:924][132]LogModuleManager: Shutting down and abandoning module GeometryMode (231)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module TextureAlignMode (230)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module BspMode (229)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module HardwareSurvey (228)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (227)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module AutomationWorker (226)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (225)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module PlacementMode (224)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (223)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (222)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (221)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (220)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (219)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module Media (218)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (217)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (216)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module CharacterAI (215)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module SequenceRecorder (214)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module AudioCapture (213)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module SmartSnapping (212)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module SessionServices (211)
-[2017.04.08-09.15.51:925][132]LogModuleManager: Shutting down and abandoning module ViewportSnapping (210)
-[2017.04.08-09.15.51:926][132]LogModuleManager: Shutting down and abandoning module ViewportInteraction (209)
-[2017.04.08-09.15.51:926][132]LogModuleManager: Shutting down and abandoning module LogVisualizer (208)
-[2017.04.08-09.15.51:926][132]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (207)
-[2017.04.08-09.15.51:926][132]LogModuleManager: Shutting down and abandoning module IntroTutorials (206)
-[2017.04.08-09.15.51:926][132]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (205)
-[2017.04.08-09.15.51:926][132]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (204)
-[2017.04.08-09.15.51:926][132]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (203)
-[2017.04.08-09.15.51:926][132]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (202)
-[2017.04.08-09.15.52:595][132]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (201)
-[2017.04.08-09.15.52:595][132]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (200)
-[2017.04.08-09.15.52:595][132]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (199)
-[2017.04.08-09.15.52:595][132]LogModuleManager: Shutting down and abandoning module InputBindingEditor (198)
-[2017.04.08-09.15.52:596][132]LogModuleManager: Shutting down and abandoning module NiagaraEditor (197)
-[2017.04.08-09.15.52:596][132]LogModuleManager: Shutting down and abandoning module MergeActors (196)
-[2017.04.08-09.15.52:596][132]LogModuleManager: Shutting down and abandoning module SizeMap (195)
-[2017.04.08-09.15.52:596][132]LogModuleManager: Shutting down and abandoning module TreeMap (194)
-[2017.04.08-09.15.52:596][132]LogModuleManager: Shutting down and abandoning module ReferenceViewer (193)
-[2017.04.08-09.15.52:596][132]LogModuleManager: Shutting down and abandoning module LocalizationService (192)
-[2017.04.08-09.15.52:596][132]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (191)
-[2017.04.08-09.15.52:596][132]LogModuleManager: Shutting down and abandoning module HardwareTargeting (190)
-[2017.04.08-09.15.52:597][132]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (189)
-[2017.04.08-09.15.52:597][132]LogModuleManager: Shutting down and abandoning module UndoHistory (188)
-[2017.04.08-09.15.52:597][132]LogModuleManager: Shutting down and abandoning module UserFeedback (187)
-[2017.04.08-09.15.52:597][132]LogModuleManager: Shutting down and abandoning module XmlParser (186)
-[2017.04.08-09.15.52:609][132]LogModuleManager: Shutting down and abandoning module Blutility (185)
-[2017.04.08-09.15.52:609][132]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (184)
-[2017.04.08-09.15.52:609][132]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (183)
-[2017.04.08-09.15.52:610][132]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (182)
-[2017.04.08-09.15.52:610][132]LogModuleManager: Shutting down and abandoning module SettingsEditor (181)
-[2017.04.08-09.15.52:610][132]LogModuleManager: Shutting down and abandoning module ProjectLauncher (180)
-[2017.04.08-09.15.52:610][132]LogModuleManager: Shutting down and abandoning module SessionFrontend (179)
-[2017.04.08-09.15.52:610][132]LogModuleManager: Shutting down and abandoning module ProfilerClient (178)
-[2017.04.08-09.15.52:610][132]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (177)
-[2017.04.08-09.15.52:610][132]LogModuleManager: Shutting down and abandoning module DeviceManager (176)
-[2017.04.08-09.15.52:654][132]LogModuleManager: Shutting down and abandoning module AutomationController (175)
-[2017.04.08-09.15.52:654][132]LogModuleManager: Shutting down and abandoning module AutomationWindow (174)
-[2017.04.08-09.15.52:654][132]LogModuleManager: Shutting down and abandoning module Layers (173)
-[2017.04.08-09.15.52:654][132]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (172)
-[2017.04.08-09.15.52:654][132]LogModuleManager: Shutting down and abandoning module DetailCustomizations (171)
-[2017.04.08-09.15.52:654][132]LogModuleManager: Shutting down and abandoning module PackagesDialog (170)
-[2017.04.08-09.15.52:655][132]LogModuleManager: Shutting down and abandoning module AnimGraph (169)
-[2017.04.08-09.15.52:655][132]LogModuleManager: Shutting down and abandoning module Persona (168)
-[2017.04.08-09.15.52:655][132]LogModuleManager: Shutting down and abandoning module Kismet (167)
-[2017.04.08-09.15.52:693][132]LogModuleManager: Shutting down and abandoning module GraphEditor (166)
-[2017.04.08-09.15.52:693][132]LogModuleManager: Shutting down and abandoning module ClassViewer (165)
-[2017.04.08-09.15.52:693][132]LogModuleManager: Shutting down and abandoning module Toolbox (164)
-[2017.04.08-09.15.52:693][132]LogModuleManager: Shutting down and abandoning module ModuleUI (163)
-[2017.04.08-09.15.52:694][132]LogModuleManager: Shutting down and abandoning module MovieSceneTools (162)
-[2017.04.08-09.15.52:694][132]LogModuleManager: Shutting down and abandoning module OutputLog (161)
-[2017.04.08-09.15.52:694][132]LogModuleManager: Shutting down and abandoning module GammaUI (160)
-[2017.04.08-09.15.52:694][132]LogModuleManager: Shutting down and abandoning module Documentation (159)
-[2017.04.08-09.15.52:694][132]LogModuleManager: Shutting down and abandoning module Niagara (158)
-[2017.04.08-09.15.52:694][132]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (157)
-[2017.04.08-09.15.52:694][132]LogModuleManager: Shutting down and abandoning module AnalyticsET (156)
-[2017.04.08-09.15.52:694][132]LogModuleManager: Shutting down and abandoning module PortalServices (155)
-[2017.04.08-09.15.52:694][132]LogModuleManager: Shutting down and abandoning module PortalRpc (154)
-[2017.04.08-09.15.52:694][132]LogModuleManager: Shutting down and abandoning module MessagingRpc (153)
-[2017.04.08-09.15.52:694][132]LogModuleManager: Shutting down and abandoning module GameplayDebugger (152)
-[2017.04.08-09.15.52:694][132]LogModuleManager: Shutting down and abandoning module AITestSuite (151)
-[2017.04.08-09.15.52:694][132]LogModuleManager: Shutting down and abandoning module AIModule (150)
-[2017.04.08-09.15.52:695][132]LogModuleManager: Shutting down and abandoning module ProfilerService (149)
-[2017.04.08-09.15.52:917][132]LogModuleManager: Shutting down and abandoning module TaskGraph (148)
-[2017.04.08-09.15.52:929][132]LogModuleManager: Shutting down and abandoning module SubstanceEditor (147)
-[2017.04.08-09.15.52:932][132]LogModuleManager: Shutting down and abandoning module SlateRemote (146)
-[2017.04.08-09.15.52:932][132]LogModuleManager: Shutting down and abandoning module SteamVRController (145)
-[2017.04.08-09.15.52:935][132]LogModuleManager: Shutting down and abandoning module SteamVR (144)
-[2017.04.08-09.15.52:936][132]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (143)
-[2017.04.08-09.15.52:936][132]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (142)
-[2017.04.08-09.15.52:936][132]LogModuleManager: Shutting down and abandoning module OculusLibrary (141)
-[2017.04.08-09.15.52:936][132]LogModuleManager: Shutting down and abandoning module OculusInput (140)
-[2017.04.08-09.15.52:937][132]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (139)
-[2017.04.08-09.15.52:937][132]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (138)
-[2017.04.08-09.15.52:937][132]LogModuleManager: Shutting down and abandoning module CableComponent (137)
-[2017.04.08-09.15.52:937][132]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (136)
-[2017.04.08-09.15.52:937][132]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (135)
-[2017.04.08-09.15.52:937][132]LogModuleManager: Shutting down and abandoning module HTML5Networking (134)
-[2017.04.08-09.15.52:937][132]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (133)
-[2017.04.08-09.15.52:937][132]LogModuleManager: Shutting down and abandoning module GeometryCache (132)
-[2017.04.08-09.15.52:937][132]LogModuleManager: Shutting down and abandoning module AlembicLibrary (131)
-[2017.04.08-09.15.52:937][132]LogModuleManager: Shutting down and abandoning module AlembicImporter (130)
-[2017.04.08-09.15.52:937][132]LogModuleManager: Shutting down and abandoning module SuperSearch (129)
-[2017.04.08-09.15.52:937][132]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (128)
-[2017.04.08-09.15.52:937][132]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (127)
-[2017.04.08-09.15.52:938][132]LogModuleManager: Shutting down and abandoning module PluginBrowser (126)
-[2017.04.08-09.15.52:938][132]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (125)
-[2017.04.08-09.15.52:938][132]LogModuleManager: Shutting down and abandoning module EpicSurvey (124)
-[2017.04.08-09.15.52:938][132]LogModuleManager: Shutting down and abandoning module DesktopPlatform (123)
-[2017.04.08-09.15.52:938][132]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (122)
-[2017.04.08-09.15.52:938][132]LogModuleManager: Shutting down and abandoning module UObjectPlugin (121)
-[2017.04.08-09.15.52:938][132]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (120)
-[2017.04.08-09.15.52:938][132]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (119)
-[2017.04.08-09.15.52:938][132]LogModuleManager: Shutting down and abandoning module SourceControl (118)
-[2017.04.08-09.15.52:938][132]LogModuleManager: Shutting down and abandoning module GitSourceControl (117)
-[2017.04.08-09.15.52:939][132]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (116)
-[2017.04.08-09.15.52:939][132]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (115)
-[2017.04.08-09.15.52:939][132]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (114)
-[2017.04.08-09.15.52:939][132]LogModuleManager: Shutting down and abandoning module MeshPaint (113)
-[2017.04.08-09.15.52:939][132]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (112)
-[2017.04.08-09.15.52:939][132]LogModuleManager: Shutting down and abandoning module HotReload (111)
-[2017.04.08-09.15.52:944][132]LogModuleManager: Shutting down and abandoning module MainFrame (110)
-[2017.04.08-09.15.52:945][132]LogModuleManager: Shutting down and abandoning module LevelEditor (109)
-[2017.04.08-09.15.52:949][132]LogModuleManager: Shutting down and abandoning module ContentBrowser (108)
-[2017.04.08-09.15.52:954][132]LogModuleManager: Shutting down and abandoning module Paper2DEditor (107)
-[2017.04.08-09.15.52:955][132]LogModuleManager: Shutting down and abandoning module UdpMessaging (106)
-[2017.04.08-09.15.53:057][132]LogModuleManager: Shutting down and abandoning module TcpMessaging (105)
-[2017.04.08-09.15.53:158][132]LogModuleManager: Shutting down and abandoning module SubstanceCore (104)
-[2017.04.08-09.15.53:158][132]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (103)
-[2017.04.08-09.15.53:159][132]LogModuleManager: Shutting down and abandoning module Paper2D (102)
-[2017.04.08-09.15.53:159][132]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (101)
-[2017.04.08-09.15.53:159][132]LogModuleManager: Shutting down and abandoning module WmfMedia (100)
-[2017.04.08-09.15.53:161][132]LogModuleManager: Shutting down and abandoning module MediaAssets (99)
-[2017.04.08-09.15.53:161][132]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (98)
-[2017.04.08-09.15.53:161][132]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (97)
-[2017.04.08-09.15.53:161][132]LogModuleManager: Shutting down and abandoning module VREditor (96)
-[2017.04.08-09.15.53:161][132]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (95)
-[2017.04.08-09.15.53:161][132]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (94)
-[2017.04.08-09.15.53:161][132]LogModuleManager: Shutting down and abandoning module FunctionalTesting (93)
-[2017.04.08-09.15.53:161][132]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (92)
-[2017.04.08-09.15.53:161][132]LogModuleManager: Shutting down and abandoning module Sequencer (91)
-[2017.04.08-09.15.53:162][132]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (90)
-[2017.04.08-09.15.53:162][132]LogModuleManager: Shutting down and abandoning module MessageLog (89)
-[2017.04.08-09.15.53:162][132]LogModuleManager: Shutting down and abandoning module AssetTools (88)
-[2017.04.08-09.15.53:163][132]LogModuleManager: Shutting down and abandoning module UMGEditor (87)
-[2017.04.08-09.15.53:163][132]LogModuleManager: Shutting down and abandoning module UMG (86)
-[2017.04.08-09.15.53:163][132]LogModuleManager: Shutting down and abandoning module SlateReflector (85)
-[2017.04.08-09.15.53:163][132]LogModuleManager: Shutting down and abandoning module Slate (84)
-[2017.04.08-09.15.53:163][132]LogModuleManager: Shutting down and abandoning module EditorStyle (83)
-[2017.04.08-09.15.53:173][132]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (82)
-[2017.04.08-09.15.53:173][132]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (81)
-[2017.04.08-09.15.53:173][132]LogModuleManager: Shutting down and abandoning module XAudio2 (80)
-[2017.04.08-09.15.53:173][132]LogModuleManager: Shutting down and abandoning module Networking (79)
-[2017.04.08-09.15.53:173][132]LogModuleManager: Shutting down and abandoning module Core (78)
-[2017.04.08-09.15.53:173][132]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (77)
-[2017.04.08-09.15.53:173][132]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.04.08-09.15.53:174][132]LogDirectoryWatcher: A directory notification for '../../../../../PurgaStory_v3/Content/' was aborted.
-[2017.04.08-09.15.53:174][132]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.04.08-09.15.53:177][132]LogModuleManager: Shutting down and abandoning module AssetRegistry (76)
-[2017.04.08-09.15.54:071][132]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../PurgaStory_v3/Intermediate/CachedAssetRegistry.bin', retrying in .5s...
-[2017.04.08-09.15.54:071][132]LogFileManager:Warning: DeleteFile recovered during retry!
-[2017.04.08-09.15.54:071][132]LogModuleManager: Shutting down and abandoning module KismetCompiler (75)
-[2017.04.08-09.15.54:071][132]LogModuleManager: Shutting down and abandoning module PhysXFormats (74)
-[2017.04.08-09.15.54:071][132]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (73)
-[2017.04.08-09.15.54:071][132]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (72)
-[2017.04.08-09.15.54:071][132]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (71)
-[2017.04.08-09.15.54:071][132]LogModuleManager: Shutting down and abandoning module PropertyEditor (70)
-[2017.04.08-09.15.54:071][132]LogModuleManager: Shutting down and abandoning module MeshUtilities (69)
-[2017.04.08-09.15.54:071][132]LogModuleManager: Shutting down and abandoning module DerivedDataCache (68)
-[2017.04.08-09.15.54:093][132]LogDerivedDataCache: Shutdown
-[2017.04.08-09.15.54:093][132]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (67)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (66)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (65)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (64)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (63)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (62)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (61)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (60)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module ImageWrapper (59)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (58)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (57)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (56)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (55)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (54)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (53)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (52)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (51)
-[2017.04.08-09.15.54:094][132]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (50)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (49)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module Messaging (48)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (47)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (46)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (45)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (44)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (43)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (42)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (41)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (40)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (39)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (38)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (37)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (36)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (35)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (34)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (33)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (32)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (31)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (30)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (29)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module TargetPlatform (28)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module InputCore (27)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module Settings (26)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module OculusRift (25)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
-[2017.04.08-09.15.54:095][132]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2017.04.08-09.15.54:095][132]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2017.04.08-09.15.54:097][132]LogOnline:Display: Unloading online subsystem: STEAM
-[2017.04.08-09.15.54:097][132]LogOnline:Display: Unloading online subsystem: NULL
-[2017.04.08-09.15.54:097][132]LogModuleManager: Shutting down and abandoning module SSL (17)
-[2017.04.08-09.15.54:102][132]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2017.04.08-09.15.54:102][132]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2017.04.08-09.15.54:102][132]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.04.08-09.15.54:103][132]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.04.08-09.15.54:103][132]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.04.08-09.15.54:103][132]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.04.08-09.15.54:111][132]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.04.08-09.15.54:111][132]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.04.08-09.15.54:111][132]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.04.08-09.15.54:111][132]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.04.08-09.15.54:111][132]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.04.08-09.15.54:111][132]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.04.08-09.15.54:111][132]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.04.08-09.15.54:111][132]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.04.08-09.15.54:111][132]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.04.08-09.15.54:111][132]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.04.08-09.15.54:118][132]LogExit: Exiting.
-[2017.04.08-09.15.54:124][132]Log file closed, 04/08/17 17:15:54
+[2017.04.08-09.52.41:211][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.08-09.52.41:211][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.08-09.52.41:250][  0]LogInit: Computer: ASUS
+[2017.04.08-09.52.41:250][  0]LogInit: User: User
+[2017.04.08-09.52.41:250][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.08-09.52.41:250][  0]LogInit: High frequency timer resolution =2.533194 MHz
+[2017.04.08-09.52.41:251][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.04.08-09.52.41:251][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.08-09.52.41:251][  0]LogMemory: Process Physical Memory: 267.72 MB used, 267.72 MB peak
+[2017.04.08-09.52.41:251][  0]LogMemory: Process Virtual Memory: 263.12 MB used, 263.12 MB peak
+[2017.04.08-09.52.41:251][  0]LogMemory: Physical Memory: 4130.82 MB used,  8046.07 MB free, 12176.89 MB total
+[2017.04.08-09.52.41:251][  0]LogMemory: Virtual Memory: 680.30 MB used,  8046.07 MB free, 134217728.00 MB total
+[2017.04.08-09.52.41:850][  0]LogTextLocalizationManager: No specific translations for ('en-SG') exist, so ('en') translations will be used.
+[2017.04.08-09.52.44:144][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.08-09.52.44:764][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2017.04.08-09.52.44:764][  0]LogD3D11RHI:       4036/0/6088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.08-09.52.44:782][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.04.08-09.52.44:782][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.08-09.52.44:786][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.08-09.52.44:786][  0]LogD3D11RHI:       0/0/6088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.08-09.52.44:786][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.08-09.52.44:801][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.08-09.52.44:801][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2017.04.08-09.52.44:801][  0]LogWindows: EnumDisplayDevices:
+[2017.04.08-09.52.44:801][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.04.08-09.52.44:802][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.08-09.52.44:803][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.08-09.52.44:804][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.08-09.52.44:804][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2017.04.08-09.52.44:804][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.08-09.52.44:804][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.08-09.52.44:804][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.08-09.52.44:849][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.08-09.52.44:872][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.08-09.52.44:873][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (../../../../../PurgaStory_v3/Intermediate/Shaders/WorkingDirectory/348/).
+[2017.04.08-09.52.44:874][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/D61F97E94406399C4C55A7A8FD469E28/'.
+[2017.04.08-09.52.44:874][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.08-09.52.49:468][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.08-09.52.49:649][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.08-09.52.49:846][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.08-09.52.50:039][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.08-09.52.50:235][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.08-09.52.50:433][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.08-09.52.50:649][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.08-09.52.50:801][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.08-09.52.50:899][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.08-09.52.51:049][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.08-09.52.51:302][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.08-09.52.51:558][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.08-09.52.51:802][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.08-09.52.52:036][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.08-09.52.52:287][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.08-09.52.52:801][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.08-09.52.52:801][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.08-09.52.52:941][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.08-09.52.53:259][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.08-09.52.53:406][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.08-09.52.53:707][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.08-09.52.53:999][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.08-09.52.54:209][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.08-09.52.54:383][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.08-09.52.54:383][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.08-09.52.55:574][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.08-09.52.55:722][  0]LogDerivedDataCache: Loaded boot cache 0.15s 50MB C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.08-09.52.55:722][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.04.08-09.52.55:722][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../PurgaStory_v3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.08-09.52.55:722][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.08-09.52.55:723][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../PurgaStory_v3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.08-09.52.55:723][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.08-09.52.55:778][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.08-09.52.55:793][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.08-09.52.56:560][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.08-09.52.56:575][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.08-09.52.57:902][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.08-09.52.58:024][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.08-09.52.58:143][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.08-09.52.58:143][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.08-09.52.58:143][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.08-09.52.59:783][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: purgastory, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4090582873
+[2017.04.08-09.52.59:910][  0]LogAssetRegistry: FAssetRegistry took 0.0229 seconds to start up
+[2017.04.08-09.53.00:058][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.082969 seconds
+[2017.04.08-09.53.00:077][  0]LogUObjectArray: 31953 objects as part of root set at end of initial load.
+[2017.04.08-09.53.00:077][  0]LogUObjectAllocator: 7149664 out of 0 bytes used by permanent object pool.
+[2017.04.08-09.53.00:077][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.08-09.53.02:382][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.08-09.53.02:384][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.08-09.53.02:384][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.08-09.53.05:179][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.04.08-09.53.05:265][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.08-09.53.05:357][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.08-09.53.06:154][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.08-09.53.07:389][  0]SourceControl: Info Source control is disabled
+[2017.04.08-09.53.07:513][  0]SourceControl: Info Source control is disabled
+[2017.04.08-09.53.07:633][  0]SourceControl: Info Source control is disabled
+[2017.04.08-09.53.07:750][  0]SourceControl: Info Source control is disabled
+[2017.04.08-09.53.11:155][  0]LogEngine: Initializing Engine...
+[2017.04.08-09.53.11:156][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.08-09.53.11:914][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.08-09.53.11:933][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.08-09.53.12:045][  0]LogInit: FAudioDevice initialized.
+[2017.04.08-09.53.12:117][  0]LogDerivedDataCache: Saved boot cache 0.07s 50MB C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.08-09.53.12:139][  0]LogInit: Texture streaming: Enabled
+[2017.04.08-09.53.12:618][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.08-09.53.12:724][  0]LogInit: Transaction tracking system initialized
+[2017.04.08-09.53.14:295][  0]BlueprintLog: New page: Editor Load
+[2017.04.08-09.53.16:951][  0]LocalizationService: Info Localization service is disabled
+[2017.04.08-09.53.19:718][  0]LogConsoleResponse:Display: 
+[2017.04.08-09.53.20:326][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.08-09.53.20:326][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.08-09.53.20:872][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/PurgaStory_v3/Content/' took 0.06s
+[2017.04.08-09.53.23:626][  0]SourceControl: Info Source control is disabled
+[2017.04.08-09.53.23:626][  0]Cmd: MAP LOAD FILE="../../../../../PurgaStory_v3/Content/Multiplayer/Maps/MP_mainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.08-09.53.23:628][  0]LightingResults: New page: Lighting Build
+[2017.04.08-09.53.23:735][  0]MapCheck: New page: Map Check
+[2017.04.08-09.53.23:735][  0]LightingResults: New page: Lighting Build
+[2017.04.08-09.53.28:774][  0]LogAIModule: Creating AISystem for world MP_mainMenu
+[2017.04.08-09.53.28:776][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.08-09.53.28:778][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.08-09.53.28:898][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 119.994ms to complete.
+[2017.04.08-09.53.28:898][  0]LogFileHelpers: Loading map 'MP_mainMenu' took 5.272
+[2017.04.08-09.53.29:255][  0]LogCollectionManager: Loaded 0 collections in 0.002973 seconds
+[2017.04.08-09.53.29:408][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/PurgaStory_v3/Saved/Collections/' took 0.01s
+[2017.04.08-09.53.29:408][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/PurgaStory_v3/Content/Developers/User/Collections/' took 0.01s
+[2017.04.08-09.53.29:408][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/PurgaStory_v3/Content/Collections/' took 0.01s
+[2017.04.08-09.53.29:408][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2017.04.08-09.53.29:442][  0]LogContentBrowser: Native class hierarchy populated in 0.0329 seconds. Added 2206 classes and 437 folders.
+[2017.04.08-09.53.29:550][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.08-09.53.29:550][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.08-09.53.29:552][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0018 seconds. Added 13 classes and 0 folders.
+[2017.04.08-09.53.29:710][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2017.04.08-09.53.29:836][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2017.04.08-09.53.29:947][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2017.04.08-09.53.30:194][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.08-09.53.30:212][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.08-09.53.30:364][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2017.04.08-09.53.30:365][  0]LogLoad: (Engine Initialization) Total time: 53.45 seconds
+[2017.04.08-09.53.30:365][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.75 seconds
+[2017.04.08-09.53.30:365][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.08-09.53.30:365][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.08-09.53.30:376][  0]LogOcInput: OculusInput pre-init called
+[2017.04.08-09.53.30:421][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.04.08-09.53.30:859][  0]LogRenderer: Reallocating scene render targets to support 888x412 NumSamples 1 (Frame:2).
+[2017.04.08-09.53.31:148][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Unreal/PurgaStory_v3/Content/' took 0.76s
+[2017.04.08-09.53.31:677][  9]LogAssetRegistry: Asset discovery search completed in 31.7906 seconds
+[2017.04.08-09.53.31:677][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.04.08-09.53.31:677][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2017.04.08-09.53.35:725][203]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-09.53.36:192][203]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-09.53.36:230][203]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-09.53.40:078][335]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.04.08-09.53.40:078][335]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.04.08-09.53.40:078][335]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.04.08-09.54.36:506][296]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\User\Desktop\moon_tex.png)
+[2017.04.08-09.54.36:605][296]LogTexture:Display: Building textures: moon_tex (BGRA8)
+[2017.04.08-09.54.45:773][647]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-09.54.45:809][647]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-09.54.45:814][647]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.08-09.54.45:860][647]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.08-09.54.49:151][734]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.04.08-09.54.49:151][734]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.04.08-09.54.49:151][734]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.04.08-09.54.54:490][934]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-09.54.54:527][934]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-09.54.54:565][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.08-09.54.57:185][ 10]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2017.04.08-09.54.57:185][ 10]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-09.54.57:185][ 10]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.08-09.55.11:776][558]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-09.55.11:816][558]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-09.55.11:859][558]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-09.55.11:904][558]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-09.55.11:938][558]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.08-09.55.16:437][698]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2017.04.08-09.55.16:437][698]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-09.55.16:437][698]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.08-09.55.33:034][350]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-09.55.33:071][350]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-09.55.35:789][428]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2017.04.08-09.55.35:790][428]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-09.55.35:790][428]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.08-10.02.16:058][301]LogMaterialEditor: Saving and Compiling material moon_mat
+[2017.04.08-10.02.17:808][301]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.02.17:881][301]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.02.17:951][301]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.02.18:059][301]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.02.18:115][301]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.02.25:847][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlrightTerrain/moon_mat" FILE="../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_mat.uasset" SILENT=true
+[2017.04.08-10.02.25:946][301]LogSavePackage: Save=79.99ms
+[2017.04.08-10.02.25:947][301]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon_mat50BF4CCE4304B12D171F1FB016CA7F6B.tmp' to '../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_mat.uasset'
+[2017.04.08-10.02.25:952][301]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_mat.uasset
+[2017.04.08-10.02.25:971][301]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2017.04.08-10.02.25:971][301]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-10.02.25:971][301]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.04.08-10.02.27:308][350]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.02.27:345][350]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.02.29:001][393]LogMaterialEditor: Saving and Compiling material moon_mat
+[2017.04.08-10.02.30:918][393]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.02.30:990][393]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.02.31:032][393]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.02.31:100][393]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.02.31:146][393]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.02.36:492][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlrightTerrain/moon_mat" FILE="../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_mat.uasset" SILENT=true
+[2017.04.08-10.02.36:559][393]LogSavePackage: Save=61.15ms
+[2017.04.08-10.02.36:560][393]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon_mat8E3F0E904F77CEB024BFF3A7449B4F25.tmp' to '../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_mat.uasset'
+[2017.04.08-10.02.36:566][393]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_mat.uasset
+[2017.04.08-10.02.36:587][393]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2017.04.08-10.02.36:587][393]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-10.02.36:587][393]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.04.08-10.02.47:778][839]LogBlueprint:Warning: [BP_Seeker] 'HidingTimeLeft' variable not found. Base class was probably changed.
+[2017.04.08-10.02.50:011][839]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N'
+[2017.04.08-10.02.50:011][839]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N' while loading ../../../../../PurgaStory_v3/Content/Materials/Architecture/Rubber/MI_Rubber_Black_001_a.uasset.
+[2017.04.08-10.02.50:011][839]LoadErrors:Error: Error /Game/Materials/Architecture/Rubber/MI_Rubber_Black_001_a : Can't find file for asset. /Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N
+[2017.04.08-10.02.50:012][839]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N'
+[2017.04.08-10.02.50:012][839]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N' while loading ../../../../../PurgaStory_v3/Content/Materials/Architecture/Rubber/MI_Rubber_Black_001_a.uasset.
+[2017.04.08-10.02.50:015][839]LogLinker:Warning: Asset '../../../../../PurgaStory_v3/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.08-10.02.50:022][839]LogLinker:Warning: Asset '../../../../../PurgaStory_v3/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.08-10.02.50:033][839]LogLinker:Warning: Asset '../../../../../PurgaStory_v3/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.08-10.02.50:036][839]LogLinker:Warning: Asset '../../../../../PurgaStory_v3/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.08-10.02.50:110][839]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
+[2017.04.08-10.02.50:111][839]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading ../../../../../PurgaStory_v3/Content/Materials/_Base_Mat/M_Prototyper_2.uasset.
+[2017.04.08-10.02.50:111][839]LoadErrors:Error: Error /Game/Materials/_Base_Mat/M_Prototyper_2 : Can't find file for asset. /Game/Materials/_Base_Mat/M_Textures/white
+[2017.04.08-10.02.50:112][839]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
+[2017.04.08-10.02.50:112][839]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading ../../../../../PurgaStory_v3/Content/Materials/_Base_Mat/M_Prototyper_2.uasset.
+[2017.04.08-10.02.53:037][839]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
+[2017.04.08-10.02.53:038][839]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/white.white Referenced by MaterialExpressionTextureObjectParameter_3
+[2017.04.08-10.02.53:038][839]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading NULL.
+[2017.04.08-10.02.53:040][839]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
+[2017.04.08-10.02.53:040][839]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/white.white Referenced by MaterialExpressionTextureSampleParameter2D_6
+[2017.04.08-10.02.53:041][839]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading NULL.
+[2017.04.08-10.02.53:217][839]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N'
+[2017.04.08-10.02.53:218][839]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N.T_DefaultNoise_N Referenced by MI_Rubber_Black_001_a
+[2017.04.08-10.02.53:218][839]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N' while loading NULL.
+[2017.04.08-10.02.53:296][839]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2017.04.08-10.02.53:298][839]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.08-10.02.56:822][839]LogMaterial: Missing cached shader map for material M_Prototyper_2, compiling. 
+[2017.04.08-10.02.56:825][839]LogMaterial:Warning: Failed to compile Material /Game/Materials/_Base_Mat/M_Prototyper_2.M_Prototyper_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.08-10.02.56:825][839]LogMaterial:Warning: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2017.04.08-10.02.56:830][839]LogMaterial: Missing cached shader map for material M_Prototyper_2, compiling. 
+[2017.04.08-10.02.56:834][839]LogMaterial:Warning: Failed to compile Material Instance /Game/Materials/Solids/Dual_Color/MI_Black_White.MI_Black_White with Base M_Prototyper_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.08-10.02.56:834][839]LogMaterial:Warning: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2017.04.08-10.02.56:865][839]LogMaterial: Missing cached shader map for material M_RollingFire, compiling. 
+[2017.04.08-10.02.59:509][839]LogAIModule: Creating AISystem for world Purgastory_Level
+[2017.04.08-10.03.02:225][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlrightTerrain/moon_tex" FILE="../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex.uasset" SILENT=true
+[2017.04.08-10.03.02:453][839]LogSavePackage: Save=223.57ms
+[2017.04.08-10.03.02:453][839]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon_texCF29D17240DBE28249422D945CD446A5.tmp' to '../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex.uasset'
+[2017.04.08-10.03.02:456][839]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex.uasset
+[2017.04.08-10.03.02:457][839]Cmd: MAP LOAD FILE="../../../../../PurgaStory_v3/Content/Multiplayer/Maps/Purgastory_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.08-10.03.02:457][839]LightingResults: New page: Lighting Build
+[2017.04.08-10.03.02:458][839]LoadErrors: New page: Loading map: Purgastory_Level.umap
+[2017.04.08-10.03.02:459][839]MapCheck: New page: Map Check
+[2017.04.08-10.03.02:459][839]LightingResults: New page: Lighting Build
+[2017.04.08-10.03.02:682][839]LogPhysics:Error: PHYSX: (D:\Build\++UE4+Release-4.14+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysX\src\NpMaterial.cpp 143) eINVALID_PARAMETER : PxMaterial::setRestitution: Invalid value 1.150000 was clamped to [0,1]!
+[2017.04.08-10.03.03:232][839]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2017.04.08-10.03.03:344][839]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.08-10.03.03:558][839]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 214.131ms to complete.
+[2017.04.08-10.03.03:559][839]LogFileHelpers: Loading map 'Purgastory_Level' took 1.103
+[2017.04.08-10.03.16:102][751]LogShaderCompilers:Warning: Failed to compile Material /Game/Assets/Materials/M_RollingFire.M_RollingFire for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.08-10.03.16:102][751]LogShaderCompilers:Warning: 	HitProxyVertexShader.usf(27,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
+[2017.04.08-10.03.16:102][751]LogShaderCompilers:Warning: 	LightMapDensityShader.usf(23,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
+[2017.04.08-10.03.16:102][751]LogShaderCompilers:Warning: 	DepthOnlyVertexShader.usf(30,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
+[2017.04.08-10.03.16:102][751]LogShaderCompilers:Warning: 	DebugViewModeVertexShader.usf(18,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
+[2017.04.08-10.03.16:102][751]LogShaderCompilers:Warning: 	BasePassVertexCommon.usf(30,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
+[2017.04.08-10.03.16:102][751]LogShaderCompilers:Warning: 	VelocityShader.usf(49,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
+[2017.04.08-10.03.16:102][751]LogShaderCompilers:Warning: 	ShadowDepthVertexShader.usf(124,2-33):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
+[2017.04.08-10.03.41:072][751]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0018 seconds. Added 2 classes and 2 folders.
+[2017.04.08-10.03.48:782][921]LogMaterial:Warning: Material /Game/AlrightTerrain/moon_mat.moon_mat needed to have new flag set bUsedWithParticleSprites !
+[2017.04.08-10.03.48:793][921]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.03.48:907][921]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.05.15:450][195]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.05.15:774][195]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.05.15:812][195]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.05.15:847][195]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.08-10.05.20:561][298]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2017.04.08-10.05.20:561][298]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-10.05.20:561][298]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.08-10.05.27:365][503]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.05.27:401][503]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.05.27:417][503]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.05.28:185][515]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2017.04.08-10.05.28:185][515]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-10.05.28:185][515]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.08-10.05.34:929][721]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.05.34:941][721]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.05.35:589][732]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2017.04.08-10.05.35:589][732]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-10.05.35:589][732]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.08-10.05.42:828][960]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.05.42:840][960]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.05.42:846][960]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.05.42:859][960]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.05.43:542][973]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2017.04.08-10.05.43:542][973]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-10.05.43:542][973]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.08-10.05.45:117][ 25]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.05.45:128][ 25]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.05.45:162][ 25]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.08-10.05.46:506][ 62]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2017.04.08-10.05.46:506][ 62]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-10.05.46:506][ 62]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.08-10.05.48:785][141]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.05.48:798][141]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.05.49:458][156]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2017.04.08-10.05.49:458][156]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-10.05.49:458][156]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.08-10.05.57:126][386]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.05.57:139][386]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.05.57:177][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.08-10.05.57:974][401]MaterialEditorStats: Info Base pass shader without light map: 11 instructions
+[2017.04.08-10.05.57:974][401]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-10.05.57:974][401]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.08-10.05.58:821][429]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.05.58:832][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.05.59:513][445]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2017.04.08-10.05.59:513][445]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-10.05.59:513][445]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.08-10.06.02:828][544]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.06.02:841][544]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.06.02:880][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.08-10.06.03:584][555]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2017.04.08-10.06.03:584][555]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-10.06.03:584][555]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.08-10.06.07:001][658]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.06.07:013][658]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.06.07:662][673]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2017.04.08-10.06.07:662][673]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-10.06.07:662][673]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.08-10.06.11:446][792]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.06.11:458][792]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.06.12:130][808]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2017.04.08-10.06.12:130][808]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-10.06.12:130][808]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.08-10.06.13:844][858]LogMaterialEditor: Saving and Compiling material moon_mat
+[2017.04.08-10.06.15:600][858]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.06.15:619][858]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.06.15:707][858]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.06.15:751][858]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.06.15:826][858]LogMaterial: 0.03 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.06.20:628][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlrightTerrain/moon_mat" FILE="../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_mat.uasset" SILENT=true
+[2017.04.08-10.06.20:703][858]LogSavePackage: Save=57.81ms
+[2017.04.08-10.06.20:703][858]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon_mat6FF84C594E5DD2DA04E0789C60DEAC3F.tmp' to '../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_mat.uasset'
+[2017.04.08-10.06.20:708][858]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_mat.uasset
+[2017.04.08-10.06.20:720][858]MaterialEditorStats: Info Base pass shader without light map: 31 instructions
+[2017.04.08-10.06.20:720][858]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-10.06.20:720][858]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.04.08-10.06.25:874][981]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.06.25:922][981]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.06.25:949][981]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.06.28:759][ 63]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2017.04.08-10.06.28:759][ 63]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.06.28:759][ 63]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.06.43:782][601]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.06.43:832][601]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.06.43:867][601]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.06.47:119][680]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2017.04.08-10.06.47:119][680]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.06.47:119][680]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.04.08-10.06.52:200][822]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.06.52:236][822]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.06.52:259][822]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.06.54:276][878]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2017.04.08-10.06.54:276][878]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.06.54:276][878]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.06.55:420][924]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.06.55:443][924]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.06.55:459][924]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.06.57:142][982]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.06.57:161][982]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.06.57:176][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.06.58:874][ 47]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2017.04.08-10.06.58:874][ 47]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.06.58:874][ 47]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.07.06:231][371]LogMaterialEditor: Saving and Compiling material moon_mat
+[2017.04.08-10.07.07:679][371]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.07.07:721][371]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.07.07:820][371]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.07.07:931][371]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.07.08:062][371]LogMaterial: 0.04 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.07.15:477][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlrightTerrain/moon_mat" FILE="../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_mat.uasset" SILENT=true
+[2017.04.08-10.07.15:539][371]LogSavePackage: Save=55.93ms
+[2017.04.08-10.07.15:539][371]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon_mat9C230B944B9E850E68471996DF05521A.tmp' to '../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_mat.uasset'
+[2017.04.08-10.07.15:544][371]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_mat.uasset
+[2017.04.08-10.07.15:556][371]MaterialEditorStats: Info Base pass shader without light map: 26 instructions
+[2017.04.08-10.07.15:556][371]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.07.15:556][371]MaterialEditorStats: Info Texture samplers: 7/16
+[2017.04.08-10.12.05:098][400]LogEditorTransaction: Undo Edit Emitter Duration
+[2017.04.08-10.12.05:179][400]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.12.05:202][400]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.12.08:532][479]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2017.04.08-10.12.08:532][479]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.12.08:532][479]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.16.56:778][681]LogCascade: Quitting Cascade. FXSystem=0x000001B067C44860
+[2017.04.08-10.17.16:195][451]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.04.08-10.17.16:362][452]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.04.08-10.17.57:918][ 14]LogParticles:Warning: MaxCount = 50320 for Emitter ParticleSpriteEmitter_6 (/Game/Effects/Particles/Snow/moon2.moon2)
+[2017.04.08-10.18.09:614][361]LogCascade: Non-seeded module ParticleModuleTypeDataGpu
+[2017.04.08-10.18.18:272][660]LogParticles:Warning: MaxCount = 12077 for Emitter ParticleSpriteEmitter_6 (/Game/Effects/Particles/Snow/moon2.moon2)
+[2017.04.08-10.18.39:865][382]LogParticles:Warning: MaxCount = 12077 for Emitter ParticleSpriteEmitter_6 (/Game/Effects/Particles/Snow/moon2.moon2)
+[2017.04.08-10.19.15:651][657]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Multiplayer/Maps/Purgastory_Level' took 0.061
+[2017.04.08-10.19.15:655][657]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlrightTerrain/moon] ([1] browsable assets)...
+[2017.04.08-10.19.15:677][657]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/AlrightTerrain/moon.moon]
+[2017.04.08-10.19.15:677][657]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlrightTerrain/moon]
+[2017.04.08-10.19.15:677][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlrightTerrain/moon" FILE="../../../../../PurgaStory_v3/Saved/Autosaves/Game/AlrightTerrain/moon_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.04.08-10.19.15:728][657]LogSavePackage: Save=32.73ms
+[2017.04.08-10.19.15:729][657]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon_Auto1D75782C343B681456A16E38C2717E6BD.tmp' to '../../../../../PurgaStory_v3/Saved/Autosaves/Game/AlrightTerrain/moon_Auto1.uasset'
+[2017.04.08-10.19.15:731][657]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Saved/Autosaves/Game/AlrightTerrain/moon_Auto1.uasset
+[2017.04.08-10.19.15:732][657]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Effects/Particles/Snow/moon2] ([1] browsable assets)...
+[2017.04.08-10.19.15:753][657]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Effects/Particles/Snow/moon2.moon2]
+[2017.04.08-10.19.15:753][657]OBJ SavePackage: Finished generating thumbnails for package [/Game/Effects/Particles/Snow/moon2]
+[2017.04.08-10.19.15:753][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Particles/Snow/moon2" FILE="../../../../../PurgaStory_v3/Saved/Autosaves/Game/Effects/Particles/Snow/moon2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.04.08-10.19.15:799][657]LogSavePackage: Save=42.11ms
+[2017.04.08-10.19.15:799][657]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon2_Auto14CDE2B894E2F0729C8CF16B9E5B91928.tmp' to '../../../../../PurgaStory_v3/Saved/Autosaves/Game/Effects/Particles/Snow/moon2_Auto1.uasset'
+[2017.04.08-10.19.15:801][657]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Saved/Autosaves/Game/Effects/Particles/Snow/moon2_Auto1.uasset
+[2017.04.08-10.19.15:801][657]LogFileHelpers: Auto-saving content packages took 0.148
+[2017.04.08-10.24.17:182][350]LogEditorTransaction: Undo Edit Material
+[2017.04.08-10.24.17:213][350]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.24.17:237][350]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.24.20:535][423]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2017.04.08-10.24.20:535][423]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.24.20:535][423]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.24.32:611][915]LogMaterial: Missing cached shader map for material M_SnowFlake_VelocityLerp, compiling. 
+[2017.04.08-10.24.47:759][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/moon_2mat" FILE="../../../../../PurgaStory_v3/Content/moon_2mat.uasset" SILENT=true
+[2017.04.08-10.24.47:804][312]LogSavePackage: Save=44.03ms
+[2017.04.08-10.24.47:804][312]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon_2matCE6CBF3D4191438F4AAE51B7D1F01EDD.tmp' to '../../../../../PurgaStory_v3/Content/moon_2mat.uasset'
+[2017.04.08-10.24.47:809][312]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/moon_2mat.uasset
+[2017.04.08-10.24.50:160][366]LogMaterial: Missing cached shader map for material moon_2mat, compiling. 
+[2017.04.08-10.24.50:697][366]LogMaterial: Missing cached shader map for material moon_2mat, compiling. 
+[2017.04.08-10.24.50:775][366]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.24.50:826][366]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_16, compiling. 
+[2017.04.08-10.24.50:849][366]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2017.04.08-10.24.50:875][366]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2017.04.08-10.24.50:899][366]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2017.04.08-10.24.50:922][366]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2017.04.08-10.24.56:458][495]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2017.04.08-10.24.56:458][495]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 73 instructions
+[2017.04.08-10.24.56:458][495]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.24.56:458][495]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.04.08-10.25.37:430][642]LogMaterial: Missing cached shader map for material moon_2mat, compiling. 
+[2017.04.08-10.25.37:432][642]LogMaterial:Warning: Failed to compile Material /Engine/Transient.moon_2mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.08-10.25.37:432][642]LogMaterial:Warning: 	(Node Clamp) Missing Clamp input
+[2017.04.08-10.25.37:432][642]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.25.37:437][642]MaterialEditorStats:Error: Error [SM5] (Node Clamp) Missing Clamp input
+[2017.04.08-10.25.41:033][727]LogMaterial: Missing cached shader map for material moon_2mat, compiling. 
+[2017.04.08-10.25.41:083][727]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.25.46:532][832]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 42 instructions
+[2017.04.08-10.25.46:532][832]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 79 instructions
+[2017.04.08-10.25.46:532][832]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.25.46:532][832]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.04.08-10.25.48:190][879]LogMaterial: Missing cached shader map for material moon_2mat, compiling. 
+[2017.04.08-10.25.48:241][879]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.25.48:392][879]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_16, compiling. 
+[2017.04.08-10.25.48:415][879]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2017.04.08-10.25.48:438][879]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2017.04.08-10.25.48:461][879]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2017.04.08-10.25.48:479][879]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2017.04.08-10.25.53:122][971]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 41 instructions
+[2017.04.08-10.25.53:122][971]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 78 instructions
+[2017.04.08-10.25.53:122][971]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.25.53:122][971]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.04.08-10.25.55:662][ 44]LogMaterial: Missing cached shader map for material moon_2mat, compiling. 
+[2017.04.08-10.25.55:711][ 44]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (1 / 1)
+[2017.04.08-10.25.55:712][ 44]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.25.57:304][ 71]LogMaterial: Missing cached shader map for material moon_2mat, compiling. 
+[2017.04.08-10.25.57:378][ 71]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.26.01:622][178]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2017.04.08-10.26.01:622][178]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 72 instructions
+[2017.04.08-10.26.01:622][178]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.26.01:622][178]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.04.08-10.26.06:969][354]LogMaterial: Missing cached shader map for material moon_2mat, compiling. 
+[2017.04.08-10.26.07:019][354]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.26.11:709][460]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2017.04.08-10.26.11:709][460]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 74 instructions
+[2017.04.08-10.26.11:709][460]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.26.11:709][460]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.04.08-10.26.19:340][666]LogMaterial: Missing cached shader map for material moon_2mat, compiling. 
+[2017.04.08-10.26.19:394][666]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.26.19:445][666]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2017.04.08-10.26.24:306][765]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2017.04.08-10.26.24:306][765]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 74 instructions
+[2017.04.08-10.26.24:306][765]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.26.24:306][765]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.04.08-10.26.33:084][ 27]LogMaterial: Missing cached shader map for material moon_2mat, compiling. 
+[2017.04.08-10.26.33:135][ 27]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.26.35:990][ 85]LogMaterial: Missing cached shader map for material moon_2mat, compiling. 
+[2017.04.08-10.26.36:063][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.26.39:993][198]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 28 instructions
+[2017.04.08-10.26.39:993][198]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 65 instructions
+[2017.04.08-10.26.39:993][198]MaterialEditorStats: Info Vertex shader: 64 instructions
+[2017.04.08-10.26.39:993][198]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.04.08-10.27.06:642][827]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.27.06:665][827]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.27.06:698][827]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.08-10.27.10:924][922]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.27.10:946][922]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.27.13:426][978]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2017.04.08-10.27.13:426][978]MaterialEditorStats: Info Vertex shader: 64 instructions
+[2017.04.08-10.27.13:426][978]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.27.17:934][104]LogMaterial: Missing cached shader map for material moon_mat, compiling. 
+[2017.04.08-10.27.17:958][104]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.27.20:505][158]MaterialEditorStats: Info Base pass shader without light map: 7 instructions
+[2017.04.08-10.27.20:505][158]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.27.20:505][158]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.29.16:382][730]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Multiplayer/Maps/Purgastory_Level' took 0.070
+[2017.04.08-10.29.16:388][730]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Effects/Particles/Snow/moon2] ([1] browsable assets)...
+[2017.04.08-10.29.16:413][730]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Effects/Particles/Snow/moon2.moon2]
+[2017.04.08-10.29.16:413][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/Effects/Particles/Snow/moon2]
+[2017.04.08-10.29.16:413][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Particles/Snow/moon2" FILE="../../../../../PurgaStory_v3/Saved/Autosaves/Game/Effects/Particles/Snow/moon2_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.04.08-10.29.16:477][730]LogSavePackage: Save=50.97ms
+[2017.04.08-10.29.16:477][730]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon2_Auto224D69C554B064561C2FAE7BA2F2B4CEA.tmp' to '../../../../../PurgaStory_v3/Saved/Autosaves/Game/Effects/Particles/Snow/moon2_Auto2.uasset'
+[2017.04.08-10.29.16:479][730]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Saved/Autosaves/Game/Effects/Particles/Snow/moon2_Auto2.uasset
+[2017.04.08-10.29.16:479][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_SnowFlake_VelocityLerp" FILE="../../../../../PurgaStory_v3/Saved/Autosaves/Game/M_SnowFlake_VelocityLerp_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.04.08-10.29.16:495][730]LogSavePackage: Save=12.63ms
+[2017.04.08-10.29.16:495][730]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/M_SnowFlake_VelocityLerp_Auto20EF2746847C7BDDB3EE0B38155835F8B.tmp' to '../../../../../PurgaStory_v3/Saved/Autosaves/Game/M_SnowFlake_VelocityLerp_Auto2.uasset'
+[2017.04.08-10.29.16:497][730]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Saved/Autosaves/Game/M_SnowFlake_VelocityLerp_Auto2.uasset
+[2017.04.08-10.29.16:497][730]LogFileHelpers: Auto-saving content packages took 0.114
+[2017.04.08-10.30.31:862][975]LogCascade: Quitting Cascade. FXSystem=0x000001B0CEFA3BA0
+[2017.04.08-10.30.42:190][395]LogActorFactory: Actor Factory created Sphere
+[2017.04.08-10.30.43:307][444]LogActorFactory: Actor Factory created Sphere
+[2017.04.08-10.30.55:210][819]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.32.01:875][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.04.08-10.32.02:016][308]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.04.08-10.32.18:865][927]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.04.08-10.32.21:129][  2]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.32.21:413][  2]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.32.21:451][  2]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.32.21:485][  2]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.08-10.32.24:836][ 66]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.32.24:878][ 66]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.32.24:909][ 66]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.08-10.32.27:130][133]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.32.27:165][133]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.32.28:768][186]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2017.04.08-10.32.28:768][186]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-10.32.28:768][186]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.08-10.32.32:655][371]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.32.32:716][371]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.32.32:764][371]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.32.37:187][487]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.32.37:236][487]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.32.37:263][487]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.32.39:791][546]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2017.04.08-10.32.39:791][546]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.32.39:792][546]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.32.53:016][891]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.32.53:040][891]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.32.56:811][963]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.32.56:838][963]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.32.58:761][ 10]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.32.58:784][ 10]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.33.00:519][ 67]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.33.00:533][ 67]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.33.00:562][ 67]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.08-10.33.03:375][167]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2017.04.08-10.33.03:375][167]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.33.03:375][167]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.33.05:774][228]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.33.05:797][228]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.33.08:727][283]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2017.04.08-10.33.08:727][283]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.33.08:728][283]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.34.09:746][890]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.34.09:770][890]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.34.09:778][890]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.34.09:802][890]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.34.12:139][933]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.34.12:168][933]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.34.14:448][982]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.34.14:471][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.34.16:500][ 32]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.34.16:524][ 32]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.34.19:083][ 99]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2017.04.08-10.34.19:083][ 99]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.34.19:083][ 99]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.34.24:684][246]LogMaterialEditor: Saving and Compiling material moon_tex_Mat
+[2017.04.08-10.34.26:666][246]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.34.26:708][246]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.34.26:807][246]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.34.26:866][246]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.34.26:950][246]LogMaterial: 0.04 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.34.32:188][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlrightTerrain/moon_tex_Mat" FILE="../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset" SILENT=true
+[2017.04.08-10.34.32:250][246]LogSavePackage: Save=57.59ms
+[2017.04.08-10.34.32:250][246]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon_tex_Mat0145F68F418BF29FE6550489DFB65C4C.tmp' to '../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset'
+[2017.04.08-10.34.32:255][246]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset
+[2017.04.08-10.34.32:269][246]MaterialEditorStats: Info Base pass shader without light map: 26 instructions
+[2017.04.08-10.34.32:269][246]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.34.32:269][246]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.34.46:274][704]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.08-10.35.25:282][ 20]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.35.25:305][ 20]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.35.28:515][ 87]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2017.04.08-10.35.28:515][ 87]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.35.28:515][ 87]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.35.30:180][130]LogMaterialEditor: Saving and Compiling material moon_tex_Mat
+[2017.04.08-10.35.31:930][130]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.35.31:972][130]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.35.32:065][130]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.35.32:118][130]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.35.32:196][130]LogMaterial: 0.04 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.35.37:400][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlrightTerrain/moon_tex_Mat" FILE="../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset" SILENT=true
+[2017.04.08-10.35.37:472][130]LogSavePackage: Save=53.76ms
+[2017.04.08-10.35.37:473][130]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon_tex_MatFE93C53B475A043010501CA2276FC7F1.tmp' to '../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset'
+[2017.04.08-10.35.37:478][130]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset
+[2017.04.08-10.35.37:490][130]MaterialEditorStats: Info Base pass shader without light map: 26 instructions
+[2017.04.08-10.35.37:490][130]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.35.37:490][130]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.35.57:441][867]LogEditorViewport: Clicking on Actor (context menu): PostProcessVolume (PostProcessVolumeObjectOutline)
+[2017.04.08-10.36.06:295][146]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume_out)
+[2017.04.08-10.36.07:277][159]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.36.56:920][601]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.00:524][725]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.00:930][737]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.04:647][867]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.05:742][904]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.06:428][929]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.06:548][932]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2017.04.08-10.37.07:419][960]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.08-10.37.12:333][138]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.08-10.37.12:333][138]Can't find target actor or component.
+[2017.04.08-10.37.13:177][177]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.08-10.37.13:177][177]Can't find target actor or component.
+[2017.04.08-10.37.13:413][188]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.08-10.37.13:413][188]Can't find target actor or component.
+[2017.04.08-10.37.13:613][197]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.08-10.37.13:613][197]Can't find target actor or component.
+[2017.04.08-10.37.14:426][226]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.08-10.37.16:348][290]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.18:785][373]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.19:367][392]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.22:091][490]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.24:721][580]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.25:251][598]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.25:764][617]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.33:870][905]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.39:414][ 98]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.39:904][111]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.40:544][133]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.37.42:229][185]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.38.02:633][895]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.08-10.38.13:635][332]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.08-10.39.01:419][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_125x315)
+[2017.04.08-10.39.11:202][344]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.39.11:226][344]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.39.11:676][353]LogMaterialEditor: Saving and Compiling material moon_tex_Mat
+[2017.04.08-10.39.13:897][353]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.39.13:941][353]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.39.14:041][353]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.39.14:096][353]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.39.14:182][353]LogMaterial: 0.04 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.39.19:454][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlrightTerrain/moon_tex_Mat" FILE="../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset" SILENT=true
+[2017.04.08-10.39.19:516][353]LogSavePackage: Save=55.57ms
+[2017.04.08-10.39.19:516][353]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon_tex_Mat005FB0994B40086FAFB06A83C29C42C6.tmp' to '../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset'
+[2017.04.08-10.39.19:522][353]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset
+[2017.04.08-10.39.19:537][353]MaterialEditorStats: Info Base pass shader without light map: 26 instructions
+[2017.04.08-10.39.19:537][353]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.39.19:537][353]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.39.40:869][606]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.39.40:892][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.39.44:266][675]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2017.04.08-10.39.44:266][675]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.39.44:266][675]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.39.48:876][800]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.39.48:899][800]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.39.51:437][854]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2017.04.08-10.39.51:438][854]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.39.51:438][854]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.39.54:884][977]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.40.34:479][278]LogSavePackage: Save=6476.72ms
+[2017.04.08-10.40.34:481][278]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/Purgastory_Level_Auto3098DE1A54038C35479BD64A0387D602E.tmp' to '../../../../../PurgaStory_v3/Saved/Autosaves/Game/Multiplayer/Maps/Purgastory_Level_Auto3.umap'
+[2017.04.08-10.40.34:488][278]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Saved/Autosaves/Game/Multiplayer/Maps/Purgastory_Level_Auto3.umap
+[2017.04.08-10.40.34:502][278]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Multiplayer/Maps/Purgastory_Level' took 6.768
+[2017.04.08-10.40.34:502][278]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.768
+[2017.04.08-10.41.46:820][639]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\User\Desktop\moon_tex.png)
+[2017.04.08-10.41.47:004][639]LogTexture:Display: Building textures: moon_tex (BGRA8)
+[2017.04.08-10.41.59:614][ 14]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.04.08-10.41.59:986][ 14]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.04.08-10.42.00:039][ 14]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.42.00:086][ 14]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_16, compiling. 
+[2017.04.08-10.42.00:102][ 14]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2017.04.08-10.42.00:119][ 14]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2017.04.08-10.42.00:138][ 14]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2017.04.08-10.42.00:162][ 14]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2017.04.08-10.42.10:697][223]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.42.10:721][223]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.42.10:756][223]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.08-10.42.13:469][271]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2017.04.08-10.42.13:469][271]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.42.13:469][271]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.42.20:176][434]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.42.20:200][434]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.42.20:917][447]LogMaterialEditor: Saving and Compiling material moon_tex_Mat
+[2017.04.08-10.42.22:931][447]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.42.22:974][447]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.42.23:074][447]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.42.23:129][447]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.42.23:200][447]LogMaterial: 0.03 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.42.28:270][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlrightTerrain/moon_tex_Mat" FILE="../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset" SILENT=true
+[2017.04.08-10.42.28:348][447]LogSavePackage: Save=59.66ms
+[2017.04.08-10.42.28:348][447]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon_tex_Mat5C8A2C5D45961D528C71E5AF2938C938.tmp' to '../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset'
+[2017.04.08-10.42.28:353][447]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset
+[2017.04.08-10.42.28:375][447]MaterialEditorStats: Info Base pass shader without light map: 26 instructions
+[2017.04.08-10.42.28:375][447]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.42.28:375][447]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.43.09:139][656]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.08-10.43.09:493][656]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.08-10.43.09:515][656]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.43.09:552][656]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.08-10.43.14:380][744]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2017.04.08-10.43.14:380][744]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.43.14:380][744]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.43.23:187][987]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.08-10.43.23:208][987]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.08-10.43.23:220][987]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.43.24:853][ 29]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.08-10.43.24:875][ 29]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.08-10.43.24:887][ 29]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.43.25:570][ 39]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2017.04.08-10.43.25:570][ 39]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.08-10.43.25:570][ 39]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.08-10.43.29:336][141]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.08-10.43.29:369][141]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.08-10.43.29:393][141]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.43.30:909][167]LogMaterialEditor: Saving and Compiling material moon_tex_Mat
+[2017.04.08-10.43.32:745][167]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.08-10.43.32:791][167]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.43.32:870][167]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.43.32:922][167]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.43.33:005][167]LogMaterial: 0.04 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.43.38:101][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlrightTerrain/moon_tex_Mat" FILE="../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset" SILENT=true
+[2017.04.08-10.43.38:165][167]LogSavePackage: Save=57.57ms
+[2017.04.08-10.43.38:165][167]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon_tex_Mat25792D844D136B769A1A12B6F34CD70B.tmp' to '../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset'
+[2017.04.08-10.43.38:171][167]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset
+[2017.04.08-10.43.38:190][167]MaterialEditorStats: Info Base pass shader without light map: 26 instructions
+[2017.04.08-10.43.38:190][167]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.43.38:190][167]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.44.29:939][532]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.04.08-10.44.30:317][532]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.04.08-10.44.30:369][532]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.44.30:402][532]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_16, compiling. 
+[2017.04.08-10.44.30:419][532]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2017.04.08-10.44.30:434][532]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2017.04.08-10.44.30:449][532]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2017.04.08-10.44.30:468][532]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2017.04.08-10.44.37:986][699]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2017.04.08-10.44.38:236][699]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2017.04.08-10.44.38:254][699]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.44.38:283][699]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.08-10.44.39:973][750]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2017.04.08-10.44.39:973][750]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.44.39:973][750]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.44.44:118][892]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2017.04.08-10.44.44:141][892]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.44.45:156][912]LogMaterialEditor: Saving and Compiling material moon_tex_Mat
+[2017.04.08-10.44.47:085][912]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2017.04.08-10.44.47:127][912]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.44.47:202][912]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.44.47:255][912]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.44.47:333][912]LogMaterial: 0.04 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.44.52:559][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlrightTerrain/moon_tex_Mat" FILE="../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset" SILENT=true
+[2017.04.08-10.44.52:621][912]LogSavePackage: Save=55.92ms
+[2017.04.08-10.44.52:622][912]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon_tex_Mat4A719F304505EE276F1D44B7538924AE.tmp' to '../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset'
+[2017.04.08-10.44.52:627][912]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset
+[2017.04.08-10.44.52:646][912]MaterialEditorStats: Info Base pass shader without light map: 26 instructions
+[2017.04.08-10.44.52:646][912]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.44.52:646][912]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.44.55:784][989]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.45.57:711][778]LogEditorFactories: Performing atomic reimport of [C:/Users/User/Desktop/moon_tex.png]
+[2017.04.08-10.45.57:721][778]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/User/Desktop/moon_tex.png)
+[2017.04.08-10.45.57:901][778]LogTexture:Display: Building textures: moon_tex (BGRA8)
+[2017.04.08-10.45.58:289][778]LogEditorFactories: -- imported successfully
+[2017.04.08-10.47.04:232][119]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2017.04.08-10.47.04:254][119]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.47.07:609][186]MaterialEditorStats: Info Base pass shader without light map: 9 instructions
+[2017.04.08-10.47.07:609][186]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.47.07:609][186]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.47.08:887][220]LogMaterialEditor: Saving and Compiling material moon_tex_Mat
+[2017.04.08-10.47.10:623][220]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2017.04.08-10.47.10:665][220]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.47.10:751][220]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.47.10:806][220]LogMaterial: Missing cached shader map for material moon_tex_Mat, compiling. 
+[2017.04.08-10.47.10:883][220]LogMaterial: 0.04 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.08-10.47.16:284][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlrightTerrain/moon_tex_Mat" FILE="../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset" SILENT=true
+[2017.04.08-10.47.16:349][220]LogSavePackage: Save=57.48ms
+[2017.04.08-10.47.16:349][220]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon_tex_Mat58E6624441B299939AE469962C6F79E7.tmp' to '../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset'
+[2017.04.08-10.47.16:355][220]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/AlrightTerrain/moon_tex_Mat.uasset
+[2017.04.08-10.47.16:375][220]MaterialEditorStats: Info Base pass shader without light map: 30 instructions
+[2017.04.08-10.47.16:375][220]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.08-10.47.16:375][220]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.08-10.47.28:181][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Multiplayer/Maps/Purgastory_Level" FILE="../../../../../PurgaStory_v3/Content/Multiplayer/Maps/Purgastory_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.08-10.47.33:558][603]LogSavePackage: Save=5180.41ms
+[2017.04.08-10.47.33:558][603]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/Purgastory_LevelBB539FDE4FEC09AD28FBBF927532F8D2.tmp' to '../../../../../PurgaStory_v3/Content/Multiplayer/Maps/Purgastory_Level.umap'
+[2017.04.08-10.47.33:580][603]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/Multiplayer/Maps/Purgastory_Level.umap
+[2017.04.08-10.48.40:199][122]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.48.44:200][270]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.48.47:832][394]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.48.52:664][564]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.48.58:322][757]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.49.06:936][ 71]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.49.07:710][ 96]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.49.09:379][149]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.04.08-10.49.12:904][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Multiplayer/Maps/Purgastory_Level" FILE="../../../../../PurgaStory_v3/Content/Multiplayer/Maps/Purgastory_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.08-10.49.17:983][265]LogSavePackage: Save=5011.05ms
+[2017.04.08-10.49.17:983][265]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/Purgastory_Level12D4CCC74BF7A515BE88CAA2B1F70FD0.tmp' to '../../../../../PurgaStory_v3/Content/Multiplayer/Maps/Purgastory_Level.umap'
+[2017.04.08-10.49.18:008][265]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/Multiplayer/Maps/Purgastory_Level.umap
+[2017.04.08-10.49.21:120][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlrightTerrain/moon" FILE="../../../../../PurgaStory_v3/Content/AlrightTerrain/moon.uasset" SILENT=true
+[2017.04.08-10.49.21:180][325]LogSavePackage: Save=32.35ms
+[2017.04.08-10.49.21:180][325]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon5ABBD47746563210B120B1ACD88C419B.tmp' to '../../../../../PurgaStory_v3/Content/AlrightTerrain/moon.uasset'
+[2017.04.08-10.49.21:195][325]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/AlrightTerrain/moon.uasset
+[2017.04.08-10.49.21:224][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/Particles/Snow/moon2" FILE="../../../../../PurgaStory_v3/Content/Effects/Particles/Snow/moon2.uasset" SILENT=true
+[2017.04.08-10.49.21:283][325]LogSavePackage: Save=54.61ms
+[2017.04.08-10.49.21:283][325]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon22CE10A0D4B882E8F6F05EB8D4A274C4A.tmp' to '../../../../../PurgaStory_v3/Content/Effects/Particles/Snow/moon2.uasset'
+[2017.04.08-10.49.21:303][325]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/Effects/Particles/Snow/moon2.uasset
+[2017.04.08-10.49.21:314][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_SnowFlake_VelocityLerp" FILE="../../../../../PurgaStory_v3/Content/M_SnowFlake_VelocityLerp.uasset" SILENT=true
+[2017.04.08-10.49.21:368][325]LogSavePackage: Save=15.57ms
+[2017.04.08-10.49.21:368][325]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/M_SnowFlake_VelocityLerpCEAA9FAE48429645DDF56DB9A9326AC0.tmp' to '../../../../../PurgaStory_v3/Content/M_SnowFlake_VelocityLerp.uasset'
+[2017.04.08-10.49.21:375][325]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/M_SnowFlake_VelocityLerp.uasset
+[2017.04.08-10.49.21:420][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/moon_tex" FILE="../../../../../PurgaStory_v3/Content/moon_tex.uasset" SILENT=true
+[2017.04.08-10.49.21:923][325]LogSavePackage: Save=499.01ms
+[2017.04.08-10.49.21:923][325]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/moon_tex915A9CA54FF83B397881E89A935171CE.tmp' to '../../../../../PurgaStory_v3/Content/moon_tex.uasset'
+[2017.04.08-10.49.21:929][325]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/moon_tex.uasset
+[2017.04.08-10.49.22:641][325]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.08-10.49.23:093][326]Cmd: QUIT_EDITOR
+[2017.04.08-10.49.23:313][326]LogExit: Preparing to exit.
+[2017.04.08-10.49.25:178][326]LogDirectoryWatcher: A directory notification for 'D:/Unreal/PurgaStory_v3/Content/' was aborted.
+[2017.04.08-10.49.26:274][326]LogExit: Editor shut down
+[2017.04.08-10.49.26:280][326]LogExit: Transaction tracking system shut down
+[2017.04.08-10.49.30:679][326]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.08-10.49.30:679][326]LogExit: Object subsystem successfully closed.
+[2017.04.08-10.49.30:738][326]LogD3D11RHI: Shutdown
+[2017.04.08-10.49.30:738][326]LogD3D11RHI: CleanupD3DDevice
+[2017.04.08-10.49.31:337][326]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.08-10.49.31:368][326]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.08-10.49.31:368][326]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3AA0EB0D-4C2E-3ECE-5637-FBB595456CAF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=d1c8f82b417d2ce73f7df0820151bd26%7C54ddd81e2c83417ea6547a0ffff3e5a4%7Cfb954913-2a66-44b3-9e13-656e6d75c89e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.08-10.49.31:379][326]LogModuleManager: Shutting down and abandoning module DistCurveEditor (247)
+[2017.04.08-10.49.31:380][326]LogModuleManager: Shutting down and abandoning module Cascade (246)
+[2017.04.08-10.49.31:380][326]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2017.04.08-10.49.31:380][326]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (244)
+[2017.04.08-10.49.31:380][326]LogModuleManager: Shutting down and abandoning module CrashTracker (243)
+[2017.04.08-10.49.31:380][326]LogModuleManager: Shutting down and abandoning module SceneOutliner (242)
+[2017.04.08-10.49.31:380][326]LogModuleManager: Shutting down and abandoning module WidgetCarousel (241)
+[2017.04.08-10.49.31:380][326]LogModuleManager: Shutting down and abandoning module AddContentDialog (240)
+[2017.04.08-10.49.31:380][326]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.04.08-10.49.31:396][326]LogModuleManager: Shutting down and abandoning module GameplayTags (239)
+[2017.04.08-10.49.31:396][326]LogModuleManager: Shutting down and abandoning module EditorWidgets (238)
+[2017.04.08-10.49.31:396][326]LogModuleManager: Shutting down and abandoning module CollectionManager (237)
+[2017.04.08-10.49.31:396][326]LogDirectoryWatcher: A directory notification for 'D:/Unreal/PurgaStory_v3/Content/Collections/' was aborted.
+[2017.04.08-10.49.31:396][326]LogDirectoryWatcher: A directory notification for 'D:/Unreal/PurgaStory_v3/Content/Developers/User/Collections/' was aborted.
+[2017.04.08-10.49.31:396][326]LogDirectoryWatcher: A directory notification for 'D:/Unreal/PurgaStory_v3/Saved/Collections/' was aborted.
+[2017.04.08-10.49.31:396][326]LogModuleManager: Shutting down and abandoning module StatsViewer (236)
+[2017.04.08-10.49.31:396][326]LogModuleManager: Shutting down and abandoning module FoliageEdit (235)
+[2017.04.08-10.49.31:396][326]LogModuleManager: Shutting down and abandoning module LandscapeEditor (234)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (233)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module ActorPickerMode (232)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module GeometryMode (231)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module TextureAlignMode (230)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module BspMode (229)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module HardwareSurvey (228)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (227)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module AutomationWorker (226)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (225)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module PlacementMode (224)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (223)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (222)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (221)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (220)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (219)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module Media (218)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (217)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (216)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module CharacterAI (215)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module SequenceRecorder (214)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module AudioCapture (213)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module SmartSnapping (212)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module SessionServices (211)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module ViewportSnapping (210)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module ViewportInteraction (209)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module LogVisualizer (208)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (207)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module IntroTutorials (206)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (205)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (204)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (203)
+[2017.04.08-10.49.31:397][326]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (202)
+[2017.04.08-10.49.31:846][326]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (201)
+[2017.04.08-10.49.31:846][326]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (200)
+[2017.04.08-10.49.31:846][326]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (199)
+[2017.04.08-10.49.31:846][326]LogModuleManager: Shutting down and abandoning module InputBindingEditor (198)
+[2017.04.08-10.49.31:846][326]LogModuleManager: Shutting down and abandoning module NiagaraEditor (197)
+[2017.04.08-10.49.31:846][326]LogModuleManager: Shutting down and abandoning module MergeActors (196)
+[2017.04.08-10.49.31:846][326]LogModuleManager: Shutting down and abandoning module SizeMap (195)
+[2017.04.08-10.49.31:847][326]LogModuleManager: Shutting down and abandoning module TreeMap (194)
+[2017.04.08-10.49.31:847][326]LogModuleManager: Shutting down and abandoning module ReferenceViewer (193)
+[2017.04.08-10.49.31:847][326]LogModuleManager: Shutting down and abandoning module LocalizationService (192)
+[2017.04.08-10.49.31:847][326]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (191)
+[2017.04.08-10.49.31:847][326]LogModuleManager: Shutting down and abandoning module HardwareTargeting (190)
+[2017.04.08-10.49.31:847][326]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (189)
+[2017.04.08-10.49.31:847][326]LogModuleManager: Shutting down and abandoning module UndoHistory (188)
+[2017.04.08-10.49.31:847][326]LogModuleManager: Shutting down and abandoning module UserFeedback (187)
+[2017.04.08-10.49.31:847][326]LogModuleManager: Shutting down and abandoning module XmlParser (186)
+[2017.04.08-10.49.31:847][326]LogModuleManager: Shutting down and abandoning module Blutility (185)
+[2017.04.08-10.49.31:847][326]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (184)
+[2017.04.08-10.49.31:848][326]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (183)
+[2017.04.08-10.49.31:848][326]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (182)
+[2017.04.08-10.49.31:848][326]LogModuleManager: Shutting down and abandoning module SettingsEditor (181)
+[2017.04.08-10.49.31:848][326]LogModuleManager: Shutting down and abandoning module ProjectLauncher (180)
+[2017.04.08-10.49.31:848][326]LogModuleManager: Shutting down and abandoning module SessionFrontend (179)
+[2017.04.08-10.49.31:848][326]LogModuleManager: Shutting down and abandoning module ProfilerClient (178)
+[2017.04.08-10.49.31:848][326]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (177)
+[2017.04.08-10.49.31:848][326]LogModuleManager: Shutting down and abandoning module DeviceManager (176)
+[2017.04.08-10.49.31:891][326]LogModuleManager: Shutting down and abandoning module AutomationController (175)
+[2017.04.08-10.49.31:891][326]LogModuleManager: Shutting down and abandoning module AutomationWindow (174)
+[2017.04.08-10.49.31:891][326]LogModuleManager: Shutting down and abandoning module Layers (173)
+[2017.04.08-10.49.31:891][326]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (172)
+[2017.04.08-10.49.31:891][326]LogModuleManager: Shutting down and abandoning module DetailCustomizations (171)
+[2017.04.08-10.49.31:891][326]LogModuleManager: Shutting down and abandoning module PackagesDialog (170)
+[2017.04.08-10.49.31:892][326]LogModuleManager: Shutting down and abandoning module AnimGraph (169)
+[2017.04.08-10.49.31:892][326]LogModuleManager: Shutting down and abandoning module Persona (168)
+[2017.04.08-10.49.31:892][326]LogModuleManager: Shutting down and abandoning module Kismet (167)
+[2017.04.08-10.49.31:899][326]LogModuleManager: Shutting down and abandoning module GraphEditor (166)
+[2017.04.08-10.49.31:899][326]LogModuleManager: Shutting down and abandoning module ClassViewer (165)
+[2017.04.08-10.49.31:902][326]LogModuleManager: Shutting down and abandoning module Toolbox (164)
+[2017.04.08-10.49.31:902][326]LogModuleManager: Shutting down and abandoning module ModuleUI (163)
+[2017.04.08-10.49.31:902][326]LogModuleManager: Shutting down and abandoning module MovieSceneTools (162)
+[2017.04.08-10.49.31:902][326]LogModuleManager: Shutting down and abandoning module OutputLog (161)
+[2017.04.08-10.49.31:902][326]LogModuleManager: Shutting down and abandoning module GammaUI (160)
+[2017.04.08-10.49.31:902][326]LogModuleManager: Shutting down and abandoning module Documentation (159)
+[2017.04.08-10.49.31:902][326]LogModuleManager: Shutting down and abandoning module Niagara (158)
+[2017.04.08-10.49.31:902][326]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (157)
+[2017.04.08-10.49.31:902][326]LogModuleManager: Shutting down and abandoning module AnalyticsET (156)
+[2017.04.08-10.49.31:903][326]LogModuleManager: Shutting down and abandoning module PortalServices (155)
+[2017.04.08-10.49.31:903][326]LogModuleManager: Shutting down and abandoning module PortalRpc (154)
+[2017.04.08-10.49.31:903][326]LogModuleManager: Shutting down and abandoning module MessagingRpc (153)
+[2017.04.08-10.49.31:903][326]LogModuleManager: Shutting down and abandoning module GameplayDebugger (152)
+[2017.04.08-10.49.31:903][326]LogModuleManager: Shutting down and abandoning module AITestSuite (151)
+[2017.04.08-10.49.31:903][326]LogModuleManager: Shutting down and abandoning module AIModule (150)
+[2017.04.08-10.49.31:903][326]LogModuleManager: Shutting down and abandoning module ProfilerService (149)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module TaskGraph (148)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module SubstanceEditor (147)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module SlateRemote (146)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module SteamVRController (145)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module SteamVR (144)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (143)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (142)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module OculusLibrary (141)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module OculusInput (140)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (139)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (138)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module CableComponent (137)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (136)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (135)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module HTML5Networking (134)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (133)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module GeometryCache (132)
+[2017.04.08-10.49.32:008][326]LogModuleManager: Shutting down and abandoning module AlembicLibrary (131)
+[2017.04.08-10.49.32:009][326]LogModuleManager: Shutting down and abandoning module AlembicImporter (130)
+[2017.04.08-10.49.32:009][326]LogModuleManager: Shutting down and abandoning module SuperSearch (129)
+[2017.04.08-10.49.32:009][326]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (128)
+[2017.04.08-10.49.32:009][326]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (127)
+[2017.04.08-10.49.32:009][326]LogModuleManager: Shutting down and abandoning module PluginBrowser (126)
+[2017.04.08-10.49.32:009][326]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (125)
+[2017.04.08-10.49.32:009][326]LogModuleManager: Shutting down and abandoning module EpicSurvey (124)
+[2017.04.08-10.49.32:009][326]LogModuleManager: Shutting down and abandoning module DesktopPlatform (123)
+[2017.04.08-10.49.32:009][326]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (122)
+[2017.04.08-10.49.32:009][326]LogModuleManager: Shutting down and abandoning module UObjectPlugin (121)
+[2017.04.08-10.49.32:009][326]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (120)
+[2017.04.08-10.49.32:009][326]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (119)
+[2017.04.08-10.49.32:010][326]LogModuleManager: Shutting down and abandoning module SourceControl (118)
+[2017.04.08-10.49.32:010][326]LogModuleManager: Shutting down and abandoning module GitSourceControl (117)
+[2017.04.08-10.49.32:010][326]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (116)
+[2017.04.08-10.49.32:010][326]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (115)
+[2017.04.08-10.49.32:010][326]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (114)
+[2017.04.08-10.49.32:010][326]LogModuleManager: Shutting down and abandoning module MeshPaint (113)
+[2017.04.08-10.49.32:010][326]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (112)
+[2017.04.08-10.49.32:010][326]LogModuleManager: Shutting down and abandoning module HotReload (111)
+[2017.04.08-10.49.32:011][326]LogModuleManager: Shutting down and abandoning module MainFrame (110)
+[2017.04.08-10.49.32:011][326]LogModuleManager: Shutting down and abandoning module LevelEditor (109)
+[2017.04.08-10.49.32:014][326]LogModuleManager: Shutting down and abandoning module ContentBrowser (108)
+[2017.04.08-10.49.32:019][326]LogModuleManager: Shutting down and abandoning module Paper2DEditor (107)
+[2017.04.08-10.49.32:019][326]LogModuleManager: Shutting down and abandoning module UdpMessaging (106)
+[2017.04.08-10.49.32:120][326]LogModuleManager: Shutting down and abandoning module TcpMessaging (105)
+[2017.04.08-10.49.32:221][326]LogModuleManager: Shutting down and abandoning module SubstanceCore (104)
+[2017.04.08-10.49.32:221][326]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (103)
+[2017.04.08-10.49.32:221][326]LogModuleManager: Shutting down and abandoning module Paper2D (102)
+[2017.04.08-10.49.32:221][326]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (101)
+[2017.04.08-10.49.32:222][326]LogModuleManager: Shutting down and abandoning module WmfMedia (100)
+[2017.04.08-10.49.32:223][326]LogModuleManager: Shutting down and abandoning module MediaAssets (99)
+[2017.04.08-10.49.32:223][326]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (98)
+[2017.04.08-10.49.32:223][326]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (97)
+[2017.04.08-10.49.32:223][326]LogModuleManager: Shutting down and abandoning module VREditor (96)
+[2017.04.08-10.49.32:223][326]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (95)
+[2017.04.08-10.49.32:223][326]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (94)
+[2017.04.08-10.49.32:223][326]LogModuleManager: Shutting down and abandoning module FunctionalTesting (93)
+[2017.04.08-10.49.32:223][326]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (92)
+[2017.04.08-10.49.32:223][326]LogModuleManager: Shutting down and abandoning module Sequencer (91)
+[2017.04.08-10.49.32:224][326]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (90)
+[2017.04.08-10.49.32:224][326]LogModuleManager: Shutting down and abandoning module MessageLog (89)
+[2017.04.08-10.49.32:224][326]LogModuleManager: Shutting down and abandoning module AssetTools (88)
+[2017.04.08-10.49.32:224][326]LogModuleManager: Shutting down and abandoning module UMGEditor (87)
+[2017.04.08-10.49.32:224][326]LogModuleManager: Shutting down and abandoning module UMG (86)
+[2017.04.08-10.49.32:224][326]LogModuleManager: Shutting down and abandoning module SlateReflector (85)
+[2017.04.08-10.49.32:224][326]LogModuleManager: Shutting down and abandoning module Slate (84)
+[2017.04.08-10.49.32:224][326]LogModuleManager: Shutting down and abandoning module EditorStyle (83)
+[2017.04.08-10.49.32:233][326]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (82)
+[2017.04.08-10.49.32:233][326]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (81)
+[2017.04.08-10.49.32:233][326]LogModuleManager: Shutting down and abandoning module XAudio2 (80)
+[2017.04.08-10.49.32:233][326]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2017.04.08-10.49.32:233][326]LogModuleManager: Shutting down and abandoning module Core (78)
+[2017.04.08-10.49.32:233][326]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (77)
+[2017.04.08-10.49.32:233][326]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.08-10.49.32:236][326]LogDirectoryWatcher: A directory notification for '../../../../../PurgaStory_v3/Content/' was aborted.
+[2017.04.08-10.49.32:237][326]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.08-10.49.32:251][326]LogModuleManager: Shutting down and abandoning module AssetRegistry (76)
+[2017.04.08-10.49.32:572][326]LogModuleManager: Shutting down and abandoning module KismetCompiler (75)
+[2017.04.08-10.49.32:572][326]LogModuleManager: Shutting down and abandoning module PhysXFormats (74)
+[2017.04.08-10.49.32:572][326]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (73)
+[2017.04.08-10.49.32:572][326]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (72)
+[2017.04.08-10.49.32:572][326]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (71)
+[2017.04.08-10.49.32:572][326]LogModuleManager: Shutting down and abandoning module PropertyEditor (70)
+[2017.04.08-10.49.32:573][326]LogModuleManager: Shutting down and abandoning module MeshUtilities (69)
+[2017.04.08-10.49.32:573][326]LogModuleManager: Shutting down and abandoning module DerivedDataCache (68)
+[2017.04.08-10.49.32:665][326]LogDerivedDataCache: Shutdown
+[2017.04.08-10.49.32:665][326]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (67)
+[2017.04.08-10.49.32:665][326]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (66)
+[2017.04.08-10.49.32:665][326]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (65)
+[2017.04.08-10.49.32:665][326]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (64)
+[2017.04.08-10.49.32:666][326]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (63)
+[2017.04.08-10.49.32:666][326]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (62)
+[2017.04.08-10.49.32:666][326]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (61)
+[2017.04.08-10.49.32:666][326]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (60)
+[2017.04.08-10.49.32:666][326]LogModuleManager: Shutting down and abandoning module ImageWrapper (59)
+[2017.04.08-10.49.32:666][326]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (58)
+[2017.04.08-10.49.32:666][326]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (57)
+[2017.04.08-10.49.32:666][326]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (56)
+[2017.04.08-10.49.32:666][326]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (55)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (54)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (53)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (52)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (51)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (50)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (49)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module Messaging (48)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (47)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (46)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (45)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (44)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (43)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (42)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (41)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (40)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (39)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (38)
+[2017.04.08-10.49.32:667][326]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (37)
+[2017.04.08-10.49.32:668][326]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (36)
+[2017.04.08-10.49.32:668][326]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (35)
+[2017.04.08-10.49.32:668][326]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (34)
+[2017.04.08-10.49.32:668][326]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (33)
+[2017.04.08-10.49.32:668][326]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (32)
+[2017.04.08-10.49.32:668][326]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (31)
+[2017.04.08-10.49.32:668][326]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (30)
+[2017.04.08-10.49.32:668][326]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (29)
+[2017.04.08-10.49.32:668][326]LogModuleManager: Shutting down and abandoning module TargetPlatform (28)
+[2017.04.08-10.49.32:669][326]LogModuleManager: Shutting down and abandoning module InputCore (27)
+[2017.04.08-10.49.32:669][326]LogModuleManager: Shutting down and abandoning module Settings (26)
+[2017.04.08-10.49.32:669][326]LogModuleManager: Shutting down and abandoning module OculusRift (25)
+[2017.04.08-10.49.32:669][326]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
+[2017.04.08-10.49.32:669][326]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
+[2017.04.08-10.49.32:669][326]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.04.08-10.49.32:670][326]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.04.08-10.49.32:671][326]LogOnline:Display: Unloading online subsystem: STEAM
+[2017.04.08-10.49.32:672][326]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.08-10.49.32:672][326]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.04.08-10.49.32:679][326]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.04.08-10.49.32:679][326]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.04.08-10.49.32:679][326]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.04.08-10.49.32:679][326]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.04.08-10.49.32:679][326]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.04.08-10.49.32:679][326]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.04.08-10.49.32:707][326]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.04.08-10.49.32:707][326]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.04.08-10.49.32:707][326]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.04.08-10.49.32:707][326]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.04.08-10.49.32:707][326]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.04.08-10.49.32:707][326]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.04.08-10.49.32:707][326]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.04.08-10.49.32:707][326]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.04.08-10.49.32:707][326]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.04.08-10.49.32:708][326]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.04.08-10.49.32:714][326]LogExit: Exiting.
+[2017.04.08-10.49.32:736][326]Log file closed, 04/08/17 18:49:32
