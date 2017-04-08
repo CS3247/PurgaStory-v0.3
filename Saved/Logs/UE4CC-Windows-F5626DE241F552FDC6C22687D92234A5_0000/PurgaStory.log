@@ -1,0 +1,448 @@
+﻿Log file open, 04/08/17 12:55:38
+LogInit:Display: Running engine for game: PurgaStory
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(88029173) SRandInit(88029173).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 2.128328
+LogPluginManager: Loaded Plugin Paper2D, From D:/Unreal/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Unreal/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Unreal/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Unreal/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: D:/Unreal/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.08-04.55.41:782][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.08-04.55.41:782][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.08-04.55.42:075][  0]LogInit: Computer: ASUS
+[2017.04.08-04.55.42:075][  0]LogInit: User: User
+[2017.04.08-04.55.42:075][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.08-04.55.42:075][  0]LogInit: High frequency timer resolution =2.533194 MHz
+[2017.04.08-04.55.42:097][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.04.08-04.55.42:109][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.08-04.55.42:109][  0]LogMemory: Process Physical Memory: 267.71 MB used, 267.71 MB peak
+[2017.04.08-04.55.42:109][  0]LogMemory: Process Virtual Memory: 263.19 MB used, 263.19 MB peak
+[2017.04.08-04.55.42:109][  0]LogMemory: Physical Memory: 3299.89 MB used,  8877.00 MB free, 12176.89 MB total
+[2017.04.08-04.55.42:109][  0]LogMemory: Virtual Memory: 680.30 MB used,  8877.00 MB free, 134217728.00 MB total
+[2017.04.08-04.55.45:609][  0]LogTextLocalizationManager: No specific translations for ('en-SG') exist, so ('en') translations will be used.
+[2017.04.08-04.56.00:472][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.08-04.56.01:568][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2017.04.08-04.56.01:568][  0]LogD3D11RHI:       4036/0/6088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.08-04.56.01:608][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.04.08-04.56.01:608][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.08-04.56.01:612][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.08-04.56.01:612][  0]LogD3D11RHI:       0/0/6088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.08-04.56.01:612][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.08-04.56.01:656][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.08-04.56.01:656][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2017.04.08-04.56.01:656][  0]LogWindows: EnumDisplayDevices:
+[2017.04.08-04.56.01:656][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.04.08-04.56.01:657][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.08-04.56.01:658][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.08-04.56.01:658][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.08-04.56.01:658][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2017.04.08-04.56.01:658][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.08-04.56.01:658][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.08-04.56.01:658][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.08-04.56.01:703][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.08-04.56.02:492][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 5)
+[2017.04.08-04.56.02:762][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (../../../../../PurgaStory_v3/Intermediate/Shaders/WorkingDirectory/6344/).
+[2017.04.08-04.56.02:762][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/AD324C30479CDDB74E3331865FBFFF04/'.
+[2017.04.08-04.56.02:773][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.08-04.56.17:263][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.08-04.56.17:459][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.08-04.56.17:642][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.08-04.56.17:860][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.08-04.56.18:069][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.08-04.56.18:244][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.08-04.56.18:442][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.08-04.56.18:618][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.08-04.56.18:768][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.08-04.56.18:966][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.08-04.56.19:174][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.08-04.56.19:359][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.08-04.56.19:552][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.08-04.56.19:760][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.08-04.56.19:955][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.08-04.56.20:381][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.08-04.56.20:381][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.08-04.56.20:511][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.08-04.56.21:020][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.08-04.56.21:167][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.08-04.56.21:379][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.08-04.56.21:543][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.08-04.56.21:708][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.08-04.56.21:905][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.08-04.56.21:905][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.08-04.56.25:684][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.08-04.56.26:716][  0]LogDerivedDataCache: Loaded boot cache 1.03s 50MB C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.08-04.56.26:716][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.04.08-04.56.26:716][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../PurgaStory_v3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.08-04.56.26:716][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.08-04.56.26:716][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../PurgaStory_v3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.08-04.56.26:716][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.08-04.56.26:869][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.08-04.56.26:920][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.08-04.56.49:836][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.08-04.56.50:295][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.08-04.56.52:704][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.08-04.56.53:062][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.08-04.56.53:285][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.08-04.56.53:285][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.08-04.56.53:285][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.08-04.57.05:792][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: purgastory, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4090582873
+[2017.04.08-04.57.06:305][  0]LogAssetRegistry: FAssetRegistry took 0.0299 seconds to start up
+[2017.04.08-04.57.06:753][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.254297 seconds
+[2017.04.08-04.57.06:805][  0]LogUObjectArray: 31953 objects as part of root set at end of initial load.
+[2017.04.08-04.57.06:805][  0]LogUObjectAllocator: 7149672 out of 0 bytes used by permanent object pool.
+[2017.04.08-04.57.06:805][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.08-04.57.13:071][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.08-04.57.13:196][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.08-04.57.13:196][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.08-04.57.26:888][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.04.08-04.57.27:052][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.08-04.57.27:168][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.08-04.57.28:881][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.08-04.57.31:393][  0]SourceControl: Info Source control is disabled
+[2017.04.08-04.57.32:369][  0]SourceControl: Info Source control is disabled
+[2017.04.08-04.57.32:558][  0]SourceControl: Info Source control is disabled
+[2017.04.08-04.57.32:713][  0]SourceControl: Info Source control is disabled
+[2017.04.08-04.57.37:797][  0]LogEngine: Initializing Engine...
+[2017.04.08-04.57.37:828][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.08-04.57.40:008][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.08-04.57.40:286][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.08-04.57.40:418][  0]LogInit: FAudioDevice initialized.
+[2017.04.08-04.57.40:499][  0]LogDerivedDataCache: Saved boot cache 0.08s 50MB C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.08-04.57.40:531][  0]LogInit: Texture streaming: Enabled
+[2017.04.08-04.57.41:171][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.08-04.57.42:389][  0]LogInit: Transaction tracking system initialized
+[2017.04.08-04.57.48:783][  0]BlueprintLog: New page: Editor Load
+[2017.04.08-04.57.53:399][  0]LocalizationService: Info Localization service is disabled
+[2017.04.08-04.57.57:051][  0]LogConsoleResponse:Display: 
+[2017.04.08-04.58.03:229][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/PurgaStory_v3/Content/' took 0.08s
+[2017.04.08-04.58.03:229][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.08-04.58.03:235][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.08-04.58.08:523][  0]SourceControl: Info Source control is disabled
+[2017.04.08-04.58.08:582][  0]Cmd: MAP LOAD FILE="../../../../../PurgaStory_v3/Content/Multiplayer/Maps/MP_mainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.08-04.58.08:674][  0]LightingResults: New page: Lighting Build
+[2017.04.08-04.58.09:166][  0]MapCheck: New page: Map Check
+[2017.04.08-04.58.09:166][  0]LightingResults: New page: Lighting Build
+[2017.04.08-04.58.23:751][  0]LogAIModule: Creating AISystem for world MP_mainMenu
+[2017.04.08-04.58.23:936][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.08-04.58.23:984][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.08-04.58.24:145][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 161.573ms to complete.
+[2017.04.08-04.58.24:145][  0]LogFileHelpers: Loading map 'MP_mainMenu' took 15.581
+[2017.04.08-04.58.26:410][  0]LogCollectionManager: Loaded 0 collections in 0.003638 seconds
+[2017.04.08-04.58.26:918][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/PurgaStory_v3/Saved/Collections/' took 0.01s
+[2017.04.08-04.58.26:918][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/PurgaStory_v3/Content/Developers/User/Collections/' took 0.01s
+[2017.04.08-04.58.26:918][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/PurgaStory_v3/Content/Collections/' took 0.01s
+[2017.04.08-04.58.26:918][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2017.04.08-04.58.27:015][  0]LogContentBrowser: Native class hierarchy populated in 0.0597 seconds. Added 2206 classes and 437 folders.
+[2017.04.08-04.58.27:285][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.08-04.58.27:285][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
+[2017.04.08-04.58.27:312][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0021 seconds. Added 13 classes and 0 folders.
+[2017.04.08-04.58.27:559][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2017.04.08-04.58.29:566][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2017.04.08-04.58.29:743][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2017.04.08-04.58.31:812][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.08-04.58.32:043][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.08-04.58.32:348][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.04.08-04.58.32:348][  0]LogLoad: (Engine Initialization) Total time: 200.47 seconds
+[2017.04.08-04.58.32:348][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 2.29 seconds
+[2017.04.08-04.58.32:355][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.08-04.58.32:355][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.08-04.58.32:378][  0]LogOcInput: OculusInput pre-init called
+[2017.04.08-04.58.33:080][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.04.08-04.58.34:826][  0]LogRenderer: Reallocating scene render targets to support 988x464 NumSamples 1 (Frame:2).
+[2017.04.08-04.58.36:289][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Unreal/PurgaStory_v3/Content/' took 3.74s
+[2017.04.08-04.58.37:360][ 10]LogAssetRegistry: Asset discovery search completed in 91.0797 seconds
+[2017.04.08-04.58.37:381][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.04.08-04.58.37:381][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.021116 seconds (updated 0 objects)
+[2017.04.08-05.30.46:356][821]LogBlueprint:Warning: [BP_Seeker] 'HidingTimeLeft' variable not found. Base class was probably changed.
+[2017.04.08-05.30.53:453][821]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0033 seconds. Added 111 classes and 0 folders.
+[2017.04.08-05.31.19:157][716]LogLinker:Warning: Can't find file '/Game/Multiplayer/Maps/Purgastory_Level_BuiltData'
+[2017.04.08-05.31.19:157][716]LogLinker:Warning: Can't find file for asset '/Game/Multiplayer/Maps/Purgastory_Level_BuiltData' while loading ../../../../../PurgaStory_v3/Content/Multiplayer/Maps/Purgastory_Level.umap.
+[2017.04.08-05.31.19:158][716]LoadErrors:Error: Error /Game/Multiplayer/Maps/Purgastory_Level : Can't find file for asset. /Game/Multiplayer/Maps/Purgastory_Level_BuiltData
+[2017.04.08-05.31.20:776][716]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N'
+[2017.04.08-05.31.20:776][716]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N' while loading ../../../../../PurgaStory_v3/Content/Materials/Architecture/Rubber/MI_Rubber_Black_001_a.uasset.
+[2017.04.08-05.31.20:776][716]LoadErrors:Error: Error /Game/Materials/Architecture/Rubber/MI_Rubber_Black_001_a : Can't find file for asset. /Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N
+[2017.04.08-05.31.20:777][716]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N'
+[2017.04.08-05.31.20:777][716]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N' while loading ../../../../../PurgaStory_v3/Content/Materials/Architecture/Rubber/MI_Rubber_Black_001_a.uasset.
+[2017.04.08-05.31.20:841][716]LogLinker:Warning: Asset '../../../../../PurgaStory_v3/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.08-05.31.20:897][716]LogLinker:Warning: Asset '../../../../../PurgaStory_v3/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.08-05.31.20:928][716]LogLinker:Warning: Asset '../../../../../PurgaStory_v3/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.08-05.31.20:955][716]LogLinker:Warning: Asset '../../../../../PurgaStory_v3/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.08-05.31.21:194][716]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
+[2017.04.08-05.31.21:194][716]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading ../../../../../PurgaStory_v3/Content/Materials/_Base_Mat/M_Prototyper_2.uasset.
+[2017.04.08-05.31.21:194][716]LoadErrors:Error: Error /Game/Materials/_Base_Mat/M_Prototyper_2 : Can't find file for asset. /Game/Materials/_Base_Mat/M_Textures/white
+[2017.04.08-05.31.21:195][716]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
+[2017.04.08-05.31.21:195][716]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading ../../../../../PurgaStory_v3/Content/Materials/_Base_Mat/M_Prototyper_2.uasset.
+[2017.04.08-05.31.24:932][716]LogLinker:Warning: Can't find file '/Game/Multiplayer/Maps/Purgastory_Level_BuiltData'
+[2017.04.08-05.31.24:933][716]LogLinker:Warning: Can't find file for asset '/Game/Multiplayer/Maps/Purgastory_Level_BuiltData' while loading ../../../../../PurgaStory_v3/Content/Multiplayer/Maps/Purgastory_Level.umap.
+[2017.04.08-05.31.26:715][716]LogLinker:Warning: Can't find file '/Game/Multiplayer/Maps/Purgastory_Level_BuiltData'
+[2017.04.08-05.31.26:715][716]LogLinker:Warning: Can't find file for asset '/Game/Multiplayer/Maps/Purgastory_Level_BuiltData' while loading NULL.
+[2017.04.08-05.31.26:716][716]LogLinker:Warning: Can't find file '/Game/Multiplayer/Maps/Purgastory_Level_BuiltData'
+[2017.04.08-05.31.26:716][716]LogLinker:Warning: Can't find file for asset '/Game/Multiplayer/Maps/Purgastory_Level_BuiltData' while loading NULL.
+[2017.04.08-05.31.27:863][716]LogLinker:Warning: Can't find file '/Game/Multiplayer/Maps/Purgastory_Level_BuiltData'
+[2017.04.08-05.31.27:863][716]LoadErrors: Info Failed to load /Game/Multiplayer/Maps/Purgastory_Level_BuiltData.Purgastory_Level_BuiltData Referenced by PersistentLevel
+[2017.04.08-05.31.27:863][716]LogLinker:Warning: Can't find file for asset '/Game/Multiplayer/Maps/Purgastory_Level_BuiltData' while loading NULL.
+[2017.04.08-05.31.30:581][716]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N'
+[2017.04.08-05.31.30:581][716]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N.T_DefaultNoise_N Referenced by MI_Rubber_Black_001_a
+[2017.04.08-05.31.30:581][716]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N' while loading NULL.
+[2017.04.08-05.31.31:821][716]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
+[2017.04.08-05.31.31:821][716]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/white.white Referenced by MaterialExpressionTextureObjectParameter_3
+[2017.04.08-05.31.31:821][716]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading NULL.
+[2017.04.08-05.31.31:822][716]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
+[2017.04.08-05.31.31:822][716]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/white.white Referenced by MaterialExpressionTextureSampleParameter2D_6
+[2017.04.08-05.31.31:822][716]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading NULL.
+[2017.04.08-05.31.31:826][716]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2017.04.08-05.31.31:828][716]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.08-05.31.34:872][716]LogMaterial: Missing cached shader map for material M_RollingFire, compiling. 
+[2017.04.08-05.31.48:300][716]LogMaterial: Missing cached shader map for material M_Prototyper_2, compiling. 
+[2017.04.08-05.31.48:305][716]LogMaterial:Warning: Failed to compile Material /Game/Materials/_Base_Mat/M_Prototyper_2.M_Prototyper_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.08-05.31.48:306][716]LogMaterial:Warning: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2017.04.08-05.31.48:312][716]LogMaterial: Missing cached shader map for material M_Prototyper_2, compiling. 
+[2017.04.08-05.31.48:318][716]LogMaterial:Warning: Failed to compile Material Instance /Game/Materials/Solids/Dual_Color/MI_Black_White.MI_Black_White with Base M_Prototyper_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.08-05.31.48:318][716]LogMaterial:Warning: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2017.04.08-05.31.52:337][716]LogAIModule: Creating AISystem for world Purgastory_Level
+[2017.04.08-05.31.53:451][716]Cmd: MAP LOAD FILE="../../../../../PurgaStory_v3/Content/Multiplayer/Maps/Purgastory_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.08-05.31.53:452][716]LightingResults: New page: Lighting Build
+[2017.04.08-05.31.53:453][716]LoadErrors: New page: Loading map: Purgastory_Level.umap
+[2017.04.08-05.31.53:453][716]MapCheck: New page: Map Check
+[2017.04.08-05.31.53:453][716]LightingResults: New page: Lighting Build
+[2017.04.08-05.31.54:794][716]LogPhysics:Error: PHYSX: (D:\Build\++UE4+Release-4.14+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysX\src\NpMaterial.cpp 143) eINVALID_PARAMETER : PxMaterial::setRestitution: Invalid value 1.150000 was clamped to [0,1]!
+[2017.04.08-05.31.55:348][716]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2017.04.08-05.31.55:446][716]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.08-05.31.55:653][716]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 207.227ms to complete.
+[2017.04.08-05.31.55:655][716]LogFileHelpers: Loading map 'Purgastory_Level' took 2.204
+[2017.04.08-05.32.03:224][734]LogShaderCompilers:Warning: Failed to compile Material /Game/Assets/Materials/M_RollingFire.M_RollingFire for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.08-05.32.03:224][734]LogShaderCompilers:Warning: 	HitProxyVertexShader.usf(27,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
+[2017.04.08-05.32.03:224][734]LogShaderCompilers:Warning: 	LightMapDensityShader.usf(23,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
+[2017.04.08-05.32.03:224][734]LogShaderCompilers:Warning: 	DepthOnlyVertexShader.usf(30,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
+[2017.04.08-05.32.03:224][734]LogShaderCompilers:Warning: 	DebugViewModeVertexShader.usf(18,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
+[2017.04.08-05.32.03:224][734]LogShaderCompilers:Warning: 	BasePassVertexCommon.usf(30,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
+[2017.04.08-05.32.03:224][734]LogShaderCompilers:Warning: 	VelocityShader.usf(49,3-34):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
+[2017.04.08-05.32.03:224][734]LogShaderCompilers:Warning: 	ShadowDepthVertexShader.usf(124,2-33):  err0r X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
+[2017.04.08-05.40.06:505][928]BlueprintLog: New page: Compile GS_MP
+[2017.04.08-05.42.57:886][567]BlueprintLog: New page: Compile Purgastory_Level
+[2017.04.08-05.43.10:430][744]BlueprintLog: New page: Compile GS_MP
+[2017.04.08-05.43.12:090][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Multiplayer/Blueprints/GS_MP" FILE="../../../../../PurgaStory_v3/Content/Multiplayer/Blueprints/GS_MP.uasset" SILENT=true
+[2017.04.08-05.43.12:448][751]LogSavePackage: Save=309.99ms
+[2017.04.08-05.43.12:448][751]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/GS_MP91AACDE5402E73CD938F95AA14D6F877.tmp' to '../../../../../PurgaStory_v3/Content/Multiplayer/Blueprints/GS_MP.uasset'
+[2017.04.08-05.43.12:453][751]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/Multiplayer/Blueprints/GS_MP.uasset
+[2017.04.08-05.45.29:822][370]LogSavePackage: Save=4189.70ms
+[2017.04.08-05.45.29:822][370]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/Purgastory_Level_Auto129C353A14BFDFB967E780A8B1EC4BC3E.tmp' to '../../../../../PurgaStory_v3/Saved/Autosaves/Game/Multiplayer/Maps/Purgastory_Level_Auto1.umap'
+[2017.04.08-05.45.29:828][370]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Saved/Autosaves/Game/Multiplayer/Maps/Purgastory_Level_Auto1.umap
+[2017.04.08-05.45.29:844][370]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Multiplayer/Maps/Purgastory_Level' took 4.553
+[2017.04.08-05.45.29:844][370]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.553
+[2017.04.08-05.45.29:849][370]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Multiplayer/Blueprints/GS_MP] ([1] browsable assets)...
+[2017.04.08-05.45.29:849][370]OBJ SavePackage: Finished generating thumbnails for package [/Game/Multiplayer/Blueprints/GS_MP]
+[2017.04.08-05.45.29:849][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Multiplayer/Blueprints/GS_MP" FILE="../../../../../PurgaStory_v3/Saved/Autosaves/Game/Multiplayer/Blueprints/GS_MP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.04.08-05.45.30:171][370]LogSavePackage: Save=312.22ms
+[2017.04.08-05.45.30:171][370]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/GS_MP_Auto1052FB4B9451D12225293AD8C99A41DBF.tmp' to '../../../../../PurgaStory_v3/Saved/Autosaves/Game/Multiplayer/Blueprints/GS_MP_Auto1.uasset'
+[2017.04.08-05.45.30:173][370]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Saved/Autosaves/Game/Multiplayer/Blueprints/GS_MP_Auto1.uasset
+[2017.04.08-05.45.30:174][370]LogFileHelpers: Auto-saving content packages took 0.328
+[2017.04.08-05.47.58:732][149]BlueprintLog: New page: Compile GS_MP
+[2017.04.08-05.48.00:132][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Multiplayer/Blueprints/GS_MP" FILE="../../../../../PurgaStory_v3/Content/Multiplayer/Blueprints/GS_MP.uasset" SILENT=true
+[2017.04.08-05.48.00:447][156]LogSavePackage: Save=306.55ms
+[2017.04.08-05.48.00:448][156]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/GS_MPC5693A1D4929FC81E94401AC2D86C8F5.tmp' to '../../../../../PurgaStory_v3/Content/Multiplayer/Blueprints/GS_MP.uasset'
+[2017.04.08-05.48.00:460][156]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/Multiplayer/Blueprints/GS_MP.uasset
+[2017.04.08-05.50.34:468][792]BlueprintLog: New page: Compile Purgastory_Level
+[2017.04.08-05.50.34:567][792]LogBlueprint:Error: [Compiler PersistentLevel.Purgastory_Level] Error The type of  Object  is undetermined.  Connect something to  K2Node_DynamicCast_13  to imply a specific type.
+[2017.04.08-05.50.34:568][792]LogBlueprint:Error: [Compiler PersistentLevel.Purgastory_Level] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.04.08-05.50.35:860][792]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  K2Node_DynamicCast_13  to imply a specific type.
+[2017.04.08-05.50.35:861][792]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.04.08-05.50.35:861][792]LogBlueprint:Warning: [Compiler PersistentLevel.Purgastory_Level] Warning [3323.99] Compile of PersistentLevel.Purgastory_Level failed. 2 Fatal Issue(s) 0 Warning(s) [in 1,392 ms] (/Game/Multiplayer/Maps/Purgastory_Level.Purgastory_Level:PersistentLevel.Purgastory_Level)
+[2017.04.08-05.50.51:466][218]BlueprintLog: New page: Compile Purgastory_Level
+[2017.04.08-05.51.05:148][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Multiplayer/Blueprints/GS_MP" FILE="../../../../../PurgaStory_v3/Content/Multiplayer/Blueprints/GS_MP.uasset" SILENT=true
+[2017.04.08-05.51.05:490][636]LogSavePackage: Save=311.59ms
+[2017.04.08-05.51.05:490][636]LogSavePackage: Moving '../../../../../PurgaStory_v3/Saved/GS_MP86EFD33C4128EB23A64AD0ACD99F940F.tmp' to '../../../../../PurgaStory_v3/Content/Multiplayer/Blueprints/GS_MP.uasset'
+[2017.04.08-05.51.05:493][636]LogSavePackage:Display: Finished SavePackage ../../../../../PurgaStory_v3/Content/Multiplayer/Blueprints/GS_MP.uasset
+[2017.04.08-05.51.21:092][ 80]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.08-05.51.21:194][ 80]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Multiplayer/Maps/Purgastory_Level.Purgastory_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Multiplayer/Maps/Purgastory_Level.Purgastory_Level:PersistentLevel.Purgastory_Level' with GeneratedClass '/Game/Multiplayer/Maps/Purgastory_Level.Purgastory_Level_C' with ClassGeneratedBy '/Game/Multiplayer/Maps/Purgastory_Level.Purgastory_Level:PersistentLevel.Purgastory_Level'
+[2017.04.08-05.51.21:194][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.08-05.51.21:194][ 80]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.04.08-05.51.21:197][ 80]LogOnline:Warning: STEAM: Steam API disabled!
+[2017.04.08-05.51.21:197][ 80]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2017.04.08-05.51.21:214][ 80]PIE: New page: PIE session: Purgastory_Level (8 Apr 2017 9:51:21 pm)
+[2017.04.08-05.51.21:215][ 80]LogPlayLevel: Creating play world package: /Game/Multiplayer/Maps/UEDPIE_1_Purgastory_Level
+[2017.04.08-05.51.22:186][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.969831s)
+[2017.04.08-05.51.22:188][ 80]LogAIModule: Creating AISystem for world Purgastory_Level
+[2017.04.08-05.51.22:189][ 80]LogPlayLevel: PIE: World Init took: (0.003027s)
+[2017.04.08-05.51.22:192][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Multiplayer/Maps/Purgastory_Level.Purgastory_Level to /Game/Multiplayer/Maps/UEDPIE_1_Purgastory_Level.Purgastory_Level (0.976388s)
+[2017.04.08-05.51.22:282][ 80]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.08-05.51.22:322][ 80]LogInit: FAudioDevice initialized.
+[2017.04.08-05.51.22:420][ 80]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_2d44_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_2928_0///####STATCAT_Advanced####
+[2017.04.08-05.51.22:455][ 80]LogLoad: Game class is 'MP_GM_C'
+[2017.04.08-05.51.22:596][ 80]LogWorld: Bringing World /Game/Multiplayer/Maps/UEDPIE_1_Purgastory_Level.Purgastory_Level up for play (max tick rate 0) at 2017.04.08-13.51.22
+[2017.04.08-05.51.22:713][ 80]LogWorld: Bringing up level for play took: 0.251518
+[2017.04.08-05.51.22:936][ 80]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0019 seconds. Added 11 classes and 0 folders.
+[2017.04.08-05.51.22:937][ 80]LogBlueprintUserMessages: [MP_GM_C_0] Server: Respawning new player
+[2017.04.08-05.51.22:937][ 80]LogScript:Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	MP_GM_C /Game/Multiplayer/Maps/UEDPIE_1_Purgastory_Level.Purgastory_Level:PersistentLevel.MP_GM_C_0
+	Function /Game/Multiplayer/Blueprints/MP_GM.MP_GM_C:ExecuteUbergraph_MP_GM:0F88
+[2017.04.08-05.51.22:937][ 80]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_MP_GM' from node: DestroyActor in graph: EventGraph in object: MP_GM with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2017.04.08-05.51.22:937][ 80]LogBlueprintUserMessages: [MP_GM_C_0] Server: 256 Actor has been destroyed
+[2017.04.08-05.51.22:960][ 80]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.04.08-05.51.22:961][ 80]LogInit: WinSock: I am ASUS (192.168.189.1:0)
+[2017.04.08-05.51.22:961][ 80]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.04.08-05.51.22:961][ 80]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.04.08-05.51.22:961][ 80]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.08-05.51.22:961][ 80]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.08-05.51.22:961][ 80]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.08-05.51.22:965][ 80]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.08-05.51.22:965][ 80]LogScript:Warning: Accessed None trying to read property HiderRef
+	GS_MP_C /Game/Multiplayer/Maps/UEDPIE_1_Purgastory_Level.Purgastory_Level:PersistentLevel.GS_MP_C_0
+	Function /Game/Multiplayer/Blueprints/GS_MP.GS_MP_C:ExecuteUbergraph_GS_MP:0C0D
+[2017.04.08-05.51.22:966][ 80]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property HiderRef from function: 'ExecuteUbergraph_GS_MP' from node: Create Waiting Screen in graph: EventGraph in object: GS_MP with description: Accessed None trying to read property HiderRef
+[2017.04.08-05.51.22:967][ 80]LogBlueprintUserMessages: [BP_Seeker_C_0] Server: MAKE WAIT SCREEN
+[2017.04.08-05.51.22:979][ 80]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.08-05.51.23:014][ 80]PIE: Info Play in editor start time for /Game/Multiplayer/Maps/UEDPIE_1_Purgastory_Level 2.411
+[2017.04.08-05.51.23:020][ 80]PIE: New page: PIE session: Purgastory_Level (8 Apr 2017 9:51:23 pm)
+[2017.04.08-05.51.23:142][ 80]LogNet: Browse: 127.0.0.1//Game/Multiplayer/Maps/MP_mainMenu
+[2017.04.08-05.51.23:142][ 80]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.04.08-05.51.23:144][ 80]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.04.08-05.51.23:144][ 80]LogNet: Game client on port 7777, rate 10000
+[2017.04.08-05.51.23:144][ 80]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: purgastory, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3808236973
+[2017.04.08-05.51.23:145][ 80]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.04.08-05.51.23:183][ 80]PIE: Info Play in editor start time for /Game/Multiplayer/Maps/MP_mainMenu 2.58
+[2017.04.08-05.51.23:228][ 80]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Multiplayer/Maps/Purgastory_Level.Purgastory_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Multiplayer/Maps/Purgastory_Level.Purgastory_Level:PersistentLevel.Purgastory_Level' with GeneratedClass '/Game/Multiplayer/Maps/Purgastory_Level.Purgastory_Level_C' with ClassGeneratedBy '/Game/Multiplayer/Maps/Purgastory_Level.Purgastory_Level:PersistentLevel.Purgastory_Level'
+[2017.04.08-05.51.23:232][ 80]LogHandshake: SendConnectChallenge. Timestamp: 0.333333, Cookie: 245151117024006189014042118011138013007015241096043071144064
+[2017.04.08-05.51.23:365][ 80]LogHandshake: SendChallengeResponse. Timestamp: 0.333333, Cookie: 245151117024006189014042118011138013007015241096043071144064
+[2017.04.08-05.51.24:954][ 80]LogRenderer: Reallocating scene render targets to support 988x500 NumSamples 1 (Frame:11271).
