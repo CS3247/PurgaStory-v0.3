@@ -1,0 +1,1078 @@
+﻿Log file open, 04/10/17 20:44:43
+LogInit:Display: Running engine for game: PurgaStory
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(357058193) SRandInit(357058193).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.092514
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.10-12.44.43:813][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.10-12.44.43:813][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.10-12.44.43:824][  0]LogInit: Computer: DESKTOP-NIM6INF
+[2017.04.10-12.44.43:824][  0]LogInit: User: Bernard
+[2017.04.10-12.44.43:824][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.10-12.44.43:824][  0]LogInit: High frequency timer resolution =2.531248 MHz
+[2017.04.10-12.44.43:824][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2017.04.10-12.44.43:824][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.10-12.44.43:824][  0]LogMemory: Process Physical Memory: 267.63 MB used, 267.63 MB peak
+[2017.04.10-12.44.43:824][  0]LogMemory: Process Virtual Memory: 262.98 MB used, 262.98 MB peak
+[2017.04.10-12.44.43:824][  0]LogMemory: Physical Memory: 3417.32 MB used,  21036.55 MB free, 24453.88 MB total
+[2017.04.10-12.44.43:824][  0]LogMemory: Virtual Memory: 680.01 MB used,  21036.55 MB free, 134217728.00 MB total
+[2017.04.10-12.44.44:528][  0]LogTextLocalizationManager: No specific translations for ('en-SG') exist, so ('en') translations will be used.
+[2017.04.10-12.44.45:093][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.10-12.44.45:816][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.04.10-12.44.45:816][  0]LogD3D11RHI:       4064/0/12226 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.10-12.44.45:822][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.04.10-12.44.45:822][  0]LogD3D11RHI:       128/0/12226 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.10-12.44.45:823][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.10-12.44.45:823][  0]LogD3D11RHI:       0/0/12226 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.10-12.44.45:823][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.10-12.44.45:826][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.10-12.44.45:826][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.04.10-12.44.45:826][  0]LogWindows: EnumDisplayDevices:
+[2017.04.10-12.44.45:826][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.04.10-12.44.45:827][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.10-12.44.45:827][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.10-12.44.45:827][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.10-12.44.45:827][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.04.10-12.44.45:827][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.10-12.44.45:827][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.10-12.44.45:827][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.10-12.44.45:838][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.10-12.44.45:850][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.10-12.44.45:850][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Intermediate/Shaders/WorkingDirectory/4388/).
+[2017.04.10-12.44.45:851][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bernard/AppData/Local/Temp/UnrealShaderWorkingDir/FB2BA11A4E857B4F8E88D2B93A9B3A45/'.
+[2017.04.10-12.44.45:851][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.10-12.44.46:786][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.10-12.44.46:833][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.10-12.44.46:880][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.10-12.44.46:926][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.10-12.44.46:973][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.10-12.44.47:021][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.10-12.44.47:067][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.10-12.44.47:114][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.10-12.44.47:153][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.10-12.44.47:198][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.10-12.44.47:244][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.10-12.44.47:291][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.10-12.44.47:336][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.10-12.44.47:382][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.10-12.44.47:429][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.10-12.44.47:521][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.10-12.44.47:521][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.10-12.44.47:553][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.10-12.44.47:627][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.10-12.44.47:657][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.10-12.44.47:703][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.10-12.44.47:749][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.10-12.44.47:794][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.10-12.44.47:839][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.10-12.44.47:839][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.10-12.44.48:181][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.10-12.44.48:224][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Bernard/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.10-12.44.48:224][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bernard/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.04.10-12.44.48:224][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.10-12.44.48:225][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.10-12.44.48:225][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.10-12.44.48:225][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.10-12.44.48:239][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.10-12.44.48:251][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bernard/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.10-12.44.48:432][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.10-12.44.48:435][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.10-12.44.48:615][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.10-12.44.48:651][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.10-12.44.48:691][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.10-12.44.48:691][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.10-12.44.48:691][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.10-12.44.49:147][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: purgastory, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4090582873
+[2017.04.10-12.44.49:202][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.04.10-12.44.49:245][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.019223 seconds
+[2017.04.10-12.44.49:251][  0]LogUObjectArray: 31953 objects as part of root set at end of initial load.
+[2017.04.10-12.44.49:251][  0]LogUObjectAllocator: 7149672 out of 0 bytes used by permanent object pool.
+[2017.04.10-12.44.49:251][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.10-12.44.50:042][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.10-12.44.50:042][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.10-12.44.50:042][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.10-12.44.50:849][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.04.10-12.44.50:877][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.10-12.44.50:917][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.10-12.44.51:205][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.10-12.44.51:553][  0]SourceControl: Info Source control is disabled
+[2017.04.10-12.44.51:553][  0]SourceControl: Info Source control is disabled
+[2017.04.10-12.44.51:595][  0]SourceControl: Info Source control is disabled
+[2017.04.10-12.44.51:639][  0]SourceControl: Info Source control is disabled
+[2017.04.10-12.44.52:825][  0]LogEngine: Initializing Engine...
+[2017.04.10-12.44.52:825][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.10-12.44.53:043][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.10-12.44.53:050][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.10-12.44.53:082][  0]LogInit: FAudioDevice initialized.
+[2017.04.10-12.44.53:107][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Bernard/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.10-12.44.53:114][  0]LogInit: Texture streaming: Enabled
+[2017.04.10-12.44.53:280][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.10-12.44.53:308][  0]LogInit: Transaction tracking system initialized
+[2017.04.10-12.44.53:637][  0]BlueprintLog: New page: Editor Load
+[2017.04.10-12.44.54:537][  0]LocalizationService: Info Localization service is disabled
+[2017.04.10-12.44.55:204][  0]LogConsoleResponse:Display: 
+[2017.04.10-12.44.55:345][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.10-12.44.55:345][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.10-12.44.55:564][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bernard/Desktop/PurgaStory-v0.3/Content/' took 0.03s
+[2017.04.10-12.44.56:238][  0]SourceControl: Info Source control is disabled
+[2017.04.10-12.44.56:238][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Content/Multiplayer/Maps/MP_mainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.10-12.44.56:239][  0]LightingResults: New page: Lighting Build
+[2017.04.10-12.44.56:276][  0]MapCheck: New page: Map Check
+[2017.04.10-12.44.56:276][  0]LightingResults: New page: Lighting Build
+[2017.04.10-12.44.57:752][  0]LogAIModule: Creating AISystem for world MP_mainMenu
+[2017.04.10-12.44.57:756][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.10-12.44.57:757][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.10-12.44.57:787][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.504ms to complete.
+[2017.04.10-12.44.57:787][  0]LogFileHelpers: Loading map 'MP_mainMenu' took 1.549
+[2017.04.10-12.44.57:905][  0]LogCollectionManager: Loaded 0 collections in 0.002035 seconds
+[2017.04.10-12.44.57:978][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bernard/Desktop/PurgaStory-v0.3/Saved/Collections/' took 0.01s
+[2017.04.10-12.44.57:978][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bernard/Desktop/PurgaStory-v0.3/Content/Developers/Bernard/Collections/' took 0.01s
+[2017.04.10-12.44.57:978][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bernard/Desktop/PurgaStory-v0.3/Content/Collections/' took 0.01s
+[2017.04.10-12.44.57:978][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.10-12.44.57:986][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2206 classes and 437 folders.
+[2017.04.10-12.44.58:023][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.10-12.44.58:024][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.10-12.44.58:024][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 13 classes and 0 folders.
+[2017.04.10-12.44.58:083][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.10-12.44.58:118][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.10-12.44.58:158][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.10-12.44.58:227][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.10-12.44.58:233][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.10-12.44.58:298][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.10-12.44.58:299][  0]LogLoad: (Engine Initialization) Total time: 15.92 seconds
+[2017.04.10-12.44.58:299][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.22 seconds
+[2017.04.10-12.44.58:299][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.04.10-12.44.58:310][  0]LogOcInput: OculusInput pre-init called
+[2017.04.10-12.44.58:342][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.10-12.44.58:498][  0]LogRenderer: Reallocating scene render targets to support 916x396 NumSamples 1 (Frame:2).
+[2017.04.10-12.44.58:665][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Bernard/Desktop/PurgaStory-v0.3/Content/' took 0.34s
+[2017.04.10-12.44.58:716][  2]LogAssetRegistry: Asset discovery search completed in 9.5359 seconds
+[2017.04.10-12.44.58:716][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.04.10-12.44.58:716][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2017.04.10-12.45.11:225][440]LogTemp: Repeting last play command: Standalone Game
+[2017.04.10-12.45.11:377][440]LogSavePackage: Save=47.95ms
+[2017.04.10-12.45.11:377][440]LogSavePackage: Moving '../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Saved/UEDPCMP_mainMenuA32978ED43221EEF1A89259D8F0BCC91.tmp' to '../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Saved/Autosaves/Game/Multiplayer/Maps/UEDPCMP_mainMenu.umap'
+[2017.04.10-12.45.11:379][440]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Saved/Autosaves/Game/Multiplayer/Maps/UEDPCMP_mainMenu.umap
+[2017.04.10-12.45.11:389][440]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.10-12.51.10:041][567]LogBlueprint:Warning: [BP_Seeker] 'HidingTimeLeft' variable not found. Base class was probably changed.
+[2017.04.10-12.51.11:235][567]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 111 classes and 0 folders.
+[2017.04.10-12.51.32:037][573]LogTemp: Repeting last play command: Standalone Game
+[2017.04.10-12.51.32:275][573]LogSavePackage: Save=89.96ms
+[2017.04.10-12.51.32:275][573]LogSavePackage: Moving '../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Saved/UEDPCMP_mainMenuE2230C17472135220BC195AE2D61D16B.tmp' to '../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Saved/Autosaves/Game/Multiplayer/Maps/UEDPCMP_mainMenu.umap'
+[2017.04.10-12.51.32:276][573]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Saved/Autosaves/Game/Multiplayer/Maps/UEDPCMP_mainMenu.umap
+[2017.04.10-12.51.32:281][573]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.10-12.55.37:414][122]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu:PersistentLevel.MP_mainMenu' with GeneratedClass '/Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu_C' with ClassGeneratedBy '/Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu:PersistentLevel.MP_mainMenu'
+[2017.04.10-12.55.37:415][122]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.10-12.55.37:415][122]LogPlayLevel: [PlayLevel] Compiling GS_MP before play...
+[2017.04.10-12.55.37:642][122]LogPlayLevel: PlayLevel: Blueprint regeneration took 227 ms (1 blueprints)
+[2017.04.10-12.55.37:642][122]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.04.10-12.55.37:643][122]LogOnline:Warning: STEAM: Steam API disabled!
+[2017.04.10-12.55.37:643][122]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2017.04.10-12.55.37:655][122]PIE: New page: PIE session: MP_mainMenu (11 Apr 2017 4:55:37 am)
+[2017.04.10-12.55.37:656][122]LogPlayLevel: Creating play world package: /Game/Multiplayer/Maps/UEDPIE_1_MP_mainMenu
+[2017.04.10-12.55.37:656][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000869s)
+[2017.04.10-12.55.37:657][122]LogAIModule: Creating AISystem for world MP_mainMenu
+[2017.04.10-12.55.37:657][122]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2017.04.10-12.55.37:657][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu to /Game/Multiplayer/Maps/UEDPIE_1_MP_mainMenu.MP_mainMenu (0.001764s)
+[2017.04.10-12.55.37:676][122]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.10-12.55.37:683][122]LogInit: FAudioDevice initialized.
+[2017.04.10-12.55.37:711][122]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_2534_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_2a44_0///####STATCAT_Advanced####
+[2017.04.10-12.55.37:742][122]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.10-12.55.37:746][122]LogWorld: Bringing World /Game/Multiplayer/Maps/UEDPIE_1_MP_mainMenu.MP_mainMenu up for play (max tick rate 0) at 2017.04.10-20.55.37
+[2017.04.10-12.55.37:746][122]LogWorld: Bringing up level for play took: 0.001020
+[2017.04.10-12.55.37:758][122]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.10-12.55.37:816][122]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.04.10-12.55.37:816][122]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.04.10-12.55.37:816][122]LogInit: WinSock: I am DESKTOP-NIM6INF (172.25.99.67:0)
+[2017.04.10-12.55.37:816][122]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.04.10-12.55.37:817][122]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.04.10-12.55.37:817][122]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.10-12.55.37:817][122]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.10-12.55.37:817][122]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.10-12.55.37:819][122]LogBlueprintUserMessages: [MP_mainMenu_C_2] Server: Hello, i am opening main menu
+[2017.04.10-12.55.37:819][122]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
+[2017.04.10-12.55.37:820][122]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.10-12.55.37:822][122]PIE: Info Play in editor start time for /Game/Multiplayer/Maps/UEDPIE_1_MP_mainMenu -0.444
+[2017.04.10-12.55.37:823][122]PIE: New page: PIE session: MP_mainMenu (11 Apr 2017 4:55:37 am)
+[2017.04.10-12.55.37:862][122]LogNet: Browse: 127.0.0.1//Game/Multiplayer/Maps/MP_mainMenu
+[2017.04.10-12.55.37:862][122]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.04.10-12.55.37:863][122]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.04.10-12.55.37:863][122]LogNet: Game client on port 7777, rate 10000
+[2017.04.10-12.55.37:863][122]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: purgastory, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3808236973
+[2017.04.10-12.55.37:863][122]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.04.10-12.55.37:865][122]PIE: Info Play in editor start time for /Game/Multiplayer/Maps/MP_mainMenu -0.4
+[2017.04.10-12.55.37:872][122]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu:PersistentLevel.MP_mainMenu' with GeneratedClass '/Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu_C' with ClassGeneratedBy '/Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu:PersistentLevel.MP_mainMenu'
+[2017.04.10-12.55.37:872][122]LogHandshake: SendConnectChallenge. Timestamp: 0.009807, Cookie: 103158239149089204239075056001011237035130047121251133188087
+[2017.04.10-12.55.37:899][122]LogHandshake: SendChallengeResponse. Timestamp: 0.009807, Cookie: 103158239149089204239075056001011237035130047121251133188087
+[2017.04.10-12.55.38:520][122]LogRenderer: Reallocating scene render targets to support 916x576 NumSamples 1 (Frame:5092).
+[2017.04.10-12.55.38:520][122]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:520][122]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.008 s
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: === Handled ensure: ===
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: 
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\Core\Private\Math\Matrix.cpp] [Line: 9]
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: Stack: 
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-Engine.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-Engine.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-Renderer.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-RenderCore.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-RenderCore.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: KERNEL32.DLL
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: ntdll.dll
+[2017.04.10-12.55.38:520][122]LogOutputDevice:Error: 
+[2017.04.10-12.55.38:520][122]LogStats:                SubmitErrorReport -  0.000 s
+[2017.04.10-12.55.38:520][122]LogStats:                    SendNewReport -  0.146 s
+[2017.04.10-12.55.38:520][122]LogStats:             FDebug::EnsureFailed -  0.154 s
+[2017.04.10-12.55.38:599][123]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:603][123]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60524
+[2017.04.10-12.55.38:603][123]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.04.10-12.55.38:603][123]LogNet: NotifyAcceptedConnection: Name: MP_mainMenu, TimeStamp: 04/10/17 20:55:38, [UNetConnection] RemoteAddr: 127.0.0.1:60524, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.04.10-12.55.38:603][123]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60524, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.04.10-12.55.38:655][124]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:674][124]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Multiplayer/Maps/UEDPIE_1_MP_mainMenu.MP_mainMenu: Accepted
+[2017.04.10-12.55.38:675][124]LogNet: Remote platform little endian=1
+[2017.04.10-12.55.38:675][124]LogNet: This platform little endian=1
+[2017.04.10-12.55.38:707][125]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:709][125]LogNet: Login request: /Game/Multiplayer/Maps/MP_mainMenu?Name=DESKTOP-NIM6INF-37FDEDFA44BF097532E453B368408BD5 userId: DESKTOP-NIM6INF-37FDEDFA44BF097532E453B368408BD5
+[2017.04.10-12.55.38:710][125]LogNet: Welcomed by server (Level: /Game/Multiplayer/Maps/UEDPIE_1_MP_mainMenu, Game: /Game/FirstPersonBP/FirstPersonGameMode.FirstPersonGameMode_C)
+[2017.04.10-12.55.38:710][125]LogLoad: LoadMap: 127.0.0.1//Game/Multiplayer/Maps/UEDPIE_1_MP_mainMenu?game=/Game/FirstPersonBP/FirstPersonGameMode.FirstPersonGameMode_C
+[2017.04.10-12.55.38:737][125]Cmd: MEM
+[2017.04.10-12.55.38:761][125]LogMemory: Platform Memory Stats for Windows
+[2017.04.10-12.55.38:761][125]LogMemory: Process Physical Memory: 2254.91 MB used, 2254.91 MB peak
+[2017.04.10-12.55.38:761][125]LogMemory: Process Virtual Memory: 3045.27 MB used, 3045.27 MB peak
+[2017.04.10-12.55.38:761][125]LogMemory: Physical Memory: 5646.30 MB used,  18807.57 MB free, 24453.88 MB total
+[2017.04.10-12.55.38:761][125]LogMemory: Virtual Memory: 3888.41 MB used,  18807.57 MB free, 134217728.00 MB total
+[2017.04.10-12.55.38:761][125]LogMemory: 
+[2017.04.10-12.55.38:761][125]Allocator Stats for TBB: (not implemented)
+[2017.04.10-12.55.38:763][125]LogAIModule: Creating AISystem for world MP_mainMenu
+[2017.04.10-12.55.38:779][125]LogWorld: Bringing World /Game/Multiplayer/Maps/UEDPIE_2_MP_mainMenu.MP_mainMenu up for play (max tick rate 0) at 2017.04.10-20.55.38
+[2017.04.10-12.55.38:779][125]LogWorld: Bringing up level for play took: 0.014232
+[2017.04.10-12.55.38:779][125]LogLoad: Took 0.068622 seconds to LoadMap(/Game/Multiplayer/Maps/UEDPIE_1_MP_mainMenu)
+[2017.04.10-12.55.38:797][126]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:797][126]LogNet: Client netspeed is 10000
+[2017.04.10-12.55.38:797][126]LogNet: Join request: /Game/Multiplayer/Maps/MP_mainMenu?Name=DESKTOP-NIM6INF-37FDEDFA44BF097532E453B368408BD5?SplitscreenCount=1
+[2017.04.10-12.55.38:798][126]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2017.04.10-12.55.38:798][126]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.10-12.55.38:802][126]LogNet: Join succeeded: DESKTOP-NIM6INF-37FD
+[2017.04.10-12.55.38:823][127]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:830][127]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2017.04.10-12.55.38:846][128]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:846][128]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:848][128]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2017.04.10-12.55.38:848][128]LogBlueprintUserMessages: [MP_mainMenu_C_2] Client 1: Hello, i am opening main menu
+[2017.04.10-12.55.38:848][128]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
+[2017.04.10-12.55.38:866][129]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:866][129]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:866][129]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:884][130]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:884][130]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:884][130]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:901][131]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:901][131]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:901][131]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:918][132]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:918][132]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:918][132]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:934][133]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:934][133]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:950][134]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:951][134]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:967][135]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:967][135]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:984][136]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.38:984][136]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:004][137]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:004][137]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:022][138]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:022][138]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:040][139]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:040][139]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:058][140]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:058][140]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:074][141]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:074][141]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:089][142]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:089][142]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:107][143]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:107][143]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:123][144]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:123][144]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:138][145]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:139][145]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:153][146]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:153][146]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:168][147]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:168][147]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:183][148]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:183][148]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:197][149]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:197][149]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:212][150]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:212][150]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:228][151]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:228][151]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:244][152]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:244][152]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:260][153]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:260][153]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:275][154]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:275][154]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:289][155]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:289][155]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:304][156]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:304][156]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:317][157]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:317][157]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:331][158]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:331][158]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:346][159]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:346][159]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:360][160]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:360][160]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:375][161]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:375][161]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:390][162]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:390][162]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:407][163]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:407][163]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:422][164]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:422][164]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:434][165]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:434][165]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:450][166]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:450][166]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:464][167]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:465][167]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:479][168]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:479][168]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:495][169]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:495][169]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:510][170]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:510][170]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:525][171]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:525][171]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:540][172]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:540][172]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:555][173]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:555][173]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:569][174]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:569][174]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:583][175]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:583][175]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:598][176]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:598][176]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:614][177]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:614][177]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:630][178]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:630][178]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:646][179]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:646][179]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:661][180]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:661][180]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:677][181]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:678][181]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:694][182]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:694][182]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:709][183]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:709][183]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:725][184]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:725][184]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:740][185]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:740][185]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:756][186]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:756][186]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:771][187]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:771][187]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:785][188]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:785][188]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:800][189]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:800][189]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:816][190]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:816][190]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:831][191]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:831][191]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:847][192]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:847][192]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:862][193]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:862][193]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:877][194]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:877][194]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:893][195]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:893][195]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:908][196]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:908][196]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:923][197]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:923][197]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:938][198]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:938][198]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:952][199]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:952][199]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:967][200]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:967][200]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:981][201]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:981][201]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:997][202]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.39:997][202]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:013][203]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:013][203]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:028][204]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:028][204]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:045][205]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:045][205]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:060][206]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:060][206]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:076][207]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:076][207]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:092][208]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:092][208]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:107][209]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:107][209]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:122][210]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:122][210]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:137][211]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:137][211]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:151][212]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:151][212]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:167][213]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:167][213]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:181][214]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:181][214]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:197][215]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:197][215]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:212][216]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:212][216]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:228][217]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:228][217]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:243][218]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:243][218]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:259][219]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:259][219]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:276][220]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:276][220]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:292][221]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:292][221]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:308][222]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:308][222]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:324][223]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:324][223]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:340][224]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:340][224]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:356][225]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:356][225]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:371][226]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:371][226]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:386][227]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:387][227]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:416][228]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:416][228]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:436][229]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:436][229]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:454][230]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:455][230]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:474][231]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:474][231]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:491][232]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:491][232]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:508][233]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:508][233]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:525][234]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:525][234]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:541][235]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:541][235]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:559][236]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:559][236]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:574][237]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:574][237]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:592][238]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:592][238]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:608][239]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:608][239]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:624][240]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:624][240]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:640][241]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:641][241]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:656][242]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:656][242]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:672][243]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:672][243]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:688][244]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:688][244]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:704][245]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:704][245]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:722][246]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:723][246]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:739][247]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:739][247]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:756][248]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:756][248]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:772][249]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:772][249]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:791][250]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:791][250]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:806][251]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:806][251]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:823][252]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:823][252]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:839][253]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:839][253]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:856][254]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:856][254]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:872][255]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:872][255]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:889][256]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:889][256]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:904][257]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:904][257]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:920][258]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:920][258]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:934][259]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:934][259]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:950][260]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:950][260]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:966][261]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:966][261]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:984][262]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:984][262]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:999][263]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.40:999][263]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:015][264]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:015][264]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:031][265]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:031][265]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:048][266]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:048][266]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:065][267]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:065][267]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:083][268]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:083][268]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:100][269]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:100][269]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:119][270]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:119][270]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:137][271]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:137][271]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:153][272]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:153][272]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:170][273]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:170][273]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:187][274]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:187][274]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:204][275]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:204][275]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:221][276]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:221][276]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:237][277]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:237][277]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:255][278]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:255][278]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:275][279]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:275][279]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:291][280]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:291][280]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:310][281]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:310][281]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:328][282]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:328][282]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:344][283]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:344][283]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:361][284]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:361][284]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:377][285]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:377][285]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:394][286]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:394][286]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:397][286]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:397][286]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu:PersistentLevel.MP_mainMenu' with GeneratedClass '/Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu_C' with ClassGeneratedBy '/Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu:PersistentLevel.MP_mainMenu'
+[2017.04.10-12.55.41:422][286]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.04.10-12.55.41:451][286]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.04.10-12.55.41:452][286]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2017.04.10-12.55.41:501][286]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.04.10-12.55.41:503][286]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.04.10-12.55.41:503][286]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu:PersistentLevel.MP_mainMenu' with GeneratedClass '/Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu_C' with ClassGeneratedBy '/Game/Multiplayer/Maps/MP_mainMenu.MP_mainMenu:PersistentLevel.MP_mainMenu'
+[2017.04.10-12.55.41:522][286]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60524, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.04.10-12.55.41:522][286]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60524, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.04.10-12.55.41
+[2017.04.10-12.55.41:522][286]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60524, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.04.10-12.55.41:522][286]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.04.10-12.55.41:522][286]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.04.10-12.55.41
+[2017.04.10-12.55.41:522][286]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.04.10-12.55.41:524][286]LogExit: GameNetDriver None shut down
+[2017.04.10-12.55.41:524][286]LogExit: GameNetDriver None shut down
+[2017.04.10-12.55.41:541][287]LogPlayLevel:Display: Destroying online subsystem :Context_10
+[2017.04.10-12.55.41:541][287]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.04.10-12.55.41:541][287]LogPlayLevel:Display: Destroying online subsystem :Context_9
+[2017.04.10-12.55.41:541][287]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.04.10-12.55.46:857][772]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N'
+[2017.04.10-12.55.46:857][772]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N' while loading ../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Content/Materials/Architecture/Rubber/MI_Rubber_Black_001_a.uasset.
+[2017.04.10-12.55.46:857][772]LoadErrors:Error: Error /Game/Materials/Architecture/Rubber/MI_Rubber_Black_001_a : Can't find file for asset. /Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N
+[2017.04.10-12.55.46:857][772]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N'
+[2017.04.10-12.55.46:857][772]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N' while loading ../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Content/Materials/Architecture/Rubber/MI_Rubber_Black_001_a.uasset.
+[2017.04.10-12.55.46:858][772]LogLinker:Warning: Asset '../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.10-12.55.46:860][772]LogLinker:Warning: Asset '../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.10-12.55.46:862][772]LogLinker:Warning: Asset '../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.10-12.55.46:862][772]LogLinker:Warning: Asset '../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.10-12.55.46:879][772]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
+[2017.04.10-12.55.46:879][772]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading ../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Content/Materials/_Base_Mat/M_Prototyper_2.uasset.
+[2017.04.10-12.55.46:879][772]LoadErrors:Error: Error /Game/Materials/_Base_Mat/M_Prototyper_2 : Can't find file for asset. /Game/Materials/_Base_Mat/M_Textures/white
+[2017.04.10-12.55.46:879][772]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
+[2017.04.10-12.55.46:879][772]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading ../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Content/Materials/_Base_Mat/M_Prototyper_2.uasset.
+[2017.04.10-12.55.47:315][772]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N'
+[2017.04.10-12.55.47:315][772]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N.T_DefaultNoise_N Referenced by MI_Rubber_Black_001_a
+[2017.04.10-12.55.47:315][772]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/T_DefaultNoise_N' while loading NULL.
+[2017.04.10-12.55.47:481][772]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
+[2017.04.10-12.55.47:481][772]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/white.white Referenced by MaterialExpressionTextureObjectParameter_3
+[2017.04.10-12.55.47:482][772]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading NULL.
+[2017.04.10-12.55.47:482][772]LogLinker:Warning: Can't find file '/Game/Materials/_Base_Mat/M_Textures/white'
+[2017.04.10-12.55.47:482][772]LoadErrors: Info Failed to load /Game/Materials/_Base_Mat/M_Textures/white.white Referenced by MaterialExpressionTextureSampleParameter2D_6
+[2017.04.10-12.55.47:482][772]LogLinker:Warning: Can't find file for asset '/Game/Materials/_Base_Mat/M_Textures/white' while loading NULL.
+[2017.04.10-12.55.47:504][772]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2017.04.10-12.55.47:504][772]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.10-12.55.48:141][772]LogMaterial: Missing cached shader map for material M_Prototyper_2, compiling. 
+[2017.04.10-12.55.48:143][772]LogMaterial:Warning: Failed to compile Material /Game/Materials/_Base_Mat/M_Prototyper_2.M_Prototyper_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.10-12.55.48:143][772]LogMaterial:Warning: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2017.04.10-12.55.48:145][772]LogMaterial: Missing cached shader map for material M_Prototyper_2, compiling. 
+[2017.04.10-12.55.48:147][772]LogMaterial:Warning: Failed to compile Material Instance /Game/Materials/Solids/Dual_Color/MI_Black_White.MI_Black_White with Base M_Prototyper_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.10-12.55.48:147][772]LogMaterial:Warning: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2017.04.10-12.55.48:300][772]LogAIModule: Creating AISystem for world Purgastory_Level
+[2017.04.10-12.55.49:937][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Multiplayer/Blueprints/GS_MP" FILE="../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Content/Multiplayer/Blueprints/GS_MP.uasset" SILENT=true
+[2017.04.10-12.55.50:022][772]LogSavePackage: Save=78.88ms
+[2017.04.10-12.55.50:022][772]LogSavePackage: Moving '../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Saved/GS_MPF9B4471A4FE435F1FD9C5BB9572D7C4C.tmp' to '../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Content/Multiplayer/Blueprints/GS_MP.uasset'
+[2017.04.10-12.55.50:025][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Content/Multiplayer/Blueprints/GS_MP.uasset
+[2017.04.10-12.55.50:026][772]Cmd: MAP LOAD FILE="../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Content/Multiplayer/Maps/Purgastory_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.10-12.55.50:026][772]LightingResults: New page: Lighting Build
+[2017.04.10-12.55.50:027][772]LoadErrors: New page: Loading map: Purgastory_Level.umap
+[2017.04.10-12.55.50:027][772]MapCheck: New page: Map Check
+[2017.04.10-12.55.50:027][772]LightingResults: New page: Lighting Build
+[2017.04.10-12.55.50:173][772]LogPhysics:Error: PHYSX: (D:\Build\++UE4+Release-4.14+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysX\src\NpMaterial.cpp 143) eINVALID_PARAMETER : PxMaterial::setRestitution: Invalid value 1.150000 was clamped to [0,1]!
+[2017.04.10-12.55.50:420][772]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.10-12.55.50:460][772]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.10-12.55.50:575][772]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 114.336ms to complete.
+[2017.04.10-12.55.50:579][772]LogFileHelpers: Loading map 'Purgastory_Level' took 0.555
+[2017.04.10-12.55.56:782][ 95]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.10-12.55.56:869][ 95]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.10-12.55.57:117][ 96]Cmd: QUIT_EDITOR
+[2017.04.10-12.55.57:733][ 96]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.10-12.55.57:757][ 96]LogExit: Preparing to exit.
+[2017.04.10-12.55.58:279][ 96]LogDirectoryWatcher: A directory notification for 'C:/Users/Bernard/Desktop/PurgaStory-v0.3/Content/' was aborted.
+[2017.04.10-12.55.58:339][ 96]LogExit: Editor shut down
+[2017.04.10-12.55.58:340][ 96]LogExit: Transaction tracking system shut down
+[2017.04.10-12.55.58:516][ 96]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.10-12.55.58:517][ 96]LogExit: Object subsystem successfully closed.
+[2017.04.10-12.55.58:536][ 96]LogD3D11RHI: Shutdown
+[2017.04.10-12.55.58:536][ 96]LogD3D11RHI: CleanupD3DDevice
+[2017.04.10-12.55.58:772][ 96]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.10-12.55.58:783][ 96]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.10-12.55.58:783][ 96]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEB7F423B-4097-7C2F-DB57-E6A81A0D040C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=5ab26d914d072dee38a20fa90b07774d%7Cef8dc59f48dc42d0acde4a9c2a5379c7%7C38d7a621-ad75-4b1c-99df-4e1cab180e58&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.10-12.55.58:801][ 96]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (248)
+[2017.04.10-12.55.58:801][ 96]LogModuleManager: Shutting down and abandoning module Voice (247)
+[2017.04.10-12.55.58:801][ 96]LogModuleManager: Shutting down and abandoning module BlueprintGraph (246)
+[2017.04.10-12.55.58:801][ 96]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (245)
+[2017.04.10-12.55.58:801][ 96]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (244)
+[2017.04.10-12.55.58:801][ 96]LogModuleManager: Shutting down and abandoning module CrashTracker (243)
+[2017.04.10-12.55.58:801][ 96]LogModuleManager: Shutting down and abandoning module SceneOutliner (242)
+[2017.04.10-12.55.58:801][ 96]LogModuleManager: Shutting down and abandoning module WidgetCarousel (241)
+[2017.04.10-12.55.58:801][ 96]LogModuleManager: Shutting down and abandoning module AddContentDialog (240)
+[2017.04.10-12.55.58:802][ 96]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.04.10-12.55.58:802][ 96]LogModuleManager: Shutting down and abandoning module GameplayTags (239)
+[2017.04.10-12.55.58:802][ 96]LogModuleManager: Shutting down and abandoning module EditorWidgets (238)
+[2017.04.10-12.55.58:802][ 96]LogModuleManager: Shutting down and abandoning module CollectionManager (237)
+[2017.04.10-12.55.58:802][ 96]LogDirectoryWatcher: A directory notification for 'C:/Users/Bernard/Desktop/PurgaStory-v0.3/Content/Collections/' was aborted.
+[2017.04.10-12.55.58:802][ 96]LogDirectoryWatcher: A directory notification for 'C:/Users/Bernard/Desktop/PurgaStory-v0.3/Content/Developers/Bernard/Collections/' was aborted.
+[2017.04.10-12.55.58:802][ 96]LogDirectoryWatcher: A directory notification for 'C:/Users/Bernard/Desktop/PurgaStory-v0.3/Saved/Collections/' was aborted.
+[2017.04.10-12.55.58:802][ 96]LogModuleManager: Shutting down and abandoning module StatsViewer (236)
+[2017.04.10-12.55.58:802][ 96]LogModuleManager: Shutting down and abandoning module FoliageEdit (235)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module LandscapeEditor (234)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (233)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module ActorPickerMode (232)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module GeometryMode (231)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module TextureAlignMode (230)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module BspMode (229)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module HardwareSurvey (228)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (227)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module AutomationWorker (226)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (225)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module PlacementMode (224)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (223)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (222)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (221)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (220)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (219)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module Media (218)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (217)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (216)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module CharacterAI (215)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module SequenceRecorder (214)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module AudioCapture (213)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module SmartSnapping (212)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module SessionServices (211)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module ViewportSnapping (210)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module ViewportInteraction (209)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module LogVisualizer (208)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (207)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module IntroTutorials (206)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (205)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (204)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (203)
+[2017.04.10-12.55.58:803][ 96]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (202)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (201)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (200)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (199)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module InputBindingEditor (198)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module NiagaraEditor (197)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module MergeActors (196)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module SizeMap (195)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module TreeMap (194)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module ReferenceViewer (193)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module LocalizationService (192)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (191)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module HardwareTargeting (190)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (189)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module UndoHistory (188)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module UserFeedback (187)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module XmlParser (186)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module Blutility (185)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (184)
+[2017.04.10-12.55.59:170][ 96]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (183)
+[2017.04.10-12.55.59:171][ 96]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (182)
+[2017.04.10-12.55.59:171][ 96]LogModuleManager: Shutting down and abandoning module SettingsEditor (181)
+[2017.04.10-12.55.59:171][ 96]LogModuleManager: Shutting down and abandoning module ProjectLauncher (180)
+[2017.04.10-12.55.59:171][ 96]LogModuleManager: Shutting down and abandoning module SessionFrontend (179)
+[2017.04.10-12.55.59:171][ 96]LogModuleManager: Shutting down and abandoning module ProfilerClient (178)
+[2017.04.10-12.55.59:171][ 96]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (177)
+[2017.04.10-12.55.59:171][ 96]LogModuleManager: Shutting down and abandoning module DeviceManager (176)
+[2017.04.10-12.55.59:214][ 96]LogModuleManager: Shutting down and abandoning module AutomationController (175)
+[2017.04.10-12.55.59:214][ 96]LogModuleManager: Shutting down and abandoning module AutomationWindow (174)
+[2017.04.10-12.55.59:214][ 96]LogModuleManager: Shutting down and abandoning module Layers (173)
+[2017.04.10-12.55.59:214][ 96]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (172)
+[2017.04.10-12.55.59:214][ 96]LogModuleManager: Shutting down and abandoning module DetailCustomizations (171)
+[2017.04.10-12.55.59:214][ 96]LogModuleManager: Shutting down and abandoning module PackagesDialog (170)
+[2017.04.10-12.55.59:214][ 96]LogModuleManager: Shutting down and abandoning module AnimGraph (169)
+[2017.04.10-12.55.59:214][ 96]LogModuleManager: Shutting down and abandoning module Persona (168)
+[2017.04.10-12.55.59:214][ 96]LogModuleManager: Shutting down and abandoning module Kismet (167)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module GraphEditor (166)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module ClassViewer (165)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module Toolbox (164)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module ModuleUI (163)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module MovieSceneTools (162)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module OutputLog (161)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module GammaUI (160)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module Documentation (159)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module Niagara (158)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (157)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module AnalyticsET (156)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module PortalServices (155)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module PortalRpc (154)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module MessagingRpc (153)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module GameplayDebugger (152)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module AITestSuite (151)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module AIModule (150)
+[2017.04.10-12.55.59:224][ 96]LogModuleManager: Shutting down and abandoning module ProfilerService (149)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module TaskGraph (148)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module SubstanceEditor (147)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module SlateRemote (146)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module SteamVRController (145)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module SteamVR (144)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (143)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (142)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module OculusLibrary (141)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module OculusInput (140)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (139)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (138)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module CableComponent (137)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (136)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (135)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module HTML5Networking (134)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (133)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module GeometryCache (132)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module AlembicLibrary (131)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module AlembicImporter (130)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module SuperSearch (129)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (128)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (127)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module PluginBrowser (126)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (125)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module EpicSurvey (124)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module DesktopPlatform (123)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (122)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module UObjectPlugin (121)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (120)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (119)
+[2017.04.10-12.55.59:447][ 96]LogModuleManager: Shutting down and abandoning module SourceControl (118)
+[2017.04.10-12.55.59:448][ 96]LogModuleManager: Shutting down and abandoning module GitSourceControl (117)
+[2017.04.10-12.55.59:448][ 96]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (116)
+[2017.04.10-12.55.59:448][ 96]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (115)
+[2017.04.10-12.55.59:448][ 96]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (114)
+[2017.04.10-12.55.59:448][ 96]LogModuleManager: Shutting down and abandoning module MeshPaint (113)
+[2017.04.10-12.55.59:448][ 96]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (112)
+[2017.04.10-12.55.59:448][ 96]LogModuleManager: Shutting down and abandoning module HotReload (111)
+[2017.04.10-12.55.59:448][ 96]LogModuleManager: Shutting down and abandoning module MainFrame (110)
+[2017.04.10-12.55.59:448][ 96]LogModuleManager: Shutting down and abandoning module LevelEditor (109)
+[2017.04.10-12.55.59:449][ 96]LogModuleManager: Shutting down and abandoning module ContentBrowser (108)
+[2017.04.10-12.55.59:450][ 96]LogModuleManager: Shutting down and abandoning module Paper2DEditor (107)
+[2017.04.10-12.55.59:450][ 96]LogModuleManager: Shutting down and abandoning module UdpMessaging (106)
+[2017.04.10-12.55.59:551][ 96]LogModuleManager: Shutting down and abandoning module TcpMessaging (105)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module SubstanceCore (104)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (103)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module Paper2D (102)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (101)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module WmfMedia (100)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module MediaAssets (99)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (98)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (97)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module VREditor (96)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (95)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (94)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module FunctionalTesting (93)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (92)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module Sequencer (91)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (90)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module MessageLog (89)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module AssetTools (88)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module UMGEditor (87)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module UMG (86)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module SlateReflector (85)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module Slate (84)
+[2017.04.10-12.55.59:651][ 96]LogModuleManager: Shutting down and abandoning module EditorStyle (83)
+[2017.04.10-12.55.59:653][ 96]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (82)
+[2017.04.10-12.55.59:653][ 96]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (81)
+[2017.04.10-12.55.59:653][ 96]LogModuleManager: Shutting down and abandoning module XAudio2 (80)
+[2017.04.10-12.55.59:653][ 96]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2017.04.10-12.55.59:653][ 96]LogModuleManager: Shutting down and abandoning module Core (78)
+[2017.04.10-12.55.59:653][ 96]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (77)
+[2017.04.10-12.55.59:654][ 96]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.10-12.55.59:654][ 96]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Bernard/Desktop/PurgaStory-v0.3/Content/' was aborted.
+[2017.04.10-12.55.59:654][ 96]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.10-12.55.59:654][ 96]LogModuleManager: Shutting down and abandoning module AssetRegistry (76)
+[2017.04.10-12.55.59:776][ 96]LogModuleManager: Shutting down and abandoning module KismetCompiler (75)
+[2017.04.10-12.55.59:776][ 96]LogModuleManager: Shutting down and abandoning module PhysXFormats (74)
+[2017.04.10-12.55.59:776][ 96]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (73)
+[2017.04.10-12.55.59:776][ 96]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (72)
+[2017.04.10-12.55.59:776][ 96]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (71)
+[2017.04.10-12.55.59:776][ 96]LogModuleManager: Shutting down and abandoning module PropertyEditor (70)
+[2017.04.10-12.55.59:776][ 96]LogModuleManager: Shutting down and abandoning module MeshUtilities (69)
+[2017.04.10-12.55.59:776][ 96]LogModuleManager: Shutting down and abandoning module DerivedDataCache (68)
+[2017.04.10-12.55.59:845][ 96]LogDerivedDataCache: Shutdown
+[2017.04.10-12.55.59:845][ 96]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (67)
+[2017.04.10-12.55.59:845][ 96]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (66)
+[2017.04.10-12.55.59:845][ 96]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (65)
+[2017.04.10-12.55.59:845][ 96]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (64)
+[2017.04.10-12.55.59:845][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (63)
+[2017.04.10-12.55.59:845][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (62)
+[2017.04.10-12.55.59:845][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (61)
+[2017.04.10-12.55.59:845][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (60)
+[2017.04.10-12.55.59:845][ 96]LogModuleManager: Shutting down and abandoning module ImageWrapper (59)
+[2017.04.10-12.55.59:845][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (58)
+[2017.04.10-12.55.59:845][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (57)
+[2017.04.10-12.55.59:845][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (56)
+[2017.04.10-12.55.59:845][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (55)
+[2017.04.10-12.55.59:845][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (54)
+[2017.04.10-12.55.59:845][ 96]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (53)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (52)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (51)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (50)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (49)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module Messaging (48)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (47)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (46)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (45)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (44)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (43)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (42)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (41)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (40)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (39)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (38)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (37)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (36)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (35)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (34)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (33)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (32)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (31)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (30)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (29)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module TargetPlatform (28)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module InputCore (27)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module Settings (26)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module OculusRift (25)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
+[2017.04.10-12.55.59:846][ 96]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.04.10-12.55.59:846][ 96]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.04.10-12.55.59:846][ 96]LogOnline:Display: Unloading online subsystem: STEAM
+[2017.04.10-12.55.59:847][ 96]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.10-12.55.59:847][ 96]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.04.10-12.55.59:848][ 96]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.04.10-12.55.59:848][ 96]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.04.10-12.55.59:848][ 96]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.04.10-12.55.59:849][ 96]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.04.10-12.55.59:849][ 96]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.04.10-12.55.59:849][ 96]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.04.10-12.55.59:850][ 96]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.04.10-12.55.59:850][ 96]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.04.10-12.55.59:850][ 96]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.04.10-12.55.59:850][ 96]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.04.10-12.55.59:850][ 96]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.04.10-12.55.59:850][ 96]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.04.10-12.55.59:850][ 96]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.04.10-12.55.59:850][ 96]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.04.10-12.55.59:850][ 96]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.04.10-12.55.59:850][ 96]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.04.10-12.55.59:853][ 96]LogExit: Exiting.
+[2017.04.10-12.55.59:855][ 96]Log file closed, 04/10/17 20:55:59
